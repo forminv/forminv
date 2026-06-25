@@ -497,14 +497,6 @@ F5 (connective variation): all models fail equally (22.2\%), no comparative adva
 This complementarity implies benchmark accuracy is systematically optimistic per family,
 and an ensemble would show near-zero IG on items where individual models fail.
 
-\begin{figure}[htbp]
-\centering
-\includegraphics[width=0.95\columnwidth]{fig_family_failure.pdf}
-\caption{Per-family failure rates across three representative models (3-model shared evaluation).
-F5 (connective variation) is the highest-failure family for all models; F6 (comparison order) shows
-the strongest complementarity (Claude: 16.7\%, GPT-4o: 0.0\%).}
-\label{fig:family_failure}
-\end{figure}
 
 \paragraph{Finding 3: The quality audit separates benchmark errors from model errors.}
 The F5 apparent failure rate (22.2\%) is inflated by semantically-incorrect paraphrases.
@@ -627,11 +619,10 @@ FormInv is a supplementary protocol for any formally-specified reasoning benchma
 \section{Conclusion}
 \label{sec:conclusion}
 
-The moral: if you generate paraphrases programmatically, you do not know how many are wrong,
-and the rankings your benchmark produces may be wrong for the same reason.
+The moral: if you generate paraphrases programmatically, you cannot know how many are wrong, and your benchmark's rankings may be wrong for the same reason.
 
-Applying FormInv's cross-model unanimity audit to all 129 MathCheck~\citep{zhou2024mathcheck} groups (a 4-model panel with a two-thirds threshold) flagged 4 mislabeled paraphrases (3.1\%; Groups~25, 27, 75, 82). Removing them \emph{reorders the panel}: GPT-4o drops from 2nd to 4th while Claude~Haiku and DeepSeek~V3 each rise one place, because GPT-4o happened to answer the broken paraphrases correctly while the others failed them, inflating its SCR. That a \$10, oracle-free audit can reorder a published benchmark is the case for the protocol as standard infrastructure: benchmarks that generate paraphrases programmatically should run it before publishing (Appendix~\ref{app:mathcheck}).
-\textit{Limitations:} 18 Lean4 proofs certify representative examples (Appendix~\ref{app:lean4}); full-scale certification and equivariance defect formalization are future work.
+Applying FormInv's audit to all 129 MathCheck~\citep{zhou2024mathcheck} groups (a 4-model panel, two-thirds threshold) flagged 4 mislabeled paraphrases (3.1\%) whose removal \emph{reorders the panel}, dropping GPT-4o from 2nd to 4th because it alone answered the broken paraphrases correctly (Appendix~\ref{app:mathcheck}). A \$10, oracle-free audit reordering a published benchmark is the case for the protocol as standard infrastructure: benchmarks that generate paraphrases programmatically should run it before publishing.
+\textit{Limitations:} the 18 Lean4 proofs (Appendix~\ref{app:lean4}) certify representative examples, not the full dataset; full certification is future work.
 
 \bibliographystyle{icml2026}
 \bibliography{refs}
@@ -905,6 +896,15 @@ Empirically, on our 11 known-bad paraphrases, each model's True Negative Rate (T
 
 \section{Full Per-Family Result Tables}
 \label{app:tables}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\columnwidth]{fig_family_failure.pdf}
+\caption{Per-family failure rates across three representative models (3-model shared evaluation).
+F5 (connective variation) is the highest-failure family for all models; F6 (comparison order) shows
+the strongest complementarity (Claude: 16.7\%, GPT-4o: 0.0\%).}
+\label{fig:family_failure}
+\end{figure}
 
 \begin{table}[h]
 \centering\small
