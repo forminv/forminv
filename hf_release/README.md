@@ -154,7 +154,7 @@ dataset_info:
 - **Repository:** https://github.com/forminv/forminv
 - **Paper:** FormInv: A Measurement Protocol for Semantic Invariance in Mathematical
   Reasoning Benchmarks (arXiv:<ARXIV-ID>)
-- **Point of Contact:** Noel Thomas <noeltthomas11@gmail.com>
+- **Point of Contact:** Noel Thomas <noel.thomas@mbzuai.ac.ae>
 
 ### Dataset Summary
 
@@ -348,7 +348,8 @@ English-only set.
 
 ### Dataset Curators
 
-Noel Thomas.
+Nishal Thomas (Independent Researcher) and Noel Thomas (Mohamed bin Zayed
+University of Artificial Intelligence, MBZUAI).
 
 ### Licensing Information
 
@@ -364,7 +365,7 @@ released separately under the **MIT License**.
 @misc{thomas2026forminv,
   title  = {FormInv: A Measurement Protocol for Semantic Invariance in
             Mathematical Reasoning Benchmarks},
-  author = {Thomas, Noel},
+  author = {Thomas, Nishal and Thomas, Noel},
   year   = {2026},
   eprint = {<ARXIV-ID>},
   archivePrefix = {arXiv},

@@ -3,7 +3,12 @@ message: "If you use FormInv, please cite the paper below."
 title: "FormInv: A Measurement Protocol for Semantic Invariance in Mathematical Reasoning Benchmarks"
 authors:
   - family-names: Thomas
+    given-names: Nishal
+    affiliation: "Independent Researcher"
+  - family-names: Thomas
     given-names: Noel
+    affiliation: "Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)"
+    email: noel.thomas@mbzuai.ac.ae
 version: 3.0.0
 date-released: 2026-06-23
 license: MIT
@@ -19,6 +24,8 @@ preferred-citation:
   type: article
   title: "FormInv: A Measurement Protocol for Semantic Invariance in Mathematical Reasoning Benchmarks"
   authors:
+    - family-names: Thomas
+      given-names: Nishal
     - family-names: Thomas
       given-names: Noel
   year: 2026

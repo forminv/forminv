@@ -6,7 +6,8 @@ readme = "README.md"
 requires-python = ">=3.10"
 license = {text = "MIT"}
 authors = [
-    {name = "Noel Thomas", email = "noeltthomas11@gmail.com"},
+    {name = "Nishal Thomas"},
+    {name = "Noel Thomas", email = "noel.thomas@mbzuai.ac.ae"},
 ]
 keywords = ["llm", "benchmark", "mathematical-reasoning", "semantic-invariance"]
 classifiers = [

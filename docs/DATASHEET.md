@@ -22,8 +22,9 @@ varying only the surface form, enabling two headline metrics: the **Invariance G
 and the **Self-Consistency Rate (SCR)**.
 
 **Who created the dataset and on behalf of whom?**
-Noel Thomas (`noeltthomas11@gmail.com`), as the research artifact accompanying the FormInv
-paper (NeurIPS Datasets & Benchmarks submission).
+Nishal Thomas (Independent Researcher) and Noel Thomas (Mohamed bin Zayed University of
+Artificial Intelligence, MBZUAI; `noel.thomas@mbzuai.ac.ae`), as the research artifact
+accompanying the FormInv paper (NeurIPS Datasets & Benchmarks submission).
 
 **Who funded the creation of the dataset?**
 See the Acknowledgements section of the paper.
@@ -215,10 +216,10 @@ None known.
 ## 7. Maintenance
 
 **Who will be supporting/hosting/maintaining the dataset?**
-Noel Thomas (`noeltthomas11@gmail.com`), via the Hugging Face Hub and the GitHub repository.
+Noel Thomas (`noel.thomas@mbzuai.ac.ae`), via the Hugging Face Hub and the GitHub repository.
 
 **How can the owner/curator be contacted?**
-Email `noeltthomas11@gmail.com` or open an issue on the GitHub repository.
+Email `noel.thomas@mbzuai.ac.ae` or open an issue on the GitHub repository.
 
 **Is there an erratum?**
 Yes -- `ERRATA.md` in the GitHub repository tracks known issues and corrections.
