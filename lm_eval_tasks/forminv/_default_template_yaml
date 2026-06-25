@@ -1,0 +1,15 @@
+# Shared template for FormInv lm-evaluation-harness tasks.
+# Each leaf task sets `task` + `dataset_name` (the HF config) and includes this file.
+# The dataset is hosted at forminv/forminv on the Hugging Face Hub.
+dataset_path: forminv/forminv
+test_split: test
+output_type: multiple_choice
+doc_to_text: "{{nl_question}}\nAnswer TRUE or FALSE.\nAnswer:"
+doc_to_choice: ["FALSE", "TRUE"]
+doc_to_target: "{{1 if ground_truth == 'TRUE' else 0}}"
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0

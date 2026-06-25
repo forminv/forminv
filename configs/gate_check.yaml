@@ -1,0 +1,21 @@
+# Gate check configuration -- 48-hour pilot
+# 50 theorems × 3 paraphrases × 3 models = 450 calls ≈ $1-2
+
+n_theorems: 50
+n_surface: 2
+n_definitional: 1
+tiers: [tier1, tier2]
+
+models:
+  - provider: openai
+    model: gpt-4o
+  - provider: anthropic
+    model: claude-sonnet-4-6
+  - provider: openai
+    model: gpt-4o-mini   # cheaper check
+
+use_cache: true
+use_api_paraphrases: true  # set false to use template fallbacks
+
+gate_threshold_ig: 0.05    # IG must exceed 5% to proceed
+gate_threshold_multiplier: 2.0  # IG must exceed 2× baseline variance

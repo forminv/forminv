@@ -1,0 +1,63 @@
+# FormInv v3 -- Full-scale evaluation config
+# Scale: 200 theorems × 8 families × 10 models = ~16,000 eval calls
+# Estimated cost: ~$30-50
+
+dataset: data/generated/forminv_v3_200.jsonl
+n_theorems: 200
+
+# 10 models across 5 providers -- gives full scaling curve
+models:
+  # OpenAI -- 3 models (scaling: mini < 4o < o4-mini reasoning)
+  - provider: openai
+    model: gpt-4o-mini
+    tier: small
+  - provider: openai
+    model: gpt-4o
+    tier: large
+  - provider: openai
+    model: o4-mini        # reasoning model
+    tier: reasoning
+
+  # Anthropic -- 2 models
+  - provider: anthropic
+    model: claude-haiku-4-5
+    tier: small
+  - provider: anthropic
+    model: claude-sonnet-4-6
+    tier: large
+
+  # DeepSeek -- 2 models (V3 base + R1 reasoning)
+  - provider: deepseek
+    model: deepseek-chat    # DeepSeek V3
+    tier: large
+  - provider: deepseek
+    model: deepseek-reasoner  # DeepSeek R1
+    tier: reasoning
+
+  # Google
+  - provider: gemini
+    model: gemini-2.5-flash
+    tier: large
+
+  # Open-source via OpenRouter
+  - provider: openrouter
+    model: meta-llama/llama-3.3-70b-instruct
+    tier: open_source
+
+  # Human baseline (annotation task, not API)
+  # - provider: human
+  #   model: human_annotator_1
+  #   tier: human
+
+evaluation:
+  use_cache: true
+  retries: 1
+  workers: 4
+
+metrics:
+  compute_per_family: true
+  compute_cross_model_disagreement: true
+  compute_ig_by_tier: true
+  baseline_n_repeats: 5   # repeat canonical question 5 times for noise floor
+
+output_dir: artifacts/v3_runs
