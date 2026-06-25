@@ -1,0 +1,23 @@
+{
+  "dataset": "/Users/noel.thomas/chaos-logic-bench/extensions/forminv/data/generated/forminv_v3_50.jsonl",
+  "models": [
+    "openai/gpt-4o",
+    "openai/gpt-4o-mini",
+    "openai/o4-mini",
+    "anthropic/claude-sonnet-4-6",
+    "anthropic/claude-haiku-4-5",
+    "deepseek/deepseek-chat",
+    "deepseek/deepseek-reasoner",
+    "gemini/gemini-2.5-flash",
+    "openrouter/meta-llama/llama-3.3-70b-instruct"
+  ],
+  "kappa": 0.297,
+  "P_bar": 0.9231,
+  "P_e": 0.8906,
+  "p_TRUE": 0.9419,
+  "p_FALSE": 0.0581,
+  "n_raters": 9,
+  "n_items_used": 354,
+  "n_items_dropped": 12,
+  "interpretation": "fair"
+}

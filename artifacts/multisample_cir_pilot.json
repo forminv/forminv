@@ -1,0 +1,20 @@
+{
+  "n": 8,
+  "temp": 0.7,
+  "results": {
+    "claude-sonnet-4-6": {
+      "n_known": 5,
+      "cir_systematic": 0.0,
+      "cir_any": 0.2,
+      "ci_lo": 0.0,
+      "ci_hi": 0.0
+    },
+    "claude-haiku-4-5": {
+      "n_known": 5,
+      "cir_systematic": 0.6,
+      "cir_any": 0.6,
+      "ci_lo": 20.0,
+      "ci_hi": 100.0
+    }
+  }
+}

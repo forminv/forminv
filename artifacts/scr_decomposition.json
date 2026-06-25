@@ -1,0 +1,98 @@
+[
+  {
+    "model": "gpt-4o",
+    "n_thm": 50,
+    "n_items": 316,
+    "acc": 0.939873417721519,
+    "obs_scr": 0.82,
+    "mech_scr": 0.6762587761138655,
+    "perm_mean": 0.6736449999999999,
+    "perm_p95": 0.72,
+    "excess": 0.14374122388613442,
+    "p_value": 0.0
+  },
+  {
+    "model": "deepseek-chat",
+    "n_thm": 50,
+    "n_items": 316,
+    "acc": 0.9620253164556962,
+    "obs_scr": 0.82,
+    "mech_scr": 0.7831796476302023,
+    "perm_mean": 0.78147,
+    "perm_p95": 0.82,
+    "excess": 0.03682035236979764,
+    "p_value": 0.06615
+  },
+  {
+    "model": "gemini-2.5-flash",
+    "n_thm": 50,
+    "n_items": 309,
+    "acc": 0.9546925566343042,
+    "obs_scr": 0.82,
+    "mech_scr": 0.7512996331083528,
+    "perm_mean": 0.749479,
+    "perm_p95": 0.78,
+    "excess": 0.06870036689164716,
+    "p_value": 0.0043
+  },
+  {
+    "model": "o4-mini",
+    "n_thm": 50,
+    "n_items": 315,
+    "acc": 0.9619047619047619,
+    "obs_scr": 0.8,
+    "mech_scr": 0.7831884483555274,
+    "perm_mean": 0.781365,
+    "perm_p95": 0.82,
+    "excess": 0.016811551644472678,
+    "p_value": 0.28825
+  },
+  {
+    "model": "gpt-4o-mini",
+    "n_thm": 50,
+    "n_items": 316,
+    "acc": 0.939873417721519,
+    "obs_scr": 0.78,
+    "mech_scr": 0.6762587761138655,
+    "perm_mean": 0.673847,
+    "perm_p95": 0.72,
+    "excess": 0.10374122388613449,
+    "p_value": 0.0002
+  },
+  {
+    "model": "deepseek-reasoner",
+    "n_thm": 50,
+    "n_items": 315,
+    "acc": 0.926984126984127,
+    "obs_scr": 0.78,
+    "mech_scr": 0.6209641041831331,
+    "perm_mean": 0.6181829999999999,
+    "perm_p95": 0.66,
+    "excess": 0.15903589581686695,
+    "p_value": 0.0
+  },
+  {
+    "model": "claude-sonnet-4-6",
+    "n_thm": 50,
+    "n_items": 316,
+    "acc": 0.930379746835443,
+    "obs_scr": 0.74,
+    "mech_scr": 0.634393212129315,
+    "perm_mean": 0.632018,
+    "perm_p95": 0.68,
+    "excess": 0.105606787870685,
+    "p_value": 0.00055
+  },
+  {
+    "model": "claude-haiku-4-5",
+    "n_thm": 50,
+    "n_items": 313,
+    "acc": 0.8562300319488818,
+    "obs_scr": 0.5,
+    "mech_scr": 0.38064915446461123,
+    "perm_mean": 0.377404,
+    "perm_p95": 0.44,
+    "excess": 0.11935084553538877,
+    "p_value": 0.00265
+  }
+]

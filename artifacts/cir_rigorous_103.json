@@ -1,0 +1,57 @@
+{
+  "clean_cir": {
+    "gpt-4o": 0.16326530612244897,
+    "gpt-4o-mini": 0.23157894736842105,
+    "o4-mini": 0.19607843137254902,
+    "claude-sonnet-4-6": 0.18556701030927836,
+    "claude-haiku-4-5": 0.4375,
+    "deepseek-chat": 0.1650485436893204,
+    "deepseek-reasoner": 0.1875,
+    "gemini-2.5-flash": 0.14583333333333334
+  },
+  "n_all_correct": 84,
+  "all_correct_flip": {
+    "gpt-4o": 0.13095238095238096,
+    "gpt-4o-mini": 0.19047619047619047,
+    "o4-mini": 0.16666666666666666,
+    "claude-sonnet-4-6": 0.17857142857142858,
+    "claude-haiku-4-5": 0.4166666666666667,
+    "deepseek-chat": 0.09523809523809523,
+    "deepseek-reasoner": 0.15476190476190477,
+    "gemini-2.5-flash": 0.14285714285714285
+  },
+  "canonical_accuracy": {
+    "gpt-4o": 0.9514563106796117,
+    "gpt-4o-mini": 0.9223300970873787,
+    "o4-mini": 0.9902912621359223,
+    "claude-sonnet-4-6": 0.941747572815534,
+    "claude-haiku-4-5": 0.9320388349514563,
+    "deepseek-chat": 1.0,
+    "deepseek-reasoner": 0.9320388349514563,
+    "gemini-2.5-flash": 0.96
+  },
+  "scr": {
+    "gpt-4o": 0.7961165048543689,
+    "gpt-4o-mini": 0.7087378640776699,
+    "o4-mini": 0.7961165048543689,
+    "claude-sonnet-4-6": 0.7669902912621359,
+    "claude-haiku-4-5": 0.5242718446601942,
+    "deepseek-chat": 0.8349514563106796,
+    "deepseek-reasoner": 0.7572815533980582,
+    "gemini-2.5-flash": 0.82
+  },
+  "correlations": {
+    "acc_vs_clean_cir": {
+      "pearson": -0.41537929520086325,
+      "spearman": -0.5868368683374969
+    },
+    "acc_vs_allcorrect_cir": {
+      "pearson": -0.48442111252466935,
+      "spearman": -0.7185757571479554
+    },
+    "acc_vs_scr": {
+      "pearson": 0.5981486699176909,
+      "spearman": 0.9156626506024095
+    }
+  }
+}

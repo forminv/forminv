@@ -1,0 +1,286 @@
+{
+  "per_model": {
+    "openai/gpt-4o-mini": {
+      "mean_ig": 0.08668603503868401,
+      "std_ig": 0.16465534206155627,
+      "max_ig": 0.49487165930539345,
+      "mean_accuracy": 0.942857142857143,
+      "scr": 0.78,
+      "mean_baseline_variance": 0.0,
+      "ig_exceeds_2x_baseline": true,
+      "n_theorems": 50,
+      "pct_high_ig_10": 0.22,
+      "pct_high_ig_20": 0.22,
+      "family_failure_rates": {
+        "syntactic": 0.1,
+        "quantifier": 0.02,
+        "passive": 0.044444444444444446,
+        "notation": 0.02,
+        "order": 0.08333333333333333,
+        "unpack": 0.1,
+        "equivalent": 0.04,
+        "variation": 0.2222222222222222
+      },
+      "coverage": 1.0
+    },
+    "anthropic/claude-sonnet-4-6": {
+      "mean_ig": 0.10721515724661752,
+      "std_ig": 0.1828029764450586,
+      "max_ig": 0.4948716593053935,
+      "mean_accuracy": 0.9317142857142858,
+      "scr": 0.74,
+      "mean_baseline_variance": 0.0,
+      "ig_exceeds_2x_baseline": true,
+      "n_theorems": 50,
+      "pct_high_ig_10": 0.26,
+      "pct_high_ig_20": 0.26,
+      "family_failure_rates": {
+        "syntactic": 0.04,
+        "quantifier": 0.06,
+        "passive": 0.06666666666666667,
+        "notation": 0.06,
+        "order": 0.16666666666666666,
+        "unpack": 0.06,
+        "equivalent": 0.08,
+        "variation": 0.2222222222222222
+      },
+      "coverage": 1.0
+    },
+    "deepseek/deepseek-chat": {
+      "mean_ig": 0.0,
+      "std_ig": 0.0,
+      "max_ig": 0.0,
+      "mean_accuracy": 0.0,
+      "scr": 0.0,
+      "mean_baseline_variance": 0.0,
+      "ig_exceeds_2x_baseline": false,
+      "n_theorems": 50,
+      "pct_high_ig_10": 0.0,
+      "pct_high_ig_20": 0.0,
+      "family_failure_rates": {},
+      "coverage": 0.0
+    },
+    "gemini/gemini-2.5-flash": {
+      "mean_ig": 0.0,
+      "std_ig": 0.0,
+      "max_ig": 0.0,
+      "mean_accuracy": 0.0,
+      "scr": 0.0,
+      "mean_baseline_variance": 0.0,
+      "ig_exceeds_2x_baseline": false,
+      "n_theorems": 50,
+      "pct_high_ig_10": 0.0,
+      "pct_high_ig_20": 0.0,
+      "family_failure_rates": {},
+      "coverage": 0.0
+    },
+    "openai/gpt-4o": {
+      "mean_ig": 0.06972805331434495,
+      "std_ig": 0.14983632320322032,
+      "max_ig": 0.4714045207910317,
+      "mean_accuracy": 0.9423809523809524,
+      "scr": 0.82,
+      "mean_baseline_variance": 0.0,
+      "ig_exceeds_2x_baseline": true,
+      "n_theorems": 50,
+      "pct_high_ig_10": 0.18,
+      "pct_high_ig_20": 0.18,
+      "family_failure_rates": {
+        "syntactic": 0.02,
+        "quantifier": 0.04,
+        "passive": 0.044444444444444446,
+        "notation": 0.04,
+        "order": 0.0,
+        "unpack": 0.1,
+        "equivalent": 0.1,
+        "variation": 0.2222222222222222
+      },
+      "coverage": 1.0
+    }
+  },
+  "cross_model_disagreements": 86,
+  "disagreement_examples": [
+    {
+      "paraphrase_id": "thm_0000_nat_prime_two_le_canonical",
+      "theorem_id": "thm_0000_nat_prime_two_le",
+      "model_a": "gpt-4o-mini",
+      "label_a": "FALSE",
+      "model_b": "claude-sonnet-4-6",
+      "label_b": "TRUE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0000_nat_prime_two_le_canonical",
+      "theorem_id": "thm_0000_nat_prime_two_le",
+      "model_a": "gpt-4o-mini",
+      "label_a": "FALSE",
+      "model_b": "gpt-4o",
+      "label_b": "TRUE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0000_nat_prime_two_le_surface_syntactic",
+      "theorem_id": "thm_0000_nat_prime_two_le",
+      "model_a": "gpt-4o-mini",
+      "label_a": "FALSE",
+      "model_b": "claude-sonnet-4-6",
+      "label_b": "TRUE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0000_nat_prime_two_le_surface_syntactic",
+      "theorem_id": "thm_0000_nat_prime_two_le",
+      "model_a": "gpt-4o-mini",
+      "label_a": "FALSE",
+      "model_b": "gpt-4o",
+      "label_b": "TRUE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0000_nat_prime_two_le_comparison_order",
+      "theorem_id": "thm_0000_nat_prime_two_le",
+      "model_a": "gpt-4o-mini",
+      "label_a": "FALSE",
+      "model_b": "claude-sonnet-4-6",
+      "label_b": "TRUE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0000_nat_prime_two_le_comparison_order",
+      "theorem_id": "thm_0000_nat_prime_two_le",
+      "model_a": "gpt-4o-mini",
+      "label_a": "FALSE",
+      "model_b": "gpt-4o",
+      "label_b": "TRUE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0001_nat_prime_one_lt_active_passive",
+      "theorem_id": "thm_0001_nat_prime_one_lt",
+      "model_a": "gpt-4o-mini",
+      "label_a": "TRUE",
+      "model_b": "claude-sonnet-4-6",
+      "label_b": "FALSE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0001_nat_prime_one_lt_active_passive",
+      "theorem_id": "thm_0001_nat_prime_one_lt",
+      "model_a": "claude-sonnet-4-6",
+      "label_a": "FALSE",
+      "model_b": "gpt-4o",
+      "label_b": "TRUE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0001_nat_prime_one_lt_comparison_order",
+      "theorem_id": "thm_0001_nat_prime_one_lt",
+      "model_a": "gpt-4o-mini",
+      "label_a": "TRUE",
+      "model_b": "claude-sonnet-4-6",
+      "label_b": "FALSE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0001_nat_prime_one_lt_comparison_order",
+      "theorem_id": "thm_0001_nat_prime_one_lt",
+      "model_a": "claude-sonnet-4-6",
+      "label_a": "FALSE",
+      "model_b": "gpt-4o",
+      "label_b": "TRUE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0001_nat_prime_one_lt_domain_equivalent",
+      "theorem_id": "thm_0001_nat_prime_one_lt",
+      "model_a": "gpt-4o-mini",
+      "label_a": "FALSE",
+      "model_b": "claude-sonnet-4-6",
+      "label_b": "TRUE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0001_nat_prime_one_lt_domain_equivalent",
+      "theorem_id": "thm_0001_nat_prime_one_lt",
+      "model_a": "gpt-4o-mini",
+      "label_a": "FALSE",
+      "model_b": "gpt-4o",
+      "label_b": "TRUE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0006_nat_dvd_zero_surface_syntactic",
+      "theorem_id": "thm_0006_nat_dvd_zero",
+      "model_a": "gpt-4o-mini",
+      "label_a": "FALSE",
+      "model_b": "claude-sonnet-4-6",
+      "label_b": "TRUE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0006_nat_dvd_zero_surface_syntactic",
+      "theorem_id": "thm_0006_nat_dvd_zero",
+      "model_a": "gpt-4o-mini",
+      "label_a": "FALSE",
+      "model_b": "gpt-4o",
+      "label_b": "TRUE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0006_nat_dvd_zero_definitional_unpack",
+      "theorem_id": "thm_0006_nat_dvd_zero",
+      "model_a": "gpt-4o-mini",
+      "label_a": "TRUE",
+      "model_b": "gpt-4o",
+      "label_b": "FALSE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0006_nat_dvd_zero_definitional_unpack",
+      "theorem_id": "thm_0006_nat_dvd_zero",
+      "model_a": "claude-sonnet-4-6",
+      "label_a": "TRUE",
+      "model_b": "gpt-4o",
+      "label_b": "FALSE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0007_nat_zero_dvd_canonical",
+      "theorem_id": "thm_0007_nat_zero_dvd",
+      "model_a": "gpt-4o-mini",
+      "label_a": "TRUE",
+      "model_b": "gpt-4o",
+      "label_b": "FALSE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0007_nat_zero_dvd_canonical",
+      "theorem_id": "thm_0007_nat_zero_dvd",
+      "model_a": "claude-sonnet-4-6",
+      "label_a": "TRUE",
+      "model_b": "gpt-4o",
+      "label_b": "FALSE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0007_nat_zero_dvd_surface_syntactic",
+      "theorem_id": "thm_0007_nat_zero_dvd",
+      "model_a": "gpt-4o-mini",
+      "label_a": "FALSE",
+      "model_b": "claude-sonnet-4-6",
+      "label_b": "TRUE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0007_nat_zero_dvd_surface_syntactic",
+      "theorem_id": "thm_0007_nat_zero_dvd",
+      "model_a": "gpt-4o-mini",
+      "label_a": "FALSE",
+      "model_b": "gpt-4o",
+      "label_b": "TRUE",
+      "ground_truth": "TRUE"
+    }
+  ],
+  "n_theorems": 50,
+  "n_items": 366
+}

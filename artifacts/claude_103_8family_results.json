@@ -1,0 +1,31 @@
+{
+  "per_model": {
+    "anthropic/claude-sonnet-4-6": {
+      "mean_ig": 0.08805086738961648,
+      "std_ig": 0.1710429917072219,
+      "max_ig": 0.4948716593053935,
+      "mean_accuracy": 0.940210355987055,
+      "scr": 0.7864077669902912,
+      "mean_baseline_variance": 0.0,
+      "ig_exceeds_2x_baseline": true,
+      "n_theorems": 103,
+      "pct_high_ig_10": 0.21359223300970873,
+      "pct_high_ig_20": 0.21359223300970873,
+      "family_failure_rates": {
+        "syntactic": 0.04854368932038835,
+        "quantifier": 0.02912621359223301,
+        "passive": 0.06521739130434782,
+        "notation": 0.05825242718446602,
+        "order": 0.08333333333333333,
+        "unpack": 0.07766990291262135,
+        "equivalent": 0.04854368932038835,
+        "variation": 0.19230769230769232
+      },
+      "coverage": 1.0
+    }
+  },
+  "cross_model_disagreements": 0,
+  "disagreement_examples": [],
+  "n_theorems": 103,
+  "n_items": 760
+}

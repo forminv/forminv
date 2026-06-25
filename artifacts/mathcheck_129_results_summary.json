@@ -1,0 +1,161 @@
+{
+  "experiment": "MathCheck FormInv Full 129-Group",
+  "n_groups": 129,
+  "models": [
+    "anthropic/claude-haiku-4-5",
+    "anthropic/claude-sonnet-4-6",
+    "openai/gpt-4o",
+    "deepseek/deepseek-chat"
+  ],
+  "forminv_flagged_groups": [
+    "25",
+    "27",
+    "75",
+    "82"
+  ],
+  "n_bad": 4,
+  "error_rate_pct": 3.1,
+  "rankings_with": [
+    {
+      "rank": 1,
+      "model": "anthropic/claude-sonnet-4-6",
+      "scr": 0.9535
+    },
+    {
+      "rank": 2,
+      "model": "openai/gpt-4o",
+      "scr": 0.9457
+    },
+    {
+      "rank": 3,
+      "model": "anthropic/claude-haiku-4-5",
+      "scr": 0.938
+    },
+    {
+      "rank": 4,
+      "model": "deepseek/deepseek-chat",
+      "scr": 0.9302
+    }
+  ],
+  "rankings_without": [
+    {
+      "rank": 1,
+      "model": "anthropic/claude-sonnet-4-6",
+      "scr": 0.984
+    },
+    {
+      "rank": 2,
+      "model": "anthropic/claude-haiku-4-5",
+      "scr": 0.968
+    },
+    {
+      "rank": 3,
+      "model": "deepseek/deepseek-chat",
+      "scr": 0.96
+    },
+    {
+      "rank": 4,
+      "model": "openai/gpt-4o",
+      "scr": 0.952
+    }
+  ],
+  "metrics_all": {
+    "anthropic/claude-haiku-4-5": {
+      "correct_canonical": 127,
+      "correct_pu": 121,
+      "correct_both": 121,
+      "n_canonical": 129,
+      "n_pu": 129,
+      "n_groups": 129,
+      "acc_canonical": 0.9845,
+      "acc_pu": 0.938,
+      "SCR": 0.938
+    },
+    "anthropic/claude-sonnet-4-6": {
+      "correct_canonical": 129,
+      "correct_pu": 123,
+      "correct_both": 123,
+      "n_canonical": 129,
+      "n_pu": 129,
+      "n_groups": 129,
+      "acc_canonical": 1.0,
+      "acc_pu": 0.9535,
+      "SCR": 0.9535
+    },
+    "openai/gpt-4o": {
+      "correct_canonical": 125,
+      "correct_pu": 126,
+      "correct_both": 122,
+      "n_canonical": 129,
+      "n_pu": 129,
+      "n_groups": 129,
+      "acc_canonical": 0.969,
+      "acc_pu": 0.9767,
+      "SCR": 0.9457
+    },
+    "deepseek/deepseek-chat": {
+      "correct_canonical": 125,
+      "correct_pu": 123,
+      "correct_both": 120,
+      "n_canonical": 129,
+      "n_pu": 129,
+      "n_groups": 129,
+      "acc_canonical": 0.969,
+      "acc_pu": 0.9535,
+      "SCR": 0.9302
+    }
+  },
+  "metrics_clean": {
+    "anthropic/claude-haiku-4-5": {
+      "correct_canonical": 127,
+      "correct_pu": 121,
+      "correct_both": 121,
+      "n_canonical": 129,
+      "n_pu": 125,
+      "n_groups": 125,
+      "acc_canonical": 0.9845,
+      "acc_pu": 0.968,
+      "SCR": 0.968
+    },
+    "anthropic/claude-sonnet-4-6": {
+      "correct_canonical": 129,
+      "correct_pu": 123,
+      "correct_both": 123,
+      "n_canonical": 129,
+      "n_pu": 125,
+      "n_groups": 125,
+      "acc_canonical": 1.0,
+      "acc_pu": 0.984,
+      "SCR": 0.984
+    },
+    "openai/gpt-4o": {
+      "correct_canonical": 125,
+      "correct_pu": 123,
+      "correct_both": 119,
+      "n_canonical": 129,
+      "n_pu": 125,
+      "n_groups": 125,
+      "acc_canonical": 0.969,
+      "acc_pu": 0.984,
+      "SCR": 0.952
+    },
+    "deepseek/deepseek-chat": {
+      "correct_canonical": 125,
+      "correct_pu": 123,
+      "correct_both": 120,
+      "n_canonical": 129,
+      "n_pu": 125,
+      "n_groups": 125,
+      "acc_canonical": 0.969,
+      "acc_pu": 0.984,
+      "SCR": 0.96
+    }
+  },
+  "full_reversals": true,
+  "reversal_details": [
+    "gpt-4o ranks 2nd WITH bad paraphrases (94.6%) but 4th WITHOUT (95.2%)",
+    "claude-haiku-4-5 ranks 3rd WITH (93.8%) but 2nd WITHOUT (96.8%)",
+    "deepseek-chat ranks 4th WITH (93.0%) but 3rd WITHOUT (96.0%)"
+  ],
+  "conclusion": "YES \u2014 removing bad paraphrases causes 2 full pairwise rank reversals: GPT-4o falls below both Haiku and DeepSeek"
+}

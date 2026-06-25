@@ -1,0 +1,3384 @@
+{
+  "model_stats": {
+    "deepseek-chat": {
+      "formal_logic": {
+        "accuracy": 0.6333333333333333,
+        "error_rate": 0.3666666666666667,
+        "n_correct": 38,
+        "n_answered": 48,
+        "n_total": 60,
+        "per_item": [
+          {
+            "idx": 0,
+            "question": "Identify the conclusion of the following argument. It is hard not to verify in o...",
+            "correct_letter": "D",
+            "predicted": "C",
+            "raw": "C",
+            "correct": false,
+            "latency_s": 1.3104000091552734
+          },
+          {
+            "idx": 1,
+            "question": "Select the best translation into predicate logic. David teaches Chris. (c: Chris...",
+            "correct_letter": "A",
+            "predicted": "A",
+            "raw": "A",
+            "correct": true,
+            "latency_s": 0.7023999691009521
+          },
+          {
+            "idx": 2,
+            "question": " Select the best English interpretation of the given proposition, using the foll...",
+            "correct_letter": "C",
+            "predicted": "C",
+            "raw": "C",
+            "correct": true,
+            "latency_s": 0.6526720523834229
+          },
+          {
+            "idx": 3,
+            "question": "Construct a complete truth table for the following argument. Then, using the tru...",
+            "correct_letter": "A",
+            "predicted": "D",
+            "raw": "D",
+            "correct": false,
+            "latency_s": 0.6483767032623291
+          },
+          {
+            "idx": 4,
+            "question": " Use the following key to translate the given formula of PL to natural, English ...",
+            "correct_letter": "B",
+            "predicted": "C",
+            "raw": "C",
+            "correct": false,
+            "latency_s": 0.7847087383270264
+          },
+          {
+            "idx": 5,
+            "question": " Select the best English interpretation of the given proposition, using the foll...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 0.6700811386108398
+          },
+          {
+            "idx": 6,
+            "question": "Construct a complete truth table for the following argument. Then, using the tru...",
+            "correct_letter": "D",
+            "predicted": null,
+            "raw": "We need to check if the premise ~K \u2261",
+            "correct": false,
+            "latency_s": 0.6988170146942139
+          },
+          {
+            "idx": 7,
+            "question": "Identify the antecedent of the following conditional proposition: If the univers...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 0.5830988883972168
+          },
+          {
+            "idx": 8,
+            "question": " Which of the following propositions is an immediate (one-step) consequence in P...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 0.5663812160491943
+          },
+          {
+            "idx": 9,
+            "question": " Which of the given formulas of PL is the best symbolization of the following se...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 1.0258820056915283
+          },
+          {
+            "idx": 10,
+            "question": " Select the best translation into predicate logic. All kings are luckier than al...",
+            "correct_letter": "A",
+            "predicted": "A",
+            "raw": "A",
+            "correct": true,
+            "latency_s": 0.6781010627746582
+          },
+          {
+            "idx": 11,
+            "question": " Construct a complete truth table for the following pairs of propositions. Then,...",
+            "correct_letter": "B",
+            "predicted": "C",
+            "raw": "C",
+            "correct": false,
+            "latency_s": 0.6379971504211426
+          },
+          {
+            "idx": 12,
+            "question": "Which of the following propositions is an immediate (one-step) consequence in PL...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 0.5780332088470459
+          },
+          {
+            "idx": 13,
+            "question": "Use indirect truth tables to determine whether the following argument is valid. ...",
+            "correct_letter": "C",
+            "predicted": null,
+            "raw": "We can test by trying to make the premis",
+            "correct": false,
+            "latency_s": 0.7916171550750732
+          },
+          {
+            "idx": 14,
+            "question": "Use indirect truth tables to determine whether the following argument is valid. ...",
+            "correct_letter": "D",
+            "predicted": null,
+            "raw": "We test for invalidity by assuming the p",
+            "correct": false,
+            "latency_s": 0.6069302558898926
+          },
+          {
+            "idx": 15,
+            "question": " Select the best translation into predicate logic. Some firefighters rescue vict...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B) (\u2203x){Fx \u2022 (",
+            "correct": true,
+            "latency_s": 0.8269038200378418
+          },
+          {
+            "idx": 16,
+            "question": "Identify the antecedent of the following conditional proposition: The university...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 0.6569910049438477
+          },
+          {
+            "idx": 17,
+            "question": " Select the best translation into predicate logic. All planets are smaller than ...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 0.7445828914642334
+          },
+          {
+            "idx": 18,
+            "question": "Select the best translation into predicate logic. Jos\u00e9 introduces Wilma to Kevin...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 0.6487312316894531
+          },
+          {
+            "idx": 19,
+            "question": " Select the best translation into predicate logic: No artifacts are people.",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 0.7935528755187988
+          },
+          {
+            "idx": 20,
+            "question": " Construct a complete truth table for the following argument. Then, using the tr...",
+            "correct_letter": "B",
+            "predicted": null,
+            "raw": "We need to check if the premises (P",
+            "correct": false,
+            "latency_s": 0.8593888282775879
+          },
+          {
+            "idx": 21,
+            "question": "Select the best translation into predicate logic. Marco moves from Italy to Spai...",
+            "correct_letter": "D",
+            "predicted": "C",
+            "raw": "C",
+            "correct": false,
+            "latency_s": 0.6200270652770996
+          },
+          {
+            "idx": 22,
+            "question": " Select the best English interpretation of the given proposition, using the foll...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 0.7945480346679688
+          },
+          {
+            "idx": 23,
+            "question": " Construct a complete truth table for the following argument. Then, using the tr...",
+            "correct_letter": "C",
+            "predicted": null,
+            "raw": "We need to check the argument:\n\n1. \\(",
+            "correct": false,
+            "latency_s": 0.7359168529510498
+          },
+          {
+            "idx": 24,
+            "question": " Which of the given formulas of PL is the best symbolization of the following se...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 0.6297919750213623
+          },
+          {
+            "idx": 25,
+            "question": " Use indirect truth tables to determine whether each set of propositions is cons...",
+            "correct_letter": "A",
+            "predicted": "D",
+            "raw": "D",
+            "correct": false,
+            "latency_s": 0.8800461292266846
+          },
+          {
+            "idx": 26,
+            "question": " Which of the given formulas of PL is the best symbolization of the following se...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 0.8420388698577881
+          },
+          {
+            "idx": 27,
+            "question": " Which of the given formulas of PL is the best symbolization of the following se...",
+            "correct_letter": "A",
+            "predicted": "A",
+            "raw": "A",
+            "correct": true,
+            "latency_s": 0.5391807556152344
+          },
+          {
+            "idx": 28,
+            "question": "Select the best translation into predicate logic: Either Taylor or Eric is a lat...",
+            "correct_letter": "A",
+            "predicted": "A",
+            "raw": "A",
+            "correct": true,
+            "latency_s": 0.506201982498169
+          },
+          {
+            "idx": 29,
+            "question": "Use indirect truth tables to determine whether the following argument is valid. ...",
+            "correct_letter": "A",
+            "predicted": null,
+            "raw": "We can test by assuming the premises tru",
+            "correct": false,
+            "latency_s": 0.7470910549163818
+          },
+          {
+            "idx": 30,
+            "question": " Use indirect truth tables to determine whether each set of propositions is cons...",
+            "correct_letter": "B",
+            "predicted": null,
+            "raw": "We need to check consistency by seeing i",
+            "correct": false,
+            "latency_s": 0.7737529277801514
+          },
+          {
+            "idx": 31,
+            "question": " Construct a complete truth table for the following argument. Then, using the tr...",
+            "correct_letter": "A",
+            "predicted": "D",
+            "raw": "D",
+            "correct": false,
+            "latency_s": 0.5803122520446777
+          },
+          {
+            "idx": 32,
+            "question": " Which of the following propositions is an immediate (one-step) consequence in P...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 0.7164278030395508
+          },
+          {
+            "idx": 33,
+            "question": "Identify the antecedent of the following conditional proposition: If the Bees do...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 0.6833522319793701
+          },
+          {
+            "idx": 34,
+            "question": "Select the best translation into predicate logic. Holly loves Frances. (f: Franc...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 0.5655488967895508
+          },
+          {
+            "idx": 35,
+            "question": "Use indirect truth tables to determine whether the following argument is valid. ...",
+            "correct_letter": "C",
+            "predicted": null,
+            "raw": "We need to check if the premises force ~",
+            "correct": false,
+            "latency_s": 0.6881122589111328
+          },
+          {
+            "idx": 36,
+            "question": " Construct a complete truth table for the following argument. Then, using the tr...",
+            "correct_letter": "B",
+            "predicted": null,
+            "raw": "We need to check the argument:  \nPremise",
+            "correct": false,
+            "latency_s": 0.666790246963501
+          },
+          {
+            "idx": 37,
+            "question": "Identify the antecedent of the following conditional proposition: The university...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 0.5692081451416016
+          },
+          {
+            "idx": 38,
+            "question": " Identify the antecedent of the following conditional proposition: The restauran...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 0.7743330001831055
+          },
+          {
+            "idx": 39,
+            "question": " Select the best translation into predicate logic. All jellybeans are sweeter th...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 0.5078830718994141
+          },
+          {
+            "idx": 40,
+            "question": "Identify the conclusion of the following argument. That the world is my idea is ...",
+            "correct_letter": "A",
+            "predicted": "A",
+            "raw": "A",
+            "correct": true,
+            "latency_s": 0.669039249420166
+          },
+          {
+            "idx": 41,
+            "question": "Select the best translation into predicate logic. Leo is taller than Cathy. (c: ...",
+            "correct_letter": "A",
+            "predicted": "A",
+            "raw": "A",
+            "correct": true,
+            "latency_s": 0.7186269760131836
+          },
+          {
+            "idx": 42,
+            "question": " Construct a complete truth table for the following pairs of propositions. Then,...",
+            "correct_letter": "C",
+            "predicted": "C",
+            "raw": "C",
+            "correct": true,
+            "latency_s": 0.6740410327911377
+          },
+          {
+            "idx": 43,
+            "question": " Construct a complete truth table for the following pairs of propositions. Then,...",
+            "correct_letter": "A",
+            "predicted": "C",
+            "raw": "C",
+            "correct": false,
+            "latency_s": 0.5337977409362793
+          },
+          {
+            "idx": 44,
+            "question": "Use indirect truth tables to determine whether the following argument is valid. ...",
+            "correct_letter": "A",
+            "predicted": null,
+            "raw": "We need to check if the premises force t",
+            "correct": false,
+            "latency_s": 0.796393871307373
+          },
+          {
+            "idx": 45,
+            "question": "Select the best translation into predicate logic: Cecilia breaks my heart if, an...",
+            "correct_letter": "A",
+            "predicted": "A",
+            "raw": "A",
+            "correct": true,
+            "latency_s": 0.6729657649993896
+          },
+          {
+            "idx": 46,
+            "question": "Select the best translation into predicate logic: If Delilah is in New York City...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 0.6858241558074951
+          },
+          {
+            "idx": 47,
+            "question": " Use the following key to translate the given formula of PL to natural, English ...",
+            "correct_letter": "A",
+            "predicted": "A",
+            "raw": "A",
+            "correct": true,
+            "latency_s": 0.7839789390563965
+          },
+          {
+            "idx": 48,
+            "question": "Use indirect truth tables to determine whether the following argument is valid. ...",
+            "correct_letter": "D",
+            "predicted": null,
+            "raw": "We can test by assuming the premises tru",
+            "correct": false,
+            "latency_s": 0.6058528423309326
+          },
+          {
+            "idx": 49,
+            "question": " Select the best English interpretation of the given arguments in predicate logi...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 0.6259372234344482
+          },
+          {
+            "idx": 50,
+            "question": " Which of the following propositions is an immediate (one-step) consequence in P...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 0.6731231212615967
+          },
+          {
+            "idx": 51,
+            "question": " Which of the following propositions is an immediate (one-step) consequence in P...",
+            "correct_letter": "A",
+            "predicted": "B",
+            "raw": "B",
+            "correct": false,
+            "latency_s": 0.4810192584991455
+          },
+          {
+            "idx": 52,
+            "question": "Select the best translation into predicate logic. Earth isn't bigger than Jupite...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 0.7003631591796875
+          },
+          {
+            "idx": 53,
+            "question": "Identify the antecedent of the following conditional proposition: The Bees winni...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 0.8770749568939209
+          },
+          {
+            "idx": 54,
+            "question": "Identify the antecedent of the following conditional proposition: The Bees win t...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 0.6602492332458496
+          },
+          {
+            "idx": 55,
+            "question": " Select the best translation into predicate logic: Some athletes don't get injur...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 0.5961799621582031
+          },
+          {
+            "idx": 56,
+            "question": " Construct a complete truth table for the following pairs of propositions. Then,...",
+            "correct_letter": "B",
+            "predicted": "C",
+            "raw": "C",
+            "correct": false,
+            "latency_s": 0.7409400939941406
+          },
+          {
+            "idx": 57,
+            "question": " Use indirect truth tables to determine whether each set of propositions is cons...",
+            "correct_letter": "B",
+            "predicted": null,
+            "raw": "We need to check if there is an assignme",
+            "correct": false,
+            "latency_s": 1.0131900310516357
+          },
+          {
+            "idx": 58,
+            "question": "Select the best translation into predicate logic: Caroline is sweet if, and only...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 0.7359898090362549
+          },
+          {
+            "idx": 59,
+            "question": " Which of the given formulas of PL is the best symbolization of the following se...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 0.5857751369476318
+          }
+        ]
+      },
+      "global_facts": {
+        "accuracy": 0.7166666666666667,
+        "error_rate": 0.2833333333333333,
+        "n_correct": 43,
+        "n_answered": 60,
+        "n_total": 60,
+        "per_item": [
+          {
+            "idx": 0,
+            "question": "As of 2016, about what percentage of adults aged 18 years or older were overweig...",
+            "correct_letter": "C",
+            "predicted": "C",
+            "raw": "C",
+            "correct": true,
+            "latency_s": 0.7107419967651367
+          },
+          {
+            "idx": 1,
+            "question": "What was GDP per capita in the United States in 1850 when adjusting for inflatio...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 0.5943088531494141
+          },
+          {
+            "idx": 2,
+            "question": "As of 2019, about what percentage of people from the United States says homosexu...",
+            "correct_letter": "C",
+            "predicted": "C",
+            "raw": "C",
+            "correct": true,
+            "latency_s": 0.6343140602111816
+          },
+          {
+            "idx": 3,
+            "question": "Which of the following countries generated the most total energy from solar sour...",
+            "correct_letter": "A",
+            "predicted": "A",
+            "raw": "A",
+            "correct": true,
+            "latency_s": 0.5944759845733643
+          },
+          {
+            "idx": 4,
+            "question": "Controlling for inflation and PPP-adjustment, about how much did GDP per capita ...",
+            "correct_letter": "C",
+            "predicted": "C",
+            "raw": "C",
+            "correct": true,
+            "latency_s": 0.7655370235443115
+          },
+          {
+            "idx": 5,
+            "question": "What is the biggest cause of death in children under five years old (as of 2017)...",
+            "correct_letter": "A",
+            "predicted": "B",
+            "raw": "B",
+            "correct": false,
+            "latency_s": 0.6341171264648438
+          },
+          {
+            "idx": 6,
+            "question": "As of 2019, about what percentage of the global population does not have access ...",
+            "correct_letter": "C",
+            "predicted": "A",
+            "raw": "A",
+            "correct": false,
+            "latency_s": 0.6801178455352783
+          },
+          {
+            "idx": 7,
+            "question": "About what percentage of survey respondents from India report having paid a brib...",
+            "correct_letter": "C",
+            "predicted": "C",
+            "raw": "C",
+            "correct": true,
+            "latency_s": 0.7052590847015381
+          },
+          {
+            "idx": 8,
+            "question": "As of 2017, what fraction of the population in Brazil used the internet in the p...",
+            "correct_letter": "C",
+            "predicted": "D",
+            "raw": "D",
+            "correct": false,
+            "latency_s": 0.7338738441467285
+          },
+          {
+            "idx": 9,
+            "question": "As of 2017, what fraction of the population in India used the internet in the pa...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 0.6405649185180664
+          },
+          {
+            "idx": 10,
+            "question": "As of 2018, about what percentage of Indians say that having an increasing numbe...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 0.704118013381958
+          },
+          {
+            "idx": 11,
+            "question": "As of 2019, about what percentage of the world population lives in extreme pover...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 0.747687816619873
+          },
+          {
+            "idx": 12,
+            "question": "As of 2020, about what percentage of the world population practices open defecat...",
+            "correct_letter": "C",
+            "predicted": "C",
+            "raw": "C",
+            "correct": true,
+            "latency_s": 0.6282711029052734
+          },
+          {
+            "idx": 13,
+            "question": "Which of the following is not an element of the redistribution-with-growth polic...",
+            "correct_letter": "A",
+            "predicted": "D",
+            "raw": "D",
+            "correct": false,
+            "latency_s": 0.6263091564178467
+          },
+          {
+            "idx": 14,
+            "question": "About what percentage of the global population was literate in 1950?",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 0.5318808555603027
+          },
+          {
+            "idx": 15,
+            "question": "As of 2016, about what percentage of adults aged 18 years or older were obese?",
+            "correct_letter": "B",
+            "predicted": "C",
+            "raw": "C",
+            "correct": false,
+            "latency_s": 0.761817216873169
+          },
+          {
+            "idx": 16,
+            "question": "As of 2019, about what percentage of Germans say the relationship between the U....",
+            "correct_letter": "A",
+            "predicted": "B",
+            "raw": "B",
+            "correct": false,
+            "latency_s": 0.6499850749969482
+          },
+          {
+            "idx": 17,
+            "question": "As of 2017, what percentage of Americans live in urban areas?",
+            "correct_letter": "C",
+            "predicted": "C",
+            "raw": "C",
+            "correct": true,
+            "latency_s": 0.6789538860321045
+          },
+          {
+            "idx": 18,
+            "question": "What was GDP per capita in the United States in 1950 when adjusting for inflatio...",
+            "correct_letter": "C",
+            "predicted": "C",
+            "raw": "C",
+            "correct": true,
+            "latency_s": 0.9309830665588379
+          },
+          {
+            "idx": 19,
+            "question": "In 2016, about how many people in the United States were homeless?",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 0.7359530925750732
+          },
+          {
+            "idx": 20,
+            "question": "In 1965 how many Americans thought that sending troops to Vietnam was a mistake?",
+            "correct_letter": "A",
+            "predicted": "A",
+            "raw": "A",
+            "correct": true,
+            "latency_s": 0.6112780570983887
+          },
+          {
+            "idx": 21,
+            "question": "As of 2013, share of people in the Ethiopia who think political parties are corr...",
+            "correct_letter": "A",
+            "predicted": "D",
+            "raw": "D",
+            "correct": false,
+            "latency_s": 0.9135580062866211
+          },
+          {
+            "idx": 22,
+            "question": "In 1997, the World Bank found that the fraction of the world\u2019s population living...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 0.8618028163909912
+          },
+          {
+            "idx": 23,
+            "question": "As of 2015, agriculture made up about what percentage of total Indian GDP?",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 0.5984549522399902
+          },
+          {
+            "idx": 24,
+            "question": "Which of the following is true as of 2020?",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 0.6234979629516602
+          },
+          {
+            "idx": 25,
+            "question": "As of 2019, about what percentage of people from Brazil says homosexuality shoul...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 0.586601972579956
+          },
+          {
+            "idx": 26,
+            "question": "As of 2017, the share of GDP spent on the military by Saudi Arabia is about",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 0.6776838302612305
+          },
+          {
+            "idx": 27,
+            "question": "As of 2019, about what share of electricity came from fossil fuels in the United...",
+            "correct_letter": "C",
+            "predicted": "C",
+            "raw": "C",
+            "correct": true,
+            "latency_s": 0.7954370975494385
+          },
+          {
+            "idx": 28,
+            "question": "What is the percentage of children aged 13-15 in Egypt who reported being bullie...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 0.5825419425964355
+          },
+          {
+            "idx": 29,
+            "question": "As of 2018, about what percentage of US adults say criminal risk assessment for ...",
+            "correct_letter": "C",
+            "predicted": "C",
+            "raw": "C",
+            "correct": true,
+            "latency_s": 0.526141881942749
+          },
+          {
+            "idx": 30,
+            "question": "In 2018, about how many chickens were killed for meat production?",
+            "correct_letter": "C",
+            "predicted": "C",
+            "raw": "C",
+            "correct": true,
+            "latency_s": 0.6139171123504639
+          },
+          {
+            "idx": 31,
+            "question": "In 2016, what percentage of the population of South Sudan had access to electric...",
+            "correct_letter": "A",
+            "predicted": "A",
+            "raw": "A",
+            "correct": true,
+            "latency_s": 0.6779799461364746
+          },
+          {
+            "idx": 32,
+            "question": "About what percentage of survey respondents from Mexico report having paid a bri...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 0.7020161151885986
+          },
+          {
+            "idx": 33,
+            "question": "Controlling for inflation and PPP-adjustment, about how much did GDP per capita ...",
+            "correct_letter": "C",
+            "predicted": "D",
+            "raw": "D",
+            "correct": false,
+            "latency_s": 0.7343552112579346
+          },
+          {
+            "idx": 34,
+            "question": "Ross Perot makes polling history by leading the presidential race briefly in Jun...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 0.6496210098266602
+          },
+          {
+            "idx": 35,
+            "question": "As of 2019, about what percentage of Turks say God plays an important role in th...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 0.7135879993438721
+          },
+          {
+            "idx": 36,
+            "question": "Which of the following was responsible for the most death in the 20th century?",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 0.6025440692901611
+          },
+          {
+            "idx": 37,
+            "question": "What is the percentage of children aged 13-15 in the United States who reported ...",
+            "correct_letter": "B",
+            "predicted": "A",
+            "raw": "A",
+            "correct": false,
+            "latency_s": 0.5980739593505859
+          },
+          {
+            "idx": 38,
+            "question": "Controlling for inflation and PPP-adjustment, about how much did GDP per capita ...",
+            "correct_letter": "D",
+            "predicted": "C",
+            "raw": "C",
+            "correct": false,
+            "latency_s": 0.6602771282196045
+          },
+          {
+            "idx": 39,
+            "question": "As of 2019, about what percentage of people from Turkey agree that the state is ...",
+            "correct_letter": "C",
+            "predicted": "A",
+            "raw": "A",
+            "correct": false,
+            "latency_s": 0.6147148609161377
+          },
+          {
+            "idx": 40,
+            "question": "As of 2015, what percentage of the global population over 15 years old was liter...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 0.7597620487213135
+          },
+          {
+            "idx": 41,
+            "question": "About what percentage of survey respondents from China report having paid a brib...",
+            "correct_letter": "A",
+            "predicted": "A",
+            "raw": "A",
+            "correct": true,
+            "latency_s": 0.601132869720459
+          },
+          {
+            "idx": 42,
+            "question": "As of 2019, which of the following had the lowest life expectancy?",
+            "correct_letter": "C",
+            "predicted": "D",
+            "raw": "D",
+            "correct": false,
+            "latency_s": 0.7468869686126709
+          },
+          {
+            "idx": 43,
+            "question": "As of 2019, unsafe water is responsible for about how many deaths each year?",
+            "correct_letter": "A",
+            "predicted": "A",
+            "raw": "A",
+            "correct": true,
+            "latency_s": 0.6222798824310303
+          },
+          {
+            "idx": 44,
+            "question": "Which of the following causes more deaths globally each year (as of 2017)?",
+            "correct_letter": "C",
+            "predicted": "B",
+            "raw": "B",
+            "correct": false,
+            "latency_s": 0.8936519622802734
+          },
+          {
+            "idx": 45,
+            "question": "About how many people are infected by HIV/AIDS as of 2020?",
+            "correct_letter": "C",
+            "predicted": "C",
+            "raw": "C",
+            "correct": true,
+            "latency_s": 0.6804468631744385
+          },
+          {
+            "idx": 46,
+            "question": "What is the percentage of children aged 13-15 in the United States who reported ...",
+            "correct_letter": "A",
+            "predicted": "A",
+            "raw": "A",
+            "correct": true,
+            "latency_s": 0.577246904373169
+          },
+          {
+            "idx": 47,
+            "question": "As of 2019, about what percentage of South Koreans say it is necessary to believ...",
+            "correct_letter": "B",
+            "predicted": "A",
+            "raw": "A",
+            "correct": false,
+            "latency_s": 0.6282260417938232
+          },
+          {
+            "idx": 48,
+            "question": "What is the percentage of children aged 13-15 in Japan who reported being bullie...",
+            "correct_letter": "C",
+            "predicted": "C",
+            "raw": "C",
+            "correct": true,
+            "latency_s": 0.6934249401092529
+          },
+          {
+            "idx": 49,
+            "question": "As of 2018, about what percentage of US adults say computer programs will always...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 0.6633117198944092
+          },
+          {
+            "idx": 50,
+            "question": "As of 2017, the share of GDP spent on the military by China is about",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 0.7265012264251709
+          },
+          {
+            "idx": 51,
+            "question": "The conjecture that inequality first increases with development, then decreases ...",
+            "correct_letter": "B",
+            "predicted": "D",
+            "raw": "D",
+            "correct": false,
+            "latency_s": 0.6389529705047607
+          },
+          {
+            "idx": 52,
+            "question": "Worldwide, 30 year old men have spent 10 years in school, on average. How many y...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 0.571990966796875
+          },
+          {
+            "idx": 53,
+            "question": "As of 2017, the share of deaths in Greenland by suicide is about",
+            "correct_letter": "D",
+            "predicted": "C",
+            "raw": "C",
+            "correct": false,
+            "latency_s": 0.655771017074585
+          },
+          {
+            "idx": 54,
+            "question": "As of 2019, about what percentage of people from Russia says homosexuality shoul...",
+            "correct_letter": "A",
+            "predicted": "A",
+            "raw": "A",
+            "correct": true,
+            "latency_s": 0.6313283443450928
+          },
+          {
+            "idx": 55,
+            "question": "As of 2019, about what percentage of Americans say the relationship between the ...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 0.6067860126495361
+          },
+          {
+            "idx": 56,
+            "question": "As of 2019, about what percentage of Americans say it is very important to have ...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 0.560723066329956
+          },
+          {
+            "idx": 57,
+            "question": "In 1987 during Iran Contra what percent of Americans believe Reagan was witholdi...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 0.6492862701416016
+          },
+          {
+            "idx": 58,
+            "question": "In Sub-Saharan Africa, as of 2020,",
+            "correct_letter": "C",
+            "predicted": "D",
+            "raw": "D",
+            "correct": false,
+            "latency_s": 0.5886938571929932
+          },
+          {
+            "idx": 59,
+            "question": "World Bank data show that in 1995, the poorest 20% of households accounted for 7...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 0.6374878883361816
+          }
+        ]
+      }
+    },
+    "gpt-4o": {
+      "formal_logic": {
+        "accuracy": 0.6166666666666667,
+        "error_rate": 0.3833333333333333,
+        "n_correct": 37,
+        "n_answered": 60,
+        "n_total": 60,
+        "per_item": [
+          {
+            "idx": 0,
+            "question": "Identify the conclusion of the following argument. It is hard not to verify in o...",
+            "correct_letter": "D",
+            "predicted": "C",
+            "raw": "C",
+            "correct": false,
+            "latency_s": 0.6666879653930664
+          },
+          {
+            "idx": 1,
+            "question": "Select the best translation into predicate logic. David teaches Chris. (c: Chris...",
+            "correct_letter": "A",
+            "predicted": "A",
+            "raw": "A",
+            "correct": true,
+            "latency_s": 2.185746192932129
+          },
+          {
+            "idx": 2,
+            "question": " Select the best English interpretation of the given proposition, using the foll...",
+            "correct_letter": "C",
+            "predicted": "C",
+            "raw": "C",
+            "correct": true,
+            "latency_s": 0.7153780460357666
+          },
+          {
+            "idx": 3,
+            "question": "Construct a complete truth table for the following argument. Then, using the tru...",
+            "correct_letter": "A",
+            "predicted": "A",
+            "raw": "A",
+            "correct": true,
+            "latency_s": 0.6100149154663086
+          },
+          {
+            "idx": 4,
+            "question": " Use the following key to translate the given formula of PL to natural, English ...",
+            "correct_letter": "B",
+            "predicted": "A",
+            "raw": "A",
+            "correct": false,
+            "latency_s": 0.7675509452819824
+          },
+          {
+            "idx": 5,
+            "question": " Select the best English interpretation of the given proposition, using the foll...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 1.2322938442230225
+          },
+          {
+            "idx": 6,
+            "question": "Construct a complete truth table for the following argument. Then, using the tru...",
+            "correct_letter": "D",
+            "predicted": "A",
+            "raw": "A",
+            "correct": false,
+            "latency_s": 0.8013238906860352
+          },
+          {
+            "idx": 7,
+            "question": "Identify the antecedent of the following conditional proposition: If the univers...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 0.576657772064209
+          },
+          {
+            "idx": 8,
+            "question": " Which of the following propositions is an immediate (one-step) consequence in P...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 0.6349408626556396
+          },
+          {
+            "idx": 9,
+            "question": " Which of the given formulas of PL is the best symbolization of the following se...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 0.6815698146820068
+          },
+          {
+            "idx": 10,
+            "question": " Select the best translation into predicate logic. All kings are luckier than al...",
+            "correct_letter": "A",
+            "predicted": "A",
+            "raw": "A",
+            "correct": true,
+            "latency_s": 0.9318110942840576
+          },
+          {
+            "idx": 11,
+            "question": " Construct a complete truth table for the following pairs of propositions. Then,...",
+            "correct_letter": "B",
+            "predicted": "C",
+            "raw": "C",
+            "correct": false,
+            "latency_s": 1.5498690605163574
+          },
+          {
+            "idx": 12,
+            "question": "Which of the following propositions is an immediate (one-step) consequence in PL...",
+            "correct_letter": "D",
+            "predicted": "C",
+            "raw": "C",
+            "correct": false,
+            "latency_s": 0.6189360618591309
+          },
+          {
+            "idx": 13,
+            "question": "Use indirect truth tables to determine whether the following argument is valid. ...",
+            "correct_letter": "C",
+            "predicted": "C",
+            "raw": "C",
+            "correct": true,
+            "latency_s": 0.784980058670044
+          },
+          {
+            "idx": 14,
+            "question": "Use indirect truth tables to determine whether the following argument is valid. ...",
+            "correct_letter": "D",
+            "predicted": "A",
+            "raw": "A",
+            "correct": false,
+            "latency_s": 0.9462540149688721
+          },
+          {
+            "idx": 15,
+            "question": " Select the best translation into predicate logic. Some firefighters rescue vict...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 0.6794202327728271
+          },
+          {
+            "idx": 16,
+            "question": "Identify the antecedent of the following conditional proposition: The university...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 0.5495221614837646
+          },
+          {
+            "idx": 17,
+            "question": " Select the best translation into predicate logic. All planets are smaller than ...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 0.6366991996765137
+          },
+          {
+            "idx": 18,
+            "question": "Select the best translation into predicate logic. Jos\u00e9 introduces Wilma to Kevin...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 0.6263940334320068
+          },
+          {
+            "idx": 19,
+            "question": " Select the best translation into predicate logic: No artifacts are people.",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 0.9590070247650146
+          },
+          {
+            "idx": 20,
+            "question": " Construct a complete truth table for the following argument. Then, using the tr...",
+            "correct_letter": "B",
+            "predicted": "D",
+            "raw": "D",
+            "correct": false,
+            "latency_s": 1.0338730812072754
+          },
+          {
+            "idx": 21,
+            "question": "Select the best translation into predicate logic. Marco moves from Italy to Spai...",
+            "correct_letter": "D",
+            "predicted": "B",
+            "raw": "B",
+            "correct": false,
+            "latency_s": 0.5877780914306641
+          },
+          {
+            "idx": 22,
+            "question": " Select the best English interpretation of the given proposition, using the foll...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 0.818748950958252
+          },
+          {
+            "idx": 23,
+            "question": " Construct a complete truth table for the following argument. Then, using the tr...",
+            "correct_letter": "C",
+            "predicted": "C",
+            "raw": "C",
+            "correct": true,
+            "latency_s": 0.6841380596160889
+          },
+          {
+            "idx": 24,
+            "question": " Which of the given formulas of PL is the best symbolization of the following se...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 0.6371159553527832
+          },
+          {
+            "idx": 25,
+            "question": " Use indirect truth tables to determine whether each set of propositions is cons...",
+            "correct_letter": "A",
+            "predicted": "D",
+            "raw": "D",
+            "correct": false,
+            "latency_s": 0.7039659023284912
+          },
+          {
+            "idx": 26,
+            "question": " Which of the given formulas of PL is the best symbolization of the following se...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 0.6626789569854736
+          },
+          {
+            "idx": 27,
+            "question": " Which of the given formulas of PL is the best symbolization of the following se...",
+            "correct_letter": "A",
+            "predicted": "A",
+            "raw": "A",
+            "correct": true,
+            "latency_s": 0.601539134979248
+          },
+          {
+            "idx": 28,
+            "question": "Select the best translation into predicate logic: Either Taylor or Eric is a lat...",
+            "correct_letter": "A",
+            "predicted": "A",
+            "raw": "A",
+            "correct": true,
+            "latency_s": 0.7034521102905273
+          },
+          {
+            "idx": 29,
+            "question": "Use indirect truth tables to determine whether the following argument is valid. ...",
+            "correct_letter": "A",
+            "predicted": "A",
+            "raw": "A",
+            "correct": true,
+            "latency_s": 0.8747451305389404
+          },
+          {
+            "idx": 30,
+            "question": " Use indirect truth tables to determine whether each set of propositions is cons...",
+            "correct_letter": "B",
+            "predicted": "C",
+            "raw": "C",
+            "correct": false,
+            "latency_s": 0.7800030708312988
+          },
+          {
+            "idx": 31,
+            "question": " Construct a complete truth table for the following argument. Then, using the tr...",
+            "correct_letter": "A",
+            "predicted": "C",
+            "raw": "C",
+            "correct": false,
+            "latency_s": 0.7046089172363281
+          },
+          {
+            "idx": 32,
+            "question": " Which of the following propositions is an immediate (one-step) consequence in P...",
+            "correct_letter": "D",
+            "predicted": "C",
+            "raw": "C",
+            "correct": false,
+            "latency_s": 0.7646996974945068
+          },
+          {
+            "idx": 33,
+            "question": "Identify the antecedent of the following conditional proposition: If the Bees do...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 0.9210870265960693
+          },
+          {
+            "idx": 34,
+            "question": "Select the best translation into predicate logic. Holly loves Frances. (f: Franc...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 0.7381842136383057
+          },
+          {
+            "idx": 35,
+            "question": "Use indirect truth tables to determine whether the following argument is valid. ...",
+            "correct_letter": "C",
+            "predicted": "C",
+            "raw": "C",
+            "correct": true,
+            "latency_s": 0.6900951862335205
+          },
+          {
+            "idx": 36,
+            "question": " Construct a complete truth table for the following argument. Then, using the tr...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 0.8044359683990479
+          },
+          {
+            "idx": 37,
+            "question": "Identify the antecedent of the following conditional proposition: The university...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 1.305022954940796
+          },
+          {
+            "idx": 38,
+            "question": " Identify the antecedent of the following conditional proposition: The restauran...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 0.8468339443206787
+          },
+          {
+            "idx": 39,
+            "question": " Select the best translation into predicate logic. All jellybeans are sweeter th...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 0.965461015701294
+          },
+          {
+            "idx": 40,
+            "question": "Identify the conclusion of the following argument. That the world is my idea is ...",
+            "correct_letter": "A",
+            "predicted": "A",
+            "raw": "A",
+            "correct": true,
+            "latency_s": 0.6555938720703125
+          },
+          {
+            "idx": 41,
+            "question": "Select the best translation into predicate logic. Leo is taller than Cathy. (c: ...",
+            "correct_letter": "A",
+            "predicted": "B",
+            "raw": "B",
+            "correct": false,
+            "latency_s": 0.7375099658966064
+          },
+          {
+            "idx": 42,
+            "question": " Construct a complete truth table for the following pairs of propositions. Then,...",
+            "correct_letter": "C",
+            "predicted": "D",
+            "raw": "D",
+            "correct": false,
+            "latency_s": 0.6765091419219971
+          },
+          {
+            "idx": 43,
+            "question": " Construct a complete truth table for the following pairs of propositions. Then,...",
+            "correct_letter": "A",
+            "predicted": "C",
+            "raw": "C",
+            "correct": false,
+            "latency_s": 0.6956601142883301
+          },
+          {
+            "idx": 44,
+            "question": "Use indirect truth tables to determine whether the following argument is valid. ...",
+            "correct_letter": "A",
+            "predicted": "C",
+            "raw": "C",
+            "correct": false,
+            "latency_s": 0.7545771598815918
+          },
+          {
+            "idx": 45,
+            "question": "Select the best translation into predicate logic: Cecilia breaks my heart if, an...",
+            "correct_letter": "A",
+            "predicted": "A",
+            "raw": "A",
+            "correct": true,
+            "latency_s": 0.7731919288635254
+          },
+          {
+            "idx": 46,
+            "question": "Select the best translation into predicate logic: If Delilah is in New York City...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 0.9834620952606201
+          },
+          {
+            "idx": 47,
+            "question": " Use the following key to translate the given formula of PL to natural, English ...",
+            "correct_letter": "A",
+            "predicted": "A",
+            "raw": "A",
+            "correct": true,
+            "latency_s": 0.8757688999176025
+          },
+          {
+            "idx": 48,
+            "question": "Use indirect truth tables to determine whether the following argument is valid. ...",
+            "correct_letter": "D",
+            "predicted": "C",
+            "raw": "C",
+            "correct": false,
+            "latency_s": 0.8197729587554932
+          },
+          {
+            "idx": 49,
+            "question": " Select the best English interpretation of the given arguments in predicate logi...",
+            "correct_letter": "B",
+            "predicted": "D",
+            "raw": "D",
+            "correct": false,
+            "latency_s": 1.0151591300964355
+          },
+          {
+            "idx": 50,
+            "question": " Which of the following propositions is an immediate (one-step) consequence in P...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 0.7346057891845703
+          },
+          {
+            "idx": 51,
+            "question": " Which of the following propositions is an immediate (one-step) consequence in P...",
+            "correct_letter": "A",
+            "predicted": "C",
+            "raw": "C",
+            "correct": false,
+            "latency_s": 1.2868800163269043
+          },
+          {
+            "idx": 52,
+            "question": "Select the best translation into predicate logic. Earth isn't bigger than Jupite...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 0.8442189693450928
+          },
+          {
+            "idx": 53,
+            "question": "Identify the antecedent of the following conditional proposition: The Bees winni...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 0.941835880279541
+          },
+          {
+            "idx": 54,
+            "question": "Identify the antecedent of the following conditional proposition: The Bees win t...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 0.6865837574005127
+          },
+          {
+            "idx": 55,
+            "question": " Select the best translation into predicate logic: Some athletes don't get injur...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 0.7186150550842285
+          },
+          {
+            "idx": 56,
+            "question": " Construct a complete truth table for the following pairs of propositions. Then,...",
+            "correct_letter": "B",
+            "predicted": "A",
+            "raw": "A",
+            "correct": false,
+            "latency_s": 0.8580973148345947
+          },
+          {
+            "idx": 57,
+            "question": " Use indirect truth tables to determine whether each set of propositions is cons...",
+            "correct_letter": "B",
+            "predicted": "D",
+            "raw": "D",
+            "correct": false,
+            "latency_s": 0.8723659515380859
+          },
+          {
+            "idx": 58,
+            "question": "Select the best translation into predicate logic: Caroline is sweet if, and only...",
+            "correct_letter": "B",
+            "predicted": "C",
+            "raw": "C",
+            "correct": false,
+            "latency_s": 0.6326100826263428
+          },
+          {
+            "idx": 59,
+            "question": " Which of the given formulas of PL is the best symbolization of the following se...",
+            "correct_letter": "D",
+            "predicted": "C",
+            "raw": "C",
+            "correct": false,
+            "latency_s": 0.7660181522369385
+          }
+        ]
+      },
+      "global_facts": {
+        "accuracy": 0.7,
+        "error_rate": 0.30000000000000004,
+        "n_correct": 42,
+        "n_answered": 60,
+        "n_total": 60,
+        "per_item": [
+          {
+            "idx": 0,
+            "question": "As of 2016, about what percentage of adults aged 18 years or older were overweig...",
+            "correct_letter": "C",
+            "predicted": "C",
+            "raw": "C",
+            "correct": true,
+            "latency_s": 0.7980940341949463
+          },
+          {
+            "idx": 1,
+            "question": "What was GDP per capita in the United States in 1850 when adjusting for inflatio...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 0.6079061031341553
+          },
+          {
+            "idx": 2,
+            "question": "As of 2019, about what percentage of people from the United States says homosexu...",
+            "correct_letter": "C",
+            "predicted": "C",
+            "raw": "C",
+            "correct": true,
+            "latency_s": 0.7154068946838379
+          },
+          {
+            "idx": 3,
+            "question": "Which of the following countries generated the most total energy from solar sour...",
+            "correct_letter": "A",
+            "predicted": "A",
+            "raw": "A",
+            "correct": true,
+            "latency_s": 0.5867650508880615
+          },
+          {
+            "idx": 4,
+            "question": "Controlling for inflation and PPP-adjustment, about how much did GDP per capita ...",
+            "correct_letter": "C",
+            "predicted": "C",
+            "raw": "C",
+            "correct": true,
+            "latency_s": 0.7967100143432617
+          },
+          {
+            "idx": 5,
+            "question": "What is the biggest cause of death in children under five years old (as of 2017)...",
+            "correct_letter": "A",
+            "predicted": "B",
+            "raw": "B",
+            "correct": false,
+            "latency_s": 0.7954168319702148
+          },
+          {
+            "idx": 6,
+            "question": "As of 2019, about what percentage of the global population does not have access ...",
+            "correct_letter": "C",
+            "predicted": "C",
+            "raw": "C",
+            "correct": true,
+            "latency_s": 0.5797603130340576
+          },
+          {
+            "idx": 7,
+            "question": "About what percentage of survey respondents from India report having paid a brib...",
+            "correct_letter": "C",
+            "predicted": "C",
+            "raw": "C",
+            "correct": true,
+            "latency_s": 0.8169968128204346
+          },
+          {
+            "idx": 8,
+            "question": "As of 2017, what fraction of the population in Brazil used the internet in the p...",
+            "correct_letter": "C",
+            "predicted": "C",
+            "raw": "C",
+            "correct": true,
+            "latency_s": 0.9084389209747314
+          },
+          {
+            "idx": 9,
+            "question": "As of 2017, what fraction of the population in India used the internet in the pa...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 0.8308591842651367
+          },
+          {
+            "idx": 10,
+            "question": "As of 2018, about what percentage of Indians say that having an increasing numbe...",
+            "correct_letter": "D",
+            "predicted": "A",
+            "raw": "A",
+            "correct": false,
+            "latency_s": 0.6830048561096191
+          },
+          {
+            "idx": 11,
+            "question": "As of 2019, about what percentage of the world population lives in extreme pover...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 0.6688859462738037
+          },
+          {
+            "idx": 12,
+            "question": "As of 2020, about what percentage of the world population practices open defecat...",
+            "correct_letter": "C",
+            "predicted": "C",
+            "raw": "C",
+            "correct": true,
+            "latency_s": 0.9128239154815674
+          },
+          {
+            "idx": 13,
+            "question": "Which of the following is not an element of the redistribution-with-growth polic...",
+            "correct_letter": "A",
+            "predicted": "A",
+            "raw": "A",
+            "correct": true,
+            "latency_s": 0.757274866104126
+          },
+          {
+            "idx": 14,
+            "question": "About what percentage of the global population was literate in 1950?",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 0.9005770683288574
+          },
+          {
+            "idx": 15,
+            "question": "As of 2016, about what percentage of adults aged 18 years or older were obese?",
+            "correct_letter": "B",
+            "predicted": "C",
+            "raw": "C",
+            "correct": false,
+            "latency_s": 0.7367110252380371
+          },
+          {
+            "idx": 16,
+            "question": "As of 2019, about what percentage of Germans say the relationship between the U....",
+            "correct_letter": "A",
+            "predicted": "A",
+            "raw": "A",
+            "correct": true,
+            "latency_s": 0.7256181240081787
+          },
+          {
+            "idx": 17,
+            "question": "As of 2017, what percentage of Americans live in urban areas?",
+            "correct_letter": "C",
+            "predicted": "C",
+            "raw": "C",
+            "correct": true,
+            "latency_s": 0.7039861679077148
+          },
+          {
+            "idx": 18,
+            "question": "What was GDP per capita in the United States in 1950 when adjusting for inflatio...",
+            "correct_letter": "C",
+            "predicted": "C",
+            "raw": "C",
+            "correct": true,
+            "latency_s": 0.6422579288482666
+          },
+          {
+            "idx": 19,
+            "question": "In 2016, about how many people in the United States were homeless?",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 0.8474390506744385
+          },
+          {
+            "idx": 20,
+            "question": "In 1965 how many Americans thought that sending troops to Vietnam was a mistake?",
+            "correct_letter": "A",
+            "predicted": "A",
+            "raw": "A",
+            "correct": true,
+            "latency_s": 0.7561087608337402
+          },
+          {
+            "idx": 21,
+            "question": "As of 2013, share of people in the Ethiopia who think political parties are corr...",
+            "correct_letter": "A",
+            "predicted": "C",
+            "raw": "C",
+            "correct": false,
+            "latency_s": 0.695026159286499
+          },
+          {
+            "idx": 22,
+            "question": "In 1997, the World Bank found that the fraction of the world\u2019s population living...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 2.4185969829559326
+          },
+          {
+            "idx": 23,
+            "question": "As of 2015, agriculture made up about what percentage of total Indian GDP?",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 0.6729640960693359
+          },
+          {
+            "idx": 24,
+            "question": "Which of the following is true as of 2020?",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 0.9678730964660645
+          },
+          {
+            "idx": 25,
+            "question": "As of 2019, about what percentage of people from Brazil says homosexuality shoul...",
+            "correct_letter": "D",
+            "predicted": "C",
+            "raw": "C",
+            "correct": false,
+            "latency_s": 0.7007958889007568
+          },
+          {
+            "idx": 26,
+            "question": "As of 2017, the share of GDP spent on the military by Saudi Arabia is about",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 0.6862189769744873
+          },
+          {
+            "idx": 27,
+            "question": "As of 2019, about what share of electricity came from fossil fuels in the United...",
+            "correct_letter": "C",
+            "predicted": "C",
+            "raw": "C",
+            "correct": true,
+            "latency_s": 0.8982608318328857
+          },
+          {
+            "idx": 28,
+            "question": "What is the percentage of children aged 13-15 in Egypt who reported being bullie...",
+            "correct_letter": "D",
+            "predicted": "C",
+            "raw": "C",
+            "correct": false,
+            "latency_s": 0.6571638584136963
+          },
+          {
+            "idx": 29,
+            "question": "As of 2018, about what percentage of US adults say criminal risk assessment for ...",
+            "correct_letter": "C",
+            "predicted": "B",
+            "raw": "B",
+            "correct": false,
+            "latency_s": 0.7859551906585693
+          },
+          {
+            "idx": 30,
+            "question": "In 2018, about how many chickens were killed for meat production?",
+            "correct_letter": "C",
+            "predicted": "C",
+            "raw": "C",
+            "correct": true,
+            "latency_s": 0.789168119430542
+          },
+          {
+            "idx": 31,
+            "question": "In 2016, what percentage of the population of South Sudan had access to electric...",
+            "correct_letter": "A",
+            "predicted": "A",
+            "raw": "A",
+            "correct": true,
+            "latency_s": 0.6570131778717041
+          },
+          {
+            "idx": 32,
+            "question": "About what percentage of survey respondents from Mexico report having paid a bri...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 0.763861894607544
+          },
+          {
+            "idx": 33,
+            "question": "Controlling for inflation and PPP-adjustment, about how much did GDP per capita ...",
+            "correct_letter": "C",
+            "predicted": "D",
+            "raw": "D",
+            "correct": false,
+            "latency_s": 0.8010339736938477
+          },
+          {
+            "idx": 34,
+            "question": "Ross Perot makes polling history by leading the presidential race briefly in Jun...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 0.6877930164337158
+          },
+          {
+            "idx": 35,
+            "question": "As of 2019, about what percentage of Turks say God plays an important role in th...",
+            "correct_letter": "D",
+            "predicted": "C",
+            "raw": "C",
+            "correct": false,
+            "latency_s": 0.8122909069061279
+          },
+          {
+            "idx": 36,
+            "question": "Which of the following was responsible for the most death in the 20th century?",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 1.3670270442962646
+          },
+          {
+            "idx": 37,
+            "question": "What is the percentage of children aged 13-15 in the United States who reported ...",
+            "correct_letter": "B",
+            "predicted": "A",
+            "raw": "A",
+            "correct": false,
+            "latency_s": 0.7397420406341553
+          },
+          {
+            "idx": 38,
+            "question": "Controlling for inflation and PPP-adjustment, about how much did GDP per capita ...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 0.7977221012115479
+          },
+          {
+            "idx": 39,
+            "question": "As of 2019, about what percentage of people from Turkey agree that the state is ...",
+            "correct_letter": "C",
+            "predicted": "A",
+            "raw": "A",
+            "correct": false,
+            "latency_s": 0.6804742813110352
+          },
+          {
+            "idx": 40,
+            "question": "As of 2015, what percentage of the global population over 15 years old was liter...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 1.1373472213745117
+          },
+          {
+            "idx": 41,
+            "question": "About what percentage of survey respondents from China report having paid a brib...",
+            "correct_letter": "A",
+            "predicted": "A",
+            "raw": "A",
+            "correct": true,
+            "latency_s": 0.7539153099060059
+          },
+          {
+            "idx": 42,
+            "question": "As of 2019, which of the following had the lowest life expectancy?",
+            "correct_letter": "C",
+            "predicted": "A",
+            "raw": "A",
+            "correct": false,
+            "latency_s": 0.8988687992095947
+          },
+          {
+            "idx": 43,
+            "question": "As of 2019, unsafe water is responsible for about how many deaths each year?",
+            "correct_letter": "A",
+            "predicted": "A",
+            "raw": "A",
+            "correct": true,
+            "latency_s": 0.8585948944091797
+          },
+          {
+            "idx": 44,
+            "question": "Which of the following causes more deaths globally each year (as of 2017)?",
+            "correct_letter": "C",
+            "predicted": "A",
+            "raw": "A",
+            "correct": false,
+            "latency_s": 0.7728760242462158
+          },
+          {
+            "idx": 45,
+            "question": "About how many people are infected by HIV/AIDS as of 2020?",
+            "correct_letter": "C",
+            "predicted": "C",
+            "raw": "C",
+            "correct": true,
+            "latency_s": 0.7142400741577148
+          },
+          {
+            "idx": 46,
+            "question": "What is the percentage of children aged 13-15 in the United States who reported ...",
+            "correct_letter": "A",
+            "predicted": "A",
+            "raw": "A",
+            "correct": true,
+            "latency_s": 0.9462089538574219
+          },
+          {
+            "idx": 47,
+            "question": "As of 2019, about what percentage of South Koreans say it is necessary to believ...",
+            "correct_letter": "B",
+            "predicted": "A",
+            "raw": "A",
+            "correct": false,
+            "latency_s": 0.656494140625
+          },
+          {
+            "idx": 48,
+            "question": "What is the percentage of children aged 13-15 in Japan who reported being bullie...",
+            "correct_letter": "C",
+            "predicted": "B",
+            "raw": "B",
+            "correct": false,
+            "latency_s": 0.721235990524292
+          },
+          {
+            "idx": 49,
+            "question": "As of 2018, about what percentage of US adults say computer programs will always...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 0.7656359672546387
+          },
+          {
+            "idx": 50,
+            "question": "As of 2017, the share of GDP spent on the military by China is about",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 0.6880290508270264
+          },
+          {
+            "idx": 51,
+            "question": "The conjecture that inequality first increases with development, then decreases ...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 1.3132688999176025
+          },
+          {
+            "idx": 52,
+            "question": "Worldwide, 30 year old men have spent 10 years in school, on average. How many y...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 0.8416688442230225
+          },
+          {
+            "idx": 53,
+            "question": "As of 2017, the share of deaths in Greenland by suicide is about",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 0.7837882041931152
+          },
+          {
+            "idx": 54,
+            "question": "As of 2019, about what percentage of people from Russia says homosexuality shoul...",
+            "correct_letter": "A",
+            "predicted": "B",
+            "raw": "B",
+            "correct": false,
+            "latency_s": 0.8294570446014404
+          },
+          {
+            "idx": 55,
+            "question": "As of 2019, about what percentage of Americans say the relationship between the ...",
+            "correct_letter": "B",
+            "predicted": "A",
+            "raw": "A",
+            "correct": false,
+            "latency_s": 1.8661699295043945
+          },
+          {
+            "idx": 56,
+            "question": "As of 2019, about what percentage of Americans say it is very important to have ...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 0.9370670318603516
+          },
+          {
+            "idx": 57,
+            "question": "In 1987 during Iran Contra what percent of Americans believe Reagan was witholdi...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 0.7652921676635742
+          },
+          {
+            "idx": 58,
+            "question": "In Sub-Saharan Africa, as of 2020,",
+            "correct_letter": "C",
+            "predicted": "D",
+            "raw": "D",
+            "correct": false,
+            "latency_s": 0.7963039875030518
+          },
+          {
+            "idx": 59,
+            "question": "World Bank data show that in 1995, the poorest 20% of households accounted for 7...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 0.823646068572998
+          }
+        ]
+      }
+    },
+    "o4-mini": {
+      "formal_logic": {
+        "accuracy": 0.75,
+        "error_rate": 0.25,
+        "n_correct": 45,
+        "n_answered": 46,
+        "n_total": 60,
+        "per_item": [
+          {
+            "idx": 0,
+            "question": "Identify the conclusion of the following argument. It is hard not to verify in o...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 2.7668700218200684
+          },
+          {
+            "idx": 1,
+            "question": "Select the best translation into predicate logic. David teaches Chris. (c: Chris...",
+            "correct_letter": "A",
+            "predicted": "A",
+            "raw": "A",
+            "correct": true,
+            "latency_s": 1.0800952911376953
+          },
+          {
+            "idx": 2,
+            "question": " Select the best English interpretation of the given proposition, using the foll...",
+            "correct_letter": "C",
+            "predicted": "C",
+            "raw": "C",
+            "correct": true,
+            "latency_s": 2.577777862548828
+          },
+          {
+            "idx": 3,
+            "question": "Construct a complete truth table for the following argument. Then, using the tru...",
+            "correct_letter": "A",
+            "predicted": "A",
+            "raw": "A",
+            "correct": true,
+            "latency_s": 2.9231910705566406
+          },
+          {
+            "idx": 4,
+            "question": " Use the following key to translate the given formula of PL to natural, English ...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 2.5537190437316895
+          },
+          {
+            "idx": 5,
+            "question": " Select the best English interpretation of the given proposition, using the foll...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 2.535782814025879
+          },
+          {
+            "idx": 6,
+            "question": "Construct a complete truth table for the following argument. Then, using the tru...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 3.3639988899230957
+          },
+          {
+            "idx": 7,
+            "question": "Identify the antecedent of the following conditional proposition: If the univers...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 1.853835105895996
+          },
+          {
+            "idx": 8,
+            "question": " Which of the following propositions is an immediate (one-step) consequence in P...",
+            "correct_letter": "D",
+            "predicted": null,
+            "raw": "",
+            "correct": false,
+            "latency_s": 3.7047510147094727
+          },
+          {
+            "idx": 9,
+            "question": " Which of the given formulas of PL is the best symbolization of the following se...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 1.7167260646820068
+          },
+          {
+            "idx": 10,
+            "question": " Select the best translation into predicate logic. All kings are luckier than al...",
+            "correct_letter": "A",
+            "predicted": "A",
+            "raw": "A",
+            "correct": true,
+            "latency_s": 2.3206353187561035
+          },
+          {
+            "idx": 11,
+            "question": " Construct a complete truth table for the following pairs of propositions. Then,...",
+            "correct_letter": "B",
+            "predicted": null,
+            "raw": "",
+            "correct": false,
+            "latency_s": 3.7318978309631348
+          },
+          {
+            "idx": 12,
+            "question": "Which of the following propositions is an immediate (one-step) consequence in PL...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 3.085477828979492
+          },
+          {
+            "idx": 13,
+            "question": "Use indirect truth tables to determine whether the following argument is valid. ...",
+            "correct_letter": "C",
+            "predicted": null,
+            "raw": "",
+            "correct": false,
+            "latency_s": 3.610842227935791
+          },
+          {
+            "idx": 14,
+            "question": "Use indirect truth tables to determine whether the following argument is valid. ...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 2.467919111251831
+          },
+          {
+            "idx": 15,
+            "question": " Select the best translation into predicate logic. Some firefighters rescue vict...",
+            "correct_letter": "B",
+            "predicted": null,
+            "raw": "",
+            "correct": false,
+            "latency_s": 3.461028814315796
+          },
+          {
+            "idx": 16,
+            "question": "Identify the antecedent of the following conditional proposition: The university...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 2.873776912689209
+          },
+          {
+            "idx": 17,
+            "question": " Select the best translation into predicate logic. All planets are smaller than ...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 2.410189151763916
+          },
+          {
+            "idx": 18,
+            "question": "Select the best translation into predicate logic. Jos\u00e9 introduces Wilma to Kevin...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 2.3689379692077637
+          },
+          {
+            "idx": 19,
+            "question": " Select the best translation into predicate logic: No artifacts are people.",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 1.5996859073638916
+          },
+          {
+            "idx": 20,
+            "question": " Construct a complete truth table for the following argument. Then, using the tr...",
+            "correct_letter": "B",
+            "predicted": null,
+            "raw": "",
+            "correct": false,
+            "latency_s": 4.107966899871826
+          },
+          {
+            "idx": 21,
+            "question": "Select the best translation into predicate logic. Marco moves from Italy to Spai...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 2.484102249145508
+          },
+          {
+            "idx": 22,
+            "question": " Select the best English interpretation of the given proposition, using the foll...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 2.3599050045013428
+          },
+          {
+            "idx": 23,
+            "question": " Construct a complete truth table for the following argument. Then, using the tr...",
+            "correct_letter": "C",
+            "predicted": "C",
+            "raw": "C",
+            "correct": true,
+            "latency_s": 3.4967970848083496
+          },
+          {
+            "idx": 24,
+            "question": " Which of the given formulas of PL is the best symbolization of the following se...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 1.8175878524780273
+          },
+          {
+            "idx": 25,
+            "question": " Use indirect truth tables to determine whether each set of propositions is cons...",
+            "correct_letter": "A",
+            "predicted": "A",
+            "raw": "A",
+            "correct": true,
+            "latency_s": 2.3537137508392334
+          },
+          {
+            "idx": 26,
+            "question": " Which of the given formulas of PL is the best symbolization of the following se...",
+            "correct_letter": "D",
+            "predicted": "C",
+            "raw": "C",
+            "correct": false,
+            "latency_s": 1.8648779392242432
+          },
+          {
+            "idx": 27,
+            "question": " Which of the given formulas of PL is the best symbolization of the following se...",
+            "correct_letter": "A",
+            "predicted": "A",
+            "raw": "A",
+            "correct": true,
+            "latency_s": 1.565657138824463
+          },
+          {
+            "idx": 28,
+            "question": "Select the best translation into predicate logic: Either Taylor or Eric is a lat...",
+            "correct_letter": "A",
+            "predicted": "A",
+            "raw": "A",
+            "correct": true,
+            "latency_s": 2.1038572788238525
+          },
+          {
+            "idx": 29,
+            "question": "Use indirect truth tables to determine whether the following argument is valid. ...",
+            "correct_letter": "A",
+            "predicted": "A",
+            "raw": "A",
+            "correct": true,
+            "latency_s": 3.081294059753418
+          },
+          {
+            "idx": 30,
+            "question": " Use indirect truth tables to determine whether each set of propositions is cons...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 3.875788927078247
+          },
+          {
+            "idx": 31,
+            "question": " Construct a complete truth table for the following argument. Then, using the tr...",
+            "correct_letter": "A",
+            "predicted": null,
+            "raw": "",
+            "correct": false,
+            "latency_s": 3.6729438304901123
+          },
+          {
+            "idx": 32,
+            "question": " Which of the following propositions is an immediate (one-step) consequence in P...",
+            "correct_letter": "D",
+            "predicted": null,
+            "raw": "",
+            "correct": false,
+            "latency_s": 4.631891965866089
+          },
+          {
+            "idx": 33,
+            "question": "Identify the antecedent of the following conditional proposition: If the Bees do...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 1.453167200088501
+          },
+          {
+            "idx": 34,
+            "question": "Select the best translation into predicate logic. Holly loves Frances. (f: Franc...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 1.977916955947876
+          },
+          {
+            "idx": 35,
+            "question": "Use indirect truth tables to determine whether the following argument is valid. ...",
+            "correct_letter": "C",
+            "predicted": null,
+            "raw": "",
+            "correct": false,
+            "latency_s": 3.943613290786743
+          },
+          {
+            "idx": 36,
+            "question": " Construct a complete truth table for the following argument. Then, using the tr...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 2.6291749477386475
+          },
+          {
+            "idx": 37,
+            "question": "Identify the antecedent of the following conditional proposition: The university...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 1.612328290939331
+          },
+          {
+            "idx": 38,
+            "question": " Identify the antecedent of the following conditional proposition: The restauran...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 1.270381212234497
+          },
+          {
+            "idx": 39,
+            "question": " Select the best translation into predicate logic. All jellybeans are sweeter th...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 13.3262939453125
+          },
+          {
+            "idx": 40,
+            "question": "Identify the conclusion of the following argument. That the world is my idea is ...",
+            "correct_letter": "A",
+            "predicted": "A",
+            "raw": "A",
+            "correct": true,
+            "latency_s": 1.7665579319000244
+          },
+          {
+            "idx": 41,
+            "question": "Select the best translation into predicate logic. Leo is taller than Cathy. (c: ...",
+            "correct_letter": "A",
+            "predicted": "A",
+            "raw": "A",
+            "correct": true,
+            "latency_s": 1.4843487739562988
+          },
+          {
+            "idx": 42,
+            "question": " Construct a complete truth table for the following pairs of propositions. Then,...",
+            "correct_letter": "C",
+            "predicted": null,
+            "raw": "",
+            "correct": false,
+            "latency_s": 3.9620769023895264
+          },
+          {
+            "idx": 43,
+            "question": " Construct a complete truth table for the following pairs of propositions. Then,...",
+            "correct_letter": "A",
+            "predicted": "A",
+            "raw": "A",
+            "correct": true,
+            "latency_s": 2.182098865509033
+          },
+          {
+            "idx": 44,
+            "question": "Use indirect truth tables to determine whether the following argument is valid. ...",
+            "correct_letter": "A",
+            "predicted": null,
+            "raw": "",
+            "correct": false,
+            "latency_s": 4.021669149398804
+          },
+          {
+            "idx": 45,
+            "question": "Select the best translation into predicate logic: Cecilia breaks my heart if, an...",
+            "correct_letter": "A",
+            "predicted": "A",
+            "raw": "A",
+            "correct": true,
+            "latency_s": 2.161046028137207
+          },
+          {
+            "idx": 46,
+            "question": "Select the best translation into predicate logic: If Delilah is in New York City...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 1.8479948043823242
+          },
+          {
+            "idx": 47,
+            "question": " Use the following key to translate the given formula of PL to natural, English ...",
+            "correct_letter": "A",
+            "predicted": "A",
+            "raw": "A",
+            "correct": true,
+            "latency_s": 4.643465042114258
+          },
+          {
+            "idx": 48,
+            "question": "Use indirect truth tables to determine whether the following argument is valid. ...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 3.372429132461548
+          },
+          {
+            "idx": 49,
+            "question": " Select the best English interpretation of the given arguments in predicate logi...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 3.428619146347046
+          },
+          {
+            "idx": 50,
+            "question": " Which of the following propositions is an immediate (one-step) consequence in P...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 1.8166499137878418
+          },
+          {
+            "idx": 51,
+            "question": " Which of the following propositions is an immediate (one-step) consequence in P...",
+            "correct_letter": "A",
+            "predicted": null,
+            "raw": "",
+            "correct": false,
+            "latency_s": 3.7672791481018066
+          },
+          {
+            "idx": 52,
+            "question": "Select the best translation into predicate logic. Earth isn't bigger than Jupite...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 1.6926491260528564
+          },
+          {
+            "idx": 53,
+            "question": "Identify the antecedent of the following conditional proposition: The Bees winni...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 2.705134153366089
+          },
+          {
+            "idx": 54,
+            "question": "Identify the antecedent of the following conditional proposition: The Bees win t...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 1.9487171173095703
+          },
+          {
+            "idx": 55,
+            "question": " Select the best translation into predicate logic: Some athletes don't get injur...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 1.8566179275512695
+          },
+          {
+            "idx": 56,
+            "question": " Construct a complete truth table for the following pairs of propositions. Then,...",
+            "correct_letter": "B",
+            "predicted": null,
+            "raw": "",
+            "correct": false,
+            "latency_s": 3.944614887237549
+          },
+          {
+            "idx": 57,
+            "question": " Use indirect truth tables to determine whether each set of propositions is cons...",
+            "correct_letter": "B",
+            "predicted": null,
+            "raw": "",
+            "correct": false,
+            "latency_s": 3.852482795715332
+          },
+          {
+            "idx": 58,
+            "question": "Select the best translation into predicate logic: Caroline is sweet if, and only...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 2.4498980045318604
+          },
+          {
+            "idx": 59,
+            "question": " Which of the given formulas of PL is the best symbolization of the following se...",
+            "correct_letter": "D",
+            "predicted": null,
+            "raw": "",
+            "correct": false,
+            "latency_s": 3.672541856765747
+          }
+        ]
+      },
+      "global_facts": {
+        "accuracy": 0.48333333333333334,
+        "error_rate": 0.5166666666666666,
+        "n_correct": 29,
+        "n_answered": 38,
+        "n_total": 60,
+        "per_item": [
+          {
+            "idx": 0,
+            "question": "As of 2016, about what percentage of adults aged 18 years or older were overweig...",
+            "correct_letter": "C",
+            "predicted": "C",
+            "raw": "C",
+            "correct": true,
+            "latency_s": 1.604851245880127
+          },
+          {
+            "idx": 1,
+            "question": "What was GDP per capita in the United States in 1850 when adjusting for inflatio...",
+            "correct_letter": "B",
+            "predicted": null,
+            "raw": "",
+            "correct": false,
+            "latency_s": 3.639547824859619
+          },
+          {
+            "idx": 2,
+            "question": "As of 2019, about what percentage of people from the United States says homosexu...",
+            "correct_letter": "C",
+            "predicted": "C",
+            "raw": "C",
+            "correct": true,
+            "latency_s": 2.1147608757019043
+          },
+          {
+            "idx": 3,
+            "question": "Which of the following countries generated the most total energy from solar sour...",
+            "correct_letter": "A",
+            "predicted": "A",
+            "raw": "A",
+            "correct": true,
+            "latency_s": 1.685927152633667
+          },
+          {
+            "idx": 4,
+            "question": "Controlling for inflation and PPP-adjustment, about how much did GDP per capita ...",
+            "correct_letter": "C",
+            "predicted": null,
+            "raw": "",
+            "correct": false,
+            "latency_s": 3.686814069747925
+          },
+          {
+            "idx": 5,
+            "question": "What is the biggest cause of death in children under five years old (as of 2017)...",
+            "correct_letter": "A",
+            "predicted": "B",
+            "raw": "B",
+            "correct": false,
+            "latency_s": 1.5533499717712402
+          },
+          {
+            "idx": 6,
+            "question": "As of 2019, about what percentage of the global population does not have access ...",
+            "correct_letter": "C",
+            "predicted": "C",
+            "raw": "C",
+            "correct": true,
+            "latency_s": 1.88211989402771
+          },
+          {
+            "idx": 7,
+            "question": "About what percentage of survey respondents from India report having paid a brib...",
+            "correct_letter": "C",
+            "predicted": null,
+            "raw": "",
+            "correct": false,
+            "latency_s": 3.7077510356903076
+          },
+          {
+            "idx": 8,
+            "question": "As of 2017, what fraction of the population in Brazil used the internet in the p...",
+            "correct_letter": "C",
+            "predicted": "D",
+            "raw": "D",
+            "correct": false,
+            "latency_s": 2.5954620838165283
+          },
+          {
+            "idx": 9,
+            "question": "As of 2017, what fraction of the population in India used the internet in the pa...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 2.102045774459839
+          },
+          {
+            "idx": 10,
+            "question": "As of 2018, about what percentage of Indians say that having an increasing numbe...",
+            "correct_letter": "D",
+            "predicted": null,
+            "raw": "",
+            "correct": false,
+            "latency_s": 3.964456081390381
+          },
+          {
+            "idx": 11,
+            "question": "As of 2019, about what percentage of the world population lives in extreme pover...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 1.4569511413574219
+          },
+          {
+            "idx": 12,
+            "question": "As of 2020, about what percentage of the world population practices open defecat...",
+            "correct_letter": "C",
+            "predicted": "C",
+            "raw": "C",
+            "correct": true,
+            "latency_s": 2.3317317962646484
+          },
+          {
+            "idx": 13,
+            "question": "Which of the following is not an element of the redistribution-with-growth polic...",
+            "correct_letter": "A",
+            "predicted": "A",
+            "raw": "A",
+            "correct": true,
+            "latency_s": 1.7479040622711182
+          },
+          {
+            "idx": 14,
+            "question": "About what percentage of the global population was literate in 1950?",
+            "correct_letter": "B",
+            "predicted": null,
+            "raw": "",
+            "correct": false,
+            "latency_s": 4.0078651905059814
+          },
+          {
+            "idx": 15,
+            "question": "As of 2016, about what percentage of adults aged 18 years or older were obese?",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 1.7613129615783691
+          },
+          {
+            "idx": 16,
+            "question": "As of 2019, about what percentage of Germans say the relationship between the U....",
+            "correct_letter": "A",
+            "predicted": null,
+            "raw": "",
+            "correct": false,
+            "latency_s": 3.6195497512817383
+          },
+          {
+            "idx": 17,
+            "question": "As of 2017, what percentage of Americans live in urban areas?",
+            "correct_letter": "C",
+            "predicted": "C",
+            "raw": "C",
+            "correct": true,
+            "latency_s": 2.112549066543579
+          },
+          {
+            "idx": 18,
+            "question": "What was GDP per capita in the United States in 1950 when adjusting for inflatio...",
+            "correct_letter": "C",
+            "predicted": null,
+            "raw": "",
+            "correct": false,
+            "latency_s": 3.661313056945801
+          },
+          {
+            "idx": 19,
+            "question": "In 2016, about how many people in the United States were homeless?",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 1.5648529529571533
+          },
+          {
+            "idx": 20,
+            "question": "In 1965 how many Americans thought that sending troops to Vietnam was a mistake?",
+            "correct_letter": "A",
+            "predicted": null,
+            "raw": "",
+            "correct": false,
+            "latency_s": 3.589644193649292
+          },
+          {
+            "idx": 21,
+            "question": "As of 2013, share of people in the Ethiopia who think political parties are corr...",
+            "correct_letter": "A",
+            "predicted": null,
+            "raw": "",
+            "correct": false,
+            "latency_s": 19.937400102615356
+          },
+          {
+            "idx": 22,
+            "question": "In 1997, the World Bank found that the fraction of the world\u2019s population living...",
+            "correct_letter": "D",
+            "predicted": null,
+            "raw": "",
+            "correct": false,
+            "latency_s": 3.9564990997314453
+          },
+          {
+            "idx": 23,
+            "question": "As of 2015, agriculture made up about what percentage of total Indian GDP?",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 1.9579110145568848
+          },
+          {
+            "idx": 24,
+            "question": "Which of the following is true as of 2020?",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 2.2917168140411377
+          },
+          {
+            "idx": 25,
+            "question": "As of 2019, about what percentage of people from Brazil says homosexuality shoul...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 2.43369197845459
+          },
+          {
+            "idx": 26,
+            "question": "As of 2017, the share of GDP spent on the military by Saudi Arabia is about",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 2.7403571605682373
+          },
+          {
+            "idx": 27,
+            "question": "As of 2019, about what share of electricity came from fossil fuels in the United...",
+            "correct_letter": "C",
+            "predicted": "C",
+            "raw": "C",
+            "correct": true,
+            "latency_s": 2.2461769580841064
+          },
+          {
+            "idx": 28,
+            "question": "What is the percentage of children aged 13-15 in Egypt who reported being bullie...",
+            "correct_letter": "D",
+            "predicted": "B",
+            "raw": "B",
+            "correct": false,
+            "latency_s": 1.7869670391082764
+          },
+          {
+            "idx": 29,
+            "question": "As of 2018, about what percentage of US adults say criminal risk assessment for ...",
+            "correct_letter": "C",
+            "predicted": null,
+            "raw": "",
+            "correct": false,
+            "latency_s": 3.9054577350616455
+          },
+          {
+            "idx": 30,
+            "question": "In 2018, about how many chickens were killed for meat production?",
+            "correct_letter": "C",
+            "predicted": "C",
+            "raw": "C",
+            "correct": true,
+            "latency_s": 1.8664419651031494
+          },
+          {
+            "idx": 31,
+            "question": "In 2016, what percentage of the population of South Sudan had access to electric...",
+            "correct_letter": "A",
+            "predicted": "A",
+            "raw": "A",
+            "correct": true,
+            "latency_s": 1.8429899215698242
+          },
+          {
+            "idx": 32,
+            "question": "About what percentage of survey respondents from Mexico report having paid a bri...",
+            "correct_letter": "B",
+            "predicted": "A",
+            "raw": "A",
+            "correct": false,
+            "latency_s": 3.1101160049438477
+          },
+          {
+            "idx": 33,
+            "question": "Controlling for inflation and PPP-adjustment, about how much did GDP per capita ...",
+            "correct_letter": "C",
+            "predicted": "D",
+            "raw": "D",
+            "correct": false,
+            "latency_s": 2.9959118366241455
+          },
+          {
+            "idx": 34,
+            "question": "Ross Perot makes polling history by leading the presidential race briefly in Jun...",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 1.9232652187347412
+          },
+          {
+            "idx": 35,
+            "question": "As of 2019, about what percentage of Turks say God plays an important role in th...",
+            "correct_letter": "D",
+            "predicted": null,
+            "raw": "",
+            "correct": false,
+            "latency_s": 3.5062780380249023
+          },
+          {
+            "idx": 36,
+            "question": "Which of the following was responsible for the most death in the 20th century?",
+            "correct_letter": "D",
+            "predicted": "D",
+            "raw": "D",
+            "correct": true,
+            "latency_s": 1.8849217891693115
+          },
+          {
+            "idx": 37,
+            "question": "What is the percentage of children aged 13-15 in the United States who reported ...",
+            "correct_letter": "B",
+            "predicted": null,
+            "raw": "",
+            "correct": false,
+            "latency_s": 3.5657968521118164
+          },
+          {
+            "idx": 38,
+            "question": "Controlling for inflation and PPP-adjustment, about how much did GDP per capita ...",
+            "correct_letter": "D",
+            "predicted": null,
+            "raw": "",
+            "correct": false,
+            "latency_s": 4.968293905258179
+          },
+          {
+            "idx": 39,
+            "question": "As of 2019, about what percentage of people from Turkey agree that the state is ...",
+            "correct_letter": "C",
+            "predicted": null,
+            "raw": "",
+            "correct": false,
+            "latency_s": 3.673905849456787
+          },
+          {
+            "idx": 40,
+            "question": "As of 2015, what percentage of the global population over 15 years old was liter...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 2.0488121509552
+          },
+          {
+            "idx": 41,
+            "question": "About what percentage of survey respondents from China report having paid a brib...",
+            "correct_letter": "A",
+            "predicted": "B",
+            "raw": "B",
+            "correct": false,
+            "latency_s": 2.0036728382110596
+          },
+          {
+            "idx": 42,
+            "question": "As of 2019, which of the following had the lowest life expectancy?",
+            "correct_letter": "C",
+            "predicted": "C",
+            "raw": "C",
+            "correct": true,
+            "latency_s": 3.150118827819824
+          },
+          {
+            "idx": 43,
+            "question": "As of 2019, unsafe water is responsible for about how many deaths each year?",
+            "correct_letter": "A",
+            "predicted": null,
+            "raw": "",
+            "correct": false,
+            "latency_s": 3.7592968940734863
+          },
+          {
+            "idx": 44,
+            "question": "Which of the following causes more deaths globally each year (as of 2017)?",
+            "correct_letter": "C",
+            "predicted": null,
+            "raw": "",
+            "correct": false,
+            "latency_s": 4.045709133148193
+          },
+          {
+            "idx": 45,
+            "question": "About how many people are infected by HIV/AIDS as of 2020?",
+            "correct_letter": "C",
+            "predicted": "C",
+            "raw": "C",
+            "correct": true,
+            "latency_s": 1.954162836074829
+          },
+          {
+            "idx": 46,
+            "question": "What is the percentage of children aged 13-15 in the United States who reported ...",
+            "correct_letter": "A",
+            "predicted": null,
+            "raw": "",
+            "correct": false,
+            "latency_s": 3.816127061843872
+          },
+          {
+            "idx": 47,
+            "question": "As of 2019, about what percentage of South Koreans say it is necessary to believ",
+            "correct_letter": "B",
+            "predicted": null,
+            "raw": "ERROR: Error code: 400 - {'error': {'message': 'Could not finish the message because max_tokens or model output limit was reached. Please try again with higher max_tokens.', 'type': 'invalid_request_error', 'param': None, 'code': None}}",
+            "correct": false,
+            "latency_s": 0.0
+          },
+          {
+            "idx": 48,
+            "question": "What is the percentage of children aged 13-15 in Japan who reported being bullie...",
+            "correct_letter": "C",
+            "predicted": "B",
+            "raw": "B",
+            "correct": false,
+            "latency_s": 1.9809989929199219
+          },
+          {
+            "idx": 49,
+            "question": "As of 2018, about what percentage of US adults say computer programs will always...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 3.0658769607543945
+          },
+          {
+            "idx": 50,
+            "question": "As of 2017, the share of GDP spent on the military by China is about",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 1.5256567001342773
+          },
+          {
+            "idx": 51,
+            "question": "The conjecture that inequality first increases with development, then decreases ...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 2.406299114227295
+          },
+          {
+            "idx": 52,
+            "question": "Worldwide, 30 year old men have spent 10 years in school, on average. How many y...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 2.0023229122161865
+          },
+          {
+            "idx": 53,
+            "question": "As of 2017, the share of deaths in Greenland by suicide is about",
+            "correct_letter": "D",
+            "predicted": null,
+            "raw": "",
+            "correct": false,
+            "latency_s": 4.572367906570435
+          },
+          {
+            "idx": 54,
+            "question": "As of 2019, about what percentage of people from Russia says homosexuality shoul...",
+            "correct_letter": "A",
+            "predicted": null,
+            "raw": "",
+            "correct": false,
+            "latency_s": 3.387394666671753
+          },
+          {
+            "idx": 55,
+            "question": "As of 2019, about what percentage of Americans say the relationship between the ...",
+            "correct_letter": "B",
+            "predicted": null,
+            "raw": "",
+            "correct": false,
+            "latency_s": 3.80104398727417
+          },
+          {
+            "idx": 56,
+            "question": "As of 2019, about what percentage of Americans say it is very important to have ...",
+            "correct_letter": "D",
+            "predicted": "C",
+            "raw": "C",
+            "correct": false,
+            "latency_s": 3.254591941833496
+          },
+          {
+            "idx": 57,
+            "question": "In 1987 during Iran Contra what percent of Americans believe Reagan was witholdi...",
+            "correct_letter": "D",
+            "predicted": "C",
+            "raw": "C",
+            "correct": false,
+            "latency_s": 3.131150007247925
+          },
+          {
+            "idx": 58,
+            "question": "In Sub-Saharan Africa, as of 2020,",
+            "correct_letter": "C",
+            "predicted": "C",
+            "raw": "C",
+            "correct": true,
+            "latency_s": 4.2528979778289795
+          },
+          {
+            "idx": 59,
+            "question": "World Bank data show that in 1995, the poorest 20% of households accounted for 7...",
+            "correct_letter": "B",
+            "predicted": "B",
+            "raw": "B",
+            "correct": true,
+            "latency_s": 1.4952478408813477
+          }
+        ]
+      }
+    }
+  },
+  "correlations": {
+    "formal_logic": {
+      "n": 3,
+      "models": [
+        "deepseek-chat",
+        "gpt-4o",
+        "o4-mini"
+      ],
+      "ig_scores": [
+        6.93,
+        6.97,
+        7.59
+      ],
+      "error_rates": [
+        36.66666666666667,
+        38.33333333333333,
+        25.0
+      ],
+      "pearson_r": -0.9857476121923192,
+      "pearson_p": 0.10761085958658446,
+      "spearman_r": -0.5,
+      "spearman_p": 0.6666666666666666,
+      "jackknife_without_haiku": {},
+      "partial_correlation": {
+        "partial_r": -1.0,
+        "partial_p": 0.0,
+        "note": "r(IG, error | FormInv_accuracy)"
+      }
+    },
+    "global_facts": {
+      "n": 3,
+      "models": [
+        "deepseek-chat",
+        "gpt-4o",
+        "o4-mini"
+      ],
+      "ig_scores": [
+        6.93,
+        6.97,
+        7.59
+      ],
+      "error_rates": [
+        28.333333333333332,
+        30.000000000000004,
+        51.66666666666666
+      ],
+      "pearson_r": 0.999950116079851,
+      "pearson_p": 0.006358829990584497,
+      "spearman_r": 1.0,
+      "spearman_p": 0.0,
+      "jackknife_without_haiku": {},
+      "partial_correlation": {
+        "partial_r": 1.0,
+        "partial_p": 0.0,
+        "note": "r(IG, error | FormInv_accuracy)"
+      }
+    }
+  },
+  "forminv_ig": {
+    "deepseek-chat": 6.93,
+    "gpt-4o": 6.97,
+    "o4-mini": 7.59,
+    "gemini-2.5-flash": 7.69,
+    "gpt-4o-mini": 8.67,
+    "deepseek-reasoner": 8.84,
+    "claude-sonnet-4-6": 10.72,
+    "meta-llama/llama-3.3-70b-instruct": 13.75,
+    "claude-haiku-4-5": 19.38
+  },
+  "forminv_acc": {
+    "deepseek-chat": 96.43,
+    "gpt-4o": 94.24,
+    "o4-mini": 96.37,
+    "gemini-2.5-flash": 94.9,
+    "gpt-4o-mini": 94.29,
+    "deepseek-reasoner": 93.02,
+    "claude-sonnet-4-6": 93.17,
+    "meta-llama/llama-3.3-70b-instruct": 89.8,
+    "claude-haiku-4-5": 86.04
+  }
+}

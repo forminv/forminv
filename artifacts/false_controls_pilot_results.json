@@ -1,0 +1,578 @@
+{
+  "oracle_balanced_accuracy": 0.5,
+  "oracle_raw_accuracy_75items": 0.6666666666666666,
+  "models": {
+    "anthropic/claude-haiku-4-5": {
+      "preds": [
+        {
+          "id": "false_001_converse_prime_canonical",
+          "theorem_id": "false_001_converse_prime",
+          "family": "canonical",
+          "gt": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "raw": "FALSE\n\nThe statement is mathematically incorrect. For example, 4 is a natural nu"
+        },
+        {
+          "id": "false_001_converse_prime_syntactic",
+          "theorem_id": "false_001_converse_prime",
+          "family": "syntactic",
+          "gt": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "raw": "FALSE"
+        },
+        {
+          "id": "false_001_converse_prime_quantifier",
+          "theorem_id": "false_001_converse_prime",
+          "family": "quantifier",
+          "gt": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "raw": "FALSE\n\nThe statement is incorrect because not all natural numbers greater than 1"
+        },
+        {
+          "id": "false_001_converse_prime_order",
+          "theorem_id": "false_001_converse_prime",
+          "family": "order",
+          "gt": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "raw": "FALSE\n\nCounterexample: n = 4 satisfies 1 < 4"
+        },
+        {
+          "id": "false_001_converse_prime_notation",
+          "theorem_id": "false_001_converse_prime",
+          "family": "notation",
+          "gt": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "raw": "FALSE\n\nThe statement claims that all natural numbers greater than 1 are prime. T"
+        },
+        {
+          "id": "false_002_sq_pos_canonical",
+          "theorem_id": "false_002_sq_pos",
+          "family": "canonical",
+          "gt": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "raw": "FALSE\n\nThe square of zero is 0, which is not strictly positive (strictly positiv"
+        },
+        {
+          "id": "false_002_sq_pos_syntactic",
+          "theorem_id": "false_002_sq_pos",
+          "family": "syntactic",
+          "gt": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "raw": "FALSE\n\nThe statement is incorrect because squaring zero gives zero, which is not"
+        },
+        {
+          "id": "false_002_sq_pos_quantifier",
+          "theorem_id": "false_002_sq_pos",
+          "family": "quantifier",
+          "gt": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "raw": "FALSE\n\nWhen x = 0, we have x\u00b2 = 0, which is not strictly"
+        },
+        {
+          "id": "false_002_sq_pos_order",
+          "theorem_id": "false_002_sq_pos",
+          "family": "order",
+          "gt": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "raw": "FALSE\n\nFor x = 0, we have x\u00b2 = 0, which is not greater"
+        },
+        {
+          "id": "false_002_sq_pos_notation",
+          "theorem_id": "false_002_sq_pos",
+          "family": "notation",
+          "gt": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "raw": "FALSE\n\nThe statement is false because when x = 0, we have x\u00b2 = 0"
+        },
+        {
+          "id": "false_003_dvd_implies_equal_canonical",
+          "theorem_id": "false_003_dvd_implies_equal",
+          "family": "canonical",
+          "gt": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "raw": "FALSE\n\nA natural number can divide two different natural numbers. For example, 2"
+        },
+        {
+          "id": "false_003_dvd_implies_equal_syntactic",
+          "theorem_id": "false_003_dvd_implies_equal",
+          "family": "syntactic",
+          "gt": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "raw": "FALSE\n\nCounterexample: The natural number 2 divides both 4 and"
+        },
+        {
+          "id": "false_003_dvd_implies_equal_quantifier",
+          "theorem_id": "false_003_dvd_implies_equal",
+          "family": "quantifier",
+          "gt": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "raw": "FALSE\n\nIf a divides b and a divides c, it only means that b and c"
+        },
+        {
+          "id": "false_003_dvd_implies_equal_order",
+          "theorem_id": "false_003_dvd_implies_equal",
+          "family": "order",
+          "gt": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "raw": "FALSE\n\nA counterexample: Let a = 2, b = 4, c ="
+        },
+        {
+          "id": "false_003_dvd_implies_equal_notation",
+          "theorem_id": "false_003_dvd_implies_equal",
+          "family": "notation",
+          "gt": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "raw": "FALSE\n\nThe statement claims that if a divides b AND a divides c, then b must"
+        },
+        {
+          "id": "false_004_subset_iff_equal_canonical",
+          "theorem_id": "false_004_subset_iff_equal",
+          "family": "canonical",
+          "gt": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "raw": "FALSE\n\nIf A \u2229 B = A, this means A \u2286"
+        },
+        {
+          "id": "false_004_subset_iff_equal_syntactic",
+          "theorem_id": "false_004_subset_iff_equal",
+          "family": "syntactic",
+          "gt": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "raw": "FALSE\n\nIf A \u2229 B = A, this means A \u2286"
+        },
+        {
+          "id": "false_004_subset_iff_equal_quantifier",
+          "theorem_id": "false_004_subset_iff_equal",
+          "family": "quantifier",
+          "gt": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "raw": "FALSE\n\nIf A \u2229 B = A, then A \u2286 B"
+        },
+        {
+          "id": "false_004_subset_iff_equal_order",
+          "theorem_id": "false_004_subset_iff_equal",
+          "family": "order",
+          "gt": "FALSE",
+          "parsed": "TRUE",
+          "correct": false,
+          "raw": "TRUE\n\n**Reasoning:**\n- If A \u2286 B, then every element"
+        },
+        {
+          "id": "false_004_subset_iff_equal_notation",
+          "theorem_id": "false_004_subset_iff_equal",
+          "family": "notation",
+          "gt": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "raw": "FALSE\n\nThe statement claims that for all sets A and B, if A \u2229 B"
+        },
+        {
+          "id": "false_005_factorial_gt_n_canonical",
+          "theorem_id": "false_005_factorial_gt_n",
+          "family": "canonical",
+          "gt": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "raw": "FALSE\n\nThe factorial of 1 is 1! = 1, which equals 1"
+        },
+        {
+          "id": "false_005_factorial_gt_n_syntactic",
+          "theorem_id": "false_005_factorial_gt_n",
+          "family": "syntactic",
+          "gt": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "raw": "FALSE\n\nFor n = 0: 0! = 1, and 1 >"
+        },
+        {
+          "id": "false_005_factorial_gt_n_quantifier",
+          "theorem_id": "false_005_factorial_gt_n",
+          "family": "quantifier",
+          "gt": "FALSE",
+          "parsed": "TRUE",
+          "correct": false,
+          "raw": "TRUE\n\nFor every natural number n, n! > n.\n\n- n = 1:"
+        },
+        {
+          "id": "false_005_factorial_gt_n_order",
+          "theorem_id": "false_005_factorial_gt_n",
+          "family": "order",
+          "gt": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "raw": "FALSE\n\nThe statement is false because it is not true for n = 1.\n\nWhen n"
+        },
+        {
+          "id": "false_005_factorial_gt_n_notation",
+          "theorem_id": "false_005_factorial_gt_n",
+          "family": "notation",
+          "gt": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "raw": "FALSE\n\nFor n = 1: 1! = 1, and 1 >"
+        }
+      ],
+      "n_items": 25,
+      "n_valid": 25,
+      "accuracy_on_false": 0.92,
+      "true_bias_rate": 0.08,
+      "scr_false": 0.6,
+      "per_theorem": {
+        "false_001_converse_prime": {
+          "answers": [
+            "FALSE",
+            "FALSE",
+            "FALSE",
+            "FALSE",
+            "FALSE"
+          ],
+          "consistent": true
+        },
+        "false_002_sq_pos": {
+          "answers": [
+            "FALSE",
+            "FALSE",
+            "FALSE",
+            "FALSE",
+            "FALSE"
+          ],
+          "consistent": true
+        },
+        "false_003_dvd_implies_equal": {
+          "answers": [
+            "FALSE",
+            "FALSE",
+            "FALSE",
+            "FALSE",
+            "FALSE"
+          ],
+          "consistent": true
+        },
+        "false_004_subset_iff_equal": {
+          "answers": [
+            "FALSE",
+            "FALSE",
+            "FALSE",
+            "TRUE",
+            "FALSE"
+          ],
+          "consistent": false
+        },
+        "false_005_factorial_gt_n": {
+          "answers": [
+            "FALSE",
+            "FALSE",
+            "TRUE",
+            "FALSE",
+            "FALSE"
+          ],
+          "consistent": false
+        }
+      }
+    },
+    "anthropic/claude-sonnet-4-6": {
+      "preds": [
+        {
+          "id": "false_001_converse_prime_canonical",
+          "theorem_id": "false_001_converse_prime",
+          "family": "canonical",
+          "gt": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "raw": "FALSE"
+        },
+        {
+          "id": "false_001_converse_prime_syntactic",
+          "theorem_id": "false_001_converse_prime",
+          "family": "syntactic",
+          "gt": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "raw": "FALSE"
+        },
+        {
+          "id": "false_001_converse_prime_quantifier",
+          "theorem_id": "false_001_converse_prime",
+          "family": "quantifier",
+          "gt": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "raw": "FALSE"
+        },
+        {
+          "id": "false_001_converse_prime_order",
+          "theorem_id": "false_001_converse_prime",
+          "family": "order",
+          "gt": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "raw": "FALSE"
+        },
+        {
+          "id": "false_001_converse_prime_notation",
+          "theorem_id": "false_001_converse_prime",
+          "family": "notation",
+          "gt": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "raw": "FALSE"
+        },
+        {
+          "id": "false_002_sq_pos_canonical",
+          "theorem_id": "false_002_sq_pos",
+          "family": "canonical",
+          "gt": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "raw": "FALSE"
+        },
+        {
+          "id": "false_002_sq_pos_syntactic",
+          "theorem_id": "false_002_sq_pos",
+          "family": "syntactic",
+          "gt": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "raw": "FALSE"
+        },
+        {
+          "id": "false_002_sq_pos_quantifier",
+          "theorem_id": "false_002_sq_pos",
+          "family": "quantifier",
+          "gt": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "raw": "FALSE"
+        },
+        {
+          "id": "false_002_sq_pos_order",
+          "theorem_id": "false_002_sq_pos",
+          "family": "order",
+          "gt": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "raw": "FALSE"
+        },
+        {
+          "id": "false_002_sq_pos_notation",
+          "theorem_id": "false_002_sq_pos",
+          "family": "notation",
+          "gt": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "raw": "FALSE"
+        },
+        {
+          "id": "false_003_dvd_implies_equal_canonical",
+          "theorem_id": "false_003_dvd_implies_equal",
+          "family": "canonical",
+          "gt": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "raw": "FALSE"
+        },
+        {
+          "id": "false_003_dvd_implies_equal_syntactic",
+          "theorem_id": "false_003_dvd_implies_equal",
+          "family": "syntactic",
+          "gt": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "raw": "FALSE"
+        },
+        {
+          "id": "false_003_dvd_implies_equal_quantifier",
+          "theorem_id": "false_003_dvd_implies_equal",
+          "family": "quantifier",
+          "gt": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "raw": "FALSE"
+        },
+        {
+          "id": "false_003_dvd_implies_equal_order",
+          "theorem_id": "false_003_dvd_implies_equal",
+          "family": "order",
+          "gt": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "raw": "FALSE"
+        },
+        {
+          "id": "false_003_dvd_implies_equal_notation",
+          "theorem_id": "false_003_dvd_implies_equal",
+          "family": "notation",
+          "gt": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "raw": "FALSE"
+        },
+        {
+          "id": "false_004_subset_iff_equal_canonical",
+          "theorem_id": "false_004_subset_iff_equal",
+          "family": "canonical",
+          "gt": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "raw": "FALSE"
+        },
+        {
+          "id": "false_004_subset_iff_equal_syntactic",
+          "theorem_id": "false_004_subset_iff_equal",
+          "family": "syntactic",
+          "gt": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "raw": "FALSE"
+        },
+        {
+          "id": "false_004_subset_iff_equal_quantifier",
+          "theorem_id": "false_004_subset_iff_equal",
+          "family": "quantifier",
+          "gt": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "raw": "FALSE"
+        },
+        {
+          "id": "false_004_subset_iff_equal_order",
+          "theorem_id": "false_004_subset_iff_equal",
+          "family": "order",
+          "gt": "FALSE",
+          "parsed": "TRUE",
+          "correct": false,
+          "raw": "TRUE"
+        },
+        {
+          "id": "false_004_subset_iff_equal_notation",
+          "theorem_id": "false_004_subset_iff_equal",
+          "family": "notation",
+          "gt": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "raw": "FALSE"
+        },
+        {
+          "id": "false_005_factorial_gt_n_canonical",
+          "theorem_id": "false_005_factorial_gt_n",
+          "family": "canonical",
+          "gt": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "raw": "FALSE\n\n(0! = 1 is not greater than 0 is false... actually"
+        },
+        {
+          "id": "false_005_factorial_gt_n_syntactic",
+          "theorem_id": "false_005_factorial_gt_n",
+          "family": "syntactic",
+          "gt": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "raw": "FALSE"
+        },
+        {
+          "id": "false_005_factorial_gt_n_quantifier",
+          "theorem_id": "false_005_factorial_gt_n",
+          "family": "quantifier",
+          "gt": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "raw": "FALSE\n\n(For n = 0: 0! = 1, which is not strictly"
+        },
+        {
+          "id": "false_005_factorial_gt_n_order",
+          "theorem_id": "false_005_factorial_gt_n",
+          "family": "order",
+          "gt": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "raw": "FALSE\n\n(It fails for n = 1, since 1 = 1!, and"
+        },
+        {
+          "id": "false_005_factorial_gt_n_notation",
+          "theorem_id": "false_005_factorial_gt_n",
+          "family": "notation",
+          "gt": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "raw": "FALSE\n\n(Counterexample: n = 1, 1! = 1,"
+        }
+      ],
+      "n_items": 25,
+      "n_valid": 25,
+      "accuracy_on_false": 0.96,
+      "true_bias_rate": 0.04,
+      "scr_false": 0.8,
+      "per_theorem": {
+        "false_001_converse_prime": {
+          "answers": [
+            "FALSE",
+            "FALSE",
+            "FALSE",
+            "FALSE",
+            "FALSE"
+          ],
+          "consistent": true
+        },
+        "false_002_sq_pos": {
+          "answers": [
+            "FALSE",
+            "FALSE",
+            "FALSE",
+            "FALSE",
+            "FALSE"
+          ],
+          "consistent": true
+        },
+        "false_003_dvd_implies_equal": {
+          "answers": [
+            "FALSE",
+            "FALSE",
+            "FALSE",
+            "FALSE",
+            "FALSE"
+          ],
+          "consistent": true
+        },
+        "false_004_subset_iff_equal": {
+          "answers": [
+            "FALSE",
+            "FALSE",
+            "FALSE",
+            "TRUE",
+            "FALSE"
+          ],
+          "consistent": false
+        },
+        "false_005_factorial_gt_n": {
+          "answers": [
+            "FALSE",
+            "FALSE",
+            "FALSE",
+            "FALSE",
+            "FALSE"
+          ],
+          "consistent": true
+        }
+      }
+    }
+  }
+}

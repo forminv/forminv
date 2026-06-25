@@ -1,0 +1,722 @@
+{
+  "aggregate": {
+    "mean_ig": 0.03771236166328253,
+    "std_ig": 0.12788884062167252,
+    "mean_accuracy": 0.9466666666666665,
+    "scr": 0.9,
+    "mean_baseline_variance": 0.0,
+    "ig_exceeds_2x_baseline": true,
+    "n_theorems": 50,
+    "n_paraphrases_per_theorem": 3,
+    "models": [
+      "gpt-4o",
+      "claude-sonnet-4-6"
+    ],
+    "total_predictions": 400,
+    "coverage": 1.0,
+    "gate_check_pass": false,
+    "recommendation": "ESCALATE to harder theorems (Tier 3-4) or review paraphrase quality"
+  },
+  "per_theorem": [
+    {
+      "theorem_id": "thm_0000_nat_prime_two_le",
+      "model": "gpt-4o",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0001_nat_prime_one_lt",
+      "model": "gpt-4o",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0002_nat_not_prime_one",
+      "model": "gpt-4o",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0003_nat_prime_prime_two",
+      "model": "gpt-4o",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0004_nat_dvd_antisymm",
+      "model": "gpt-4o",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0005_nat_dvd_refl",
+      "model": "gpt-4o",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0006_nat_dvd_zero",
+      "model": "gpt-4o",
+      "ig": 0.4714045207910317,
+      "mean_acc": 0.6666666666666666,
+      "scr": false
+    },
+    {
+      "theorem_id": "thm_0007_nat_zero_dvd",
+      "model": "gpt-4o",
+      "ig": 0.0,
+      "mean_acc": 0.0,
+      "scr": false
+    },
+    {
+      "theorem_id": "thm_0008_nat_dvd_add",
+      "model": "gpt-4o",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0009_nat_prime_dvd_mul",
+      "model": "gpt-4o",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0010_int_emod_emod_of_dvd",
+      "model": "gpt-4o",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0011_nat_mod_self",
+      "model": "gpt-4o",
+      "ig": 0.4714045207910317,
+      "mean_acc": 0.6666666666666666,
+      "scr": false
+    },
+    {
+      "theorem_id": "thm_0012_nat_zero_mod",
+      "model": "gpt-4o",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0013_sq_nonneg",
+      "model": "gpt-4o",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0014_add_comm",
+      "model": "gpt-4o",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0015_mul_comm",
+      "model": "gpt-4o",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0016_add_assoc",
+      "model": "gpt-4o",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0017_mul_assoc",
+      "model": "gpt-4o",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0018_add_zero",
+      "model": "gpt-4o",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0019_zero_add",
+      "model": "gpt-4o",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0020_mul_one",
+      "model": "gpt-4o",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0021_one_mul",
+      "model": "gpt-4o",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0022_sq_abs",
+      "model": "gpt-4o",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0023_abs_nonneg",
+      "model": "gpt-4o",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0024_polynomial_degree_ad",
+      "model": "gpt-4o",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0025_polynomial_degree_mu",
+      "model": "gpt-4o",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0026_set_subset_refl",
+      "model": "gpt-4o",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0027_set_subset_trans",
+      "model": "gpt-4o",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0028_set_inter_comm",
+      "model": "gpt-4o",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0029_set_union_comm",
+      "model": "gpt-4o",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0030_set_inter_assoc",
+      "model": "gpt-4o",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0031_set_union_assoc",
+      "model": "gpt-4o",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0032_set_empty_subset",
+      "model": "gpt-4o",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0033_set_inter_empty",
+      "model": "gpt-4o",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0034_set_union_empty",
+      "model": "gpt-4o",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0035_finset_card_empty",
+      "model": "gpt-4o",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0036_finset_card_singleto",
+      "model": "gpt-4o",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0037_nat_factorial_pos",
+      "model": "gpt-4o",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0038_nat_choose_symm",
+      "model": "gpt-4o",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0039_nat_choose_zero_righ",
+      "model": "gpt-4o",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0040_nat_choose_self",
+      "model": "gpt-4o",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0041_real_sqrt_nonneg",
+      "model": "gpt-4o",
+      "ig": 0.4714045207910317,
+      "mean_acc": 0.6666666666666666,
+      "scr": false
+    },
+    {
+      "theorem_id": "thm_0042_real_sqrt_sq",
+      "model": "gpt-4o",
+      "ig": 0.4714045207910317,
+      "mean_acc": 0.6666666666666666,
+      "scr": false
+    },
+    {
+      "theorem_id": "thm_0043_real_sqrt_mul_self",
+      "model": "gpt-4o",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0044_mul_inv_cancel",
+      "model": "gpt-4o",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0045_inv_mul_cancel",
+      "model": "gpt-4o",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0046_inv_inv",
+      "model": "gpt-4o",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0047_mul_left_cancel",
+      "model": "gpt-4o",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0048_le_refl",
+      "model": "gpt-4o",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0049_le_trans",
+      "model": "gpt-4o",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0000_nat_prime_two_le",
+      "model": "claude-sonnet-4-6",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0001_nat_prime_one_lt",
+      "model": "claude-sonnet-4-6",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0002_nat_not_prime_one",
+      "model": "claude-sonnet-4-6",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0003_nat_prime_prime_two",
+      "model": "claude-sonnet-4-6",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0004_nat_dvd_antisymm",
+      "model": "claude-sonnet-4-6",
+      "ig": 0.4714045207910317,
+      "mean_acc": 0.6666666666666666,
+      "scr": false
+    },
+    {
+      "theorem_id": "thm_0005_nat_dvd_refl",
+      "model": "claude-sonnet-4-6",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0006_nat_dvd_zero",
+      "model": "claude-sonnet-4-6",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0007_nat_zero_dvd",
+      "model": "claude-sonnet-4-6",
+      "ig": 0.4714045207910317,
+      "mean_acc": 0.3333333333333333,
+      "scr": false
+    },
+    {
+      "theorem_id": "thm_0008_nat_dvd_add",
+      "model": "claude-sonnet-4-6",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0009_nat_prime_dvd_mul",
+      "model": "claude-sonnet-4-6",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0010_int_emod_emod_of_dvd",
+      "model": "claude-sonnet-4-6",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0011_nat_mod_self",
+      "model": "claude-sonnet-4-6",
+      "ig": 0.4714045207910317,
+      "mean_acc": 0.3333333333333333,
+      "scr": false
+    },
+    {
+      "theorem_id": "thm_0012_nat_zero_mod",
+      "model": "claude-sonnet-4-6",
+      "ig": 0.4714045207910317,
+      "mean_acc": 0.6666666666666666,
+      "scr": false
+    },
+    {
+      "theorem_id": "thm_0013_sq_nonneg",
+      "model": "claude-sonnet-4-6",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0014_add_comm",
+      "model": "claude-sonnet-4-6",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0015_mul_comm",
+      "model": "claude-sonnet-4-6",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0016_add_assoc",
+      "model": "claude-sonnet-4-6",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0017_mul_assoc",
+      "model": "claude-sonnet-4-6",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0018_add_zero",
+      "model": "claude-sonnet-4-6",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0019_zero_add",
+      "model": "claude-sonnet-4-6",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0020_mul_one",
+      "model": "claude-sonnet-4-6",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0021_one_mul",
+      "model": "claude-sonnet-4-6",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0022_sq_abs",
+      "model": "claude-sonnet-4-6",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0023_abs_nonneg",
+      "model": "claude-sonnet-4-6",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0024_polynomial_degree_ad",
+      "model": "claude-sonnet-4-6",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0025_polynomial_degree_mu",
+      "model": "claude-sonnet-4-6",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0026_set_subset_refl",
+      "model": "claude-sonnet-4-6",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0027_set_subset_trans",
+      "model": "claude-sonnet-4-6",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0028_set_inter_comm",
+      "model": "claude-sonnet-4-6",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0029_set_union_comm",
+      "model": "claude-sonnet-4-6",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0030_set_inter_assoc",
+      "model": "claude-sonnet-4-6",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0031_set_union_assoc",
+      "model": "claude-sonnet-4-6",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0032_set_empty_subset",
+      "model": "claude-sonnet-4-6",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0033_set_inter_empty",
+      "model": "claude-sonnet-4-6",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0034_set_union_empty",
+      "model": "claude-sonnet-4-6",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0035_finset_card_empty",
+      "model": "claude-sonnet-4-6",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0036_finset_card_singleto",
+      "model": "claude-sonnet-4-6",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0037_nat_factorial_pos",
+      "model": "claude-sonnet-4-6",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0038_nat_choose_symm",
+      "model": "claude-sonnet-4-6",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0039_nat_choose_zero_righ",
+      "model": "claude-sonnet-4-6",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0040_nat_choose_self",
+      "model": "claude-sonnet-4-6",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0041_real_sqrt_nonneg",
+      "model": "claude-sonnet-4-6",
+      "ig": 0.0,
+      "mean_acc": 0.0,
+      "scr": false
+    },
+    {
+      "theorem_id": "thm_0042_real_sqrt_sq",
+      "model": "claude-sonnet-4-6",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0043_real_sqrt_mul_self",
+      "model": "claude-sonnet-4-6",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0044_mul_inv_cancel",
+      "model": "claude-sonnet-4-6",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0045_inv_mul_cancel",
+      "model": "claude-sonnet-4-6",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0046_inv_inv",
+      "model": "claude-sonnet-4-6",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0047_mul_left_cancel",
+      "model": "claude-sonnet-4-6",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0048_le_refl",
+      "model": "claude-sonnet-4-6",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0049_le_trans",
+      "model": "claude-sonnet-4-6",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    }
+  ]
+}

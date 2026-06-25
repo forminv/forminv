@@ -1,0 +1,91 @@
+{
+  "aggregate": {
+    "mean_ig": 0.0,
+    "std_ig": 0.0,
+    "mean_accuracy": 1.0,
+    "scr": 1.0,
+    "mean_baseline_variance": 0.0,
+    "ig_exceeds_2x_baseline": false,
+    "n_theorems": 10,
+    "n_paraphrases_per_theorem": 3,
+    "models": [
+      "mock-v1"
+    ],
+    "total_predictions": 40,
+    "coverage": 1.0,
+    "gate_check_pass": false,
+    "recommendation": "ESCALATE to harder theorems (Tier 3-4) or review paraphrase quality"
+  },
+  "per_theorem": [
+    {
+      "theorem_id": "thm_0000_nat_prime_two_le",
+      "model": "mock-v1",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0001_nat_prime_one_lt",
+      "model": "mock-v1",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0002_nat_not_prime_one",
+      "model": "mock-v1",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0003_nat_prime_prime_two",
+      "model": "mock-v1",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0004_nat_dvd_antisymm",
+      "model": "mock-v1",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0005_nat_dvd_refl",
+      "model": "mock-v1",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0006_nat_dvd_zero",
+      "model": "mock-v1",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0007_nat_zero_dvd",
+      "model": "mock-v1",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0008_nat_dvd_add",
+      "model": "mock-v1",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    },
+    {
+      "theorem_id": "thm_0009_nat_prime_dvd_mul",
+      "model": "mock-v1",
+      "ig": 0.0,
+      "mean_acc": 1.0,
+      "scr": true
+    }
+  ]
+}

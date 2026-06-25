@@ -1,0 +1,233 @@
+{
+  "per_model": {
+    "openai/o4-mini": {
+      "mean_ig": 0.08010979108312101,
+      "std_ig": 0.16009520674270725,
+      "max_ig": 0.4948716593053935,
+      "mean_accuracy": 0.95249653259362,
+      "scr": 0.7961165048543689,
+      "mean_baseline_variance": 0.0,
+      "ig_exceeds_2x_baseline": true,
+      "n_theorems": 103,
+      "pct_high_ig_10": 0.20388349514563106,
+      "pct_high_ig_20": 0.20388349514563106,
+      "family_failure_rates": {
+        "syntactic": 0.02912621359223301,
+        "quantifier": 0.019417475728155338,
+        "passive": 0.05434782608695652,
+        "notation": 0.04854368932038835,
+        "order": 0.0,
+        "unpack": 0.05825242718446602,
+        "equivalent": 0.0392156862745098,
+        "variation": 0.2692307692307692
+      },
+      "coverage": 0.9986842105263158
+    },
+    "deepseek/deepseek-reasoner": {
+      "mean_ig": 0.10127559985169483,
+      "std_ig": 0.1812299575115801,
+      "max_ig": 0.4948716593053935,
+      "mean_accuracy": 0.9191169671752196,
+      "scr": 0.7572815533980582,
+      "mean_baseline_variance": 0.0,
+      "ig_exceeds_2x_baseline": true,
+      "n_theorems": 103,
+      "pct_high_ig_10": 0.24271844660194175,
+      "pct_high_ig_20": 0.24271844660194175,
+      "family_failure_rates": {
+        "syntactic": 0.07766990291262135,
+        "quantifier": 0.04854368932038835,
+        "passive": 0.09782608695652174,
+        "notation": 0.038834951456310676,
+        "order": 0.08333333333333333,
+        "unpack": 0.1262135922330097,
+        "equivalent": 0.0392156862745098,
+        "variation": 0.34615384615384615
+      },
+      "coverage": 0.9986842105263158
+    }
+  },
+  "cross_model_disagreements": 38,
+  "disagreement_examples": [
+    {
+      "paraphrase_id": "thm_0007_nat_zero_dvd_canonical",
+      "theorem_id": "thm_0007_nat_zero_dvd",
+      "model_a": "o4-mini",
+      "label_a": "TRUE",
+      "model_b": "deepseek-reasoner",
+      "label_b": "FALSE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0007_nat_zero_dvd_connective_variation",
+      "theorem_id": "thm_0007_nat_zero_dvd",
+      "model_a": "o4-mini",
+      "label_a": "TRUE",
+      "model_b": "deepseek-reasoner",
+      "label_b": "FALSE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0010_int_emod_emod_of_dvd_surface_quantifier",
+      "theorem_id": "thm_0010_int_emod_emod_of_dvd",
+      "model_a": "o4-mini",
+      "label_a": "FALSE",
+      "model_b": "deepseek-reasoner",
+      "label_b": "TRUE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0011_nat_mod_self_formal_notation",
+      "theorem_id": "thm_0011_nat_mod_self",
+      "model_a": "o4-mini",
+      "label_a": "FALSE",
+      "model_b": "deepseek-reasoner",
+      "label_b": "TRUE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0011_nat_mod_self_definitional_unpack",
+      "theorem_id": "thm_0011_nat_mod_self",
+      "model_a": "o4-mini",
+      "label_a": "TRUE",
+      "model_b": "deepseek-reasoner",
+      "label_b": "FALSE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0012_nat_zero_mod_formal_notation",
+      "theorem_id": "thm_0012_nat_zero_mod",
+      "model_a": "o4-mini",
+      "label_a": "TRUE",
+      "model_b": "deepseek-reasoner",
+      "label_b": "FALSE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0022_sq_abs_canonical",
+      "theorem_id": "thm_0022_sq_abs",
+      "model_a": "o4-mini",
+      "label_a": "TRUE",
+      "model_b": "deepseek-reasoner",
+      "label_b": "FALSE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0022_sq_abs_surface_syntactic",
+      "theorem_id": "thm_0022_sq_abs",
+      "model_a": "o4-mini",
+      "label_a": "TRUE",
+      "model_b": "deepseek-reasoner",
+      "label_b": "FALSE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0022_sq_abs_surface_quantifier",
+      "theorem_id": "thm_0022_sq_abs",
+      "model_a": "o4-mini",
+      "label_a": "TRUE",
+      "model_b": "deepseek-reasoner",
+      "label_b": "FALSE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0022_sq_abs_active_passive",
+      "theorem_id": "thm_0022_sq_abs",
+      "model_a": "o4-mini",
+      "label_a": "TRUE",
+      "model_b": "deepseek-reasoner",
+      "label_b": "FALSE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0025_polynomial_degree_mu_surface_quantifier",
+      "theorem_id": "thm_0025_polynomial_degree_mu",
+      "model_a": "o4-mini",
+      "label_a": "TRUE",
+      "model_b": "deepseek-reasoner",
+      "label_b": "FALSE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0025_polynomial_degree_mu_formal_notation",
+      "theorem_id": "thm_0025_polynomial_degree_mu",
+      "model_a": "o4-mini",
+      "label_a": "TRUE",
+      "model_b": "deepseek-reasoner",
+      "label_b": "FALSE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0027_set_subset_trans_active_passive",
+      "theorem_id": "thm_0027_set_subset_trans",
+      "model_a": "o4-mini",
+      "label_a": "TRUE",
+      "model_b": "deepseek-reasoner",
+      "label_b": "FALSE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0041_real_sqrt_nonneg_surface_syntactic",
+      "theorem_id": "thm_0041_real_sqrt_nonneg",
+      "model_a": "o4-mini",
+      "label_a": "TRUE",
+      "model_b": "deepseek-reasoner",
+      "label_b": "FALSE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0041_real_sqrt_nonneg_active_passive",
+      "theorem_id": "thm_0041_real_sqrt_nonneg",
+      "model_a": "o4-mini",
+      "label_a": "TRUE",
+      "model_b": "deepseek-reasoner",
+      "label_b": "FALSE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0041_real_sqrt_nonneg_comparison_order",
+      "theorem_id": "thm_0041_real_sqrt_nonneg",
+      "model_a": "o4-mini",
+      "label_a": "TRUE",
+      "model_b": "deepseek-reasoner",
+      "label_b": "FALSE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0041_real_sqrt_nonneg_definitional_unpack",
+      "theorem_id": "thm_0041_real_sqrt_nonneg",
+      "model_a": "o4-mini",
+      "label_a": "TRUE",
+      "model_b": "deepseek-reasoner",
+      "label_b": "FALSE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0051_lt_irrefl_definitional_unpack",
+      "theorem_id": "thm_0051_lt_irrefl",
+      "model_a": "o4-mini",
+      "label_a": "FALSE",
+      "model_b": "deepseek-reasoner",
+      "label_b": "TRUE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0063_nat_lt_succ_iff_canonical",
+      "theorem_id": "thm_0063_nat_lt_succ_iff",
+      "model_a": "o4-mini",
+      "label_a": "TRUE",
+      "model_b": "deepseek-reasoner",
+      "label_b": "FALSE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0063_nat_lt_succ_iff_surface_syntactic",
+      "theorem_id": "thm_0063_nat_lt_succ_iff",
+      "model_a": "o4-mini",
+      "label_a": "TRUE",
+      "model_b": "deepseek-reasoner",
+      "label_b": "FALSE",
+      "ground_truth": "TRUE"
+    }
+  ]
+}

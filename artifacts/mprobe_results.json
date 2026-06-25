@@ -1,0 +1,83 @@
+{
+  "openai/gpt-4o": {
+    "acc_named": 1.0,
+    "acc_anon": 0.96,
+    "m_score": 0.04,
+    "n_valid_named": 50,
+    "n_valid_anon": 50,
+    "n_total": 50,
+    "interpretation": "Minimal / no contamination"
+  },
+  "openai/gpt-4o-mini": {
+    "acc_named": 0.98,
+    "acc_anon": 0.94,
+    "m_score": 0.04,
+    "n_valid_named": 50,
+    "n_valid_anon": 50,
+    "n_total": 50,
+    "interpretation": "Minimal / no contamination"
+  },
+  "openai/o4-mini": {
+    "acc_named": 1.0,
+    "acc_anon": 1.0,
+    "m_score": 0.0,
+    "n_valid_named": 48,
+    "n_valid_anon": 50,
+    "n_total": 50,
+    "interpretation": "Minimal / no contamination"
+  },
+  "anthropic/claude-sonnet-4-6": {
+    "acc_named": 1.0,
+    "acc_anon": 0.98,
+    "m_score": 0.02,
+    "n_valid_named": 50,
+    "n_valid_anon": 50,
+    "n_total": 50,
+    "interpretation": "Minimal / no contamination"
+  },
+  "anthropic/claude-haiku-4-5": {
+    "acc_named": 0.8695652173913043,
+    "acc_anon": 0.94,
+    "m_score": -0.0704347826086956,
+    "n_valid_named": 46,
+    "n_valid_anon": 50,
+    "n_total": 50,
+    "interpretation": "Names hurt (unfamiliar Lean4 names)"
+  },
+  "deepseek/deepseek-chat": {
+    "acc_named": 1.0,
+    "acc_anon": 1.0,
+    "m_score": 0.0,
+    "n_valid_named": 50,
+    "n_valid_anon": 50,
+    "n_total": 50,
+    "interpretation": "Minimal / no contamination"
+  },
+  "deepseek/deepseek-reasoner": {
+    "acc_named": 1.0,
+    "acc_anon": 0.96,
+    "m_score": 0.04,
+    "n_valid_named": 50,
+    "n_valid_anon": 50,
+    "n_total": 50,
+    "interpretation": "Minimal / no contamination"
+  },
+  "gemini/gemini-2.5-flash": {
+    "acc_named": 1.0,
+    "acc_anon": 1.0,
+    "m_score": 0.0,
+    "n_valid_named": 50,
+    "n_valid_anon": 46,
+    "n_total": 50,
+    "interpretation": "Minimal / no contamination"
+  },
+  "openrouter/meta-llama/llama-3.3-70b-instruct": {
+    "acc_named": 1.0,
+    "acc_anon": 0.94,
+    "m_score": 0.06,
+    "n_valid_named": 50,
+    "n_valid_anon": 50,
+    "n_total": 50,
+    "interpretation": "Moderate contamination signal"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "n": 8,
+  "temp": 0.7,
+  "results": {
+    "openai/gpt-4o": {
+      "n_known": 47,
+      "cir_systematic": 0.0851063829787234,
+      "cir_any": 0.1276595744680851,
+      "ci_lo": 2.127659574468085,
+      "ci_hi": 17.02127659574468,
+      "n_samples": 8,
+      "reasoning": false
+    },
+    "openai/gpt-4o-mini": {
+      "n_known": 47,
+      "cir_systematic": 0.10638297872340426,
+      "cir_any": 0.1276595744680851,
+      "ci_lo": 2.127659574468085,
+      "ci_hi": 21.27659574468085,
+      "n_samples": 8,
+      "reasoning": false
+    },
+    "openai/o4-mini": {
+      "n_known": 50,
+      "cir_systematic": 0.1,
+      "cir_any": 0.1,
+      "ci_lo": 2.0,
+      "ci_hi": 20.0,
+      "n_samples": 1,
+      "reasoning": true
+    },
+    "anthropic/claude-sonnet-4-6": {
+      "n_known": 47,
+      "cir_systematic": 0.10638297872340426,
+      "cir_any": 0.1276595744680851,
+      "ci_lo": 2.127659574468085,
+      "ci_hi": 19.148936170212767,
+      "n_samples": 8,
+      "reasoning": false
+    },
+    "anthropic/claude-haiku-4-5": {
+      "n_known": 48,
+      "cir_systematic": 0.3541666666666667,
+      "cir_any": 0.375,
+      "ci_lo": 22.916666666666664,
+      "ci_hi": 50.0,
+      "n_samples": 8,
+      "reasoning": false
+    },
+    "deepseek/deepseek-chat": {
+      "n_known": 50,
+      "cir_systematic": 0.04,
+      "cir_any": 0.08,
+      "ci_lo": 0.0,
+      "ci_hi": 10.0,
+      "n_samples": 8,
+      "reasoning": false
+    },
+    "deepseek/deepseek-reasoner": {
+      "n_known": 49,
+      "cir_systematic": 0.1836734693877551,
+      "cir_any": 0.1836734693877551,
+      "ci_lo": 8.16326530612245,
+      "ci_hi": 30.612244897959183,
+      "n_samples": 1,
+      "reasoning": true
+    },
+    "gemini/gemini-2.5-flash": {
+      "n_known": 49,
+      "cir_systematic": 0.08163265306122448,
+      "cir_any": 0.14285714285714285,
+      "ci_lo": 2.0408163265306123,
+      "ci_hi": 16.3265306122449,
+      "n_samples": 8,
+      "reasoning": false
+    }
+  }
+}

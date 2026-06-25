@@ -1,0 +1,193 @@
+{
+  "pairs": [
+    {
+      "group_id": "0",
+      "canonical_q": "Janet\u2019s ducks lay 16 eggs per day. She eats three for breakfast every morning and bakes muffins for her friends every day with four. She sells the remainder at the farmers' market daily for $2 per fresh duck egg. How much in dollars does she make every day at the farmers' market?",
+      "paraphrase_q": "Every day, Janet's ducks produce 16 eggs. Each morning, she consumes three eggs herself and uses another four to make muffins for her companions. She offers the leftover eggs at a local farmers' market, where each egg is sold for $2. How many dollars does she earn each day from selling eggs at the market?",
+      "expected_gt": "TRUE"
+    },
+    {
+      "group_id": "25",
+      "canonical_q": "John takes care of 10 dogs.  Each dog takes .5 hours a day to walk and take care of their business.  How many hours a week does he spend taking care of dogs?",
+      "paraphrase_q": "John is responsible for the daily walking and care of 10 dogs. Each dog requires 30 minutes of his time each day for their walks and other needs. Calculate the total amount of time John dedicates weekly to his dog care tasks.",
+      "expected_gt": "TRUE"
+    },
+    {
+      "group_id": "50",
+      "canonical_q": "Kyle bought last year's best-selling book for $19.50. This is with a 25% discount from the original price. What was the original price of the book?",
+      "paraphrase_q": "Kyle purchased a book that was last year's top seller for $19.50, after receiving a discount of 25% off its original price. Calculate the book's original price before the discount was applied.",
+      "expected_gt": "TRUE"
+    },
+    {
+      "group_id": "75",
+      "canonical_q": "Lee used to be able to run the 400-meter hurdles two seconds faster than Gerald would run the 400-meter hurdles.  But Gerald changed his diet, which improved his speed by 10%.  If Lee runs the 400-meter hurdles in 38 seconds, how fast can Gerald, with his improved diet, run the 400-meter hurdles, in seconds?",
+      "paraphrase_q": "Originally, Lee was able to complete the 400-meter hurdles two seconds quicker than Gerald. However, after Gerald altered his diet, his speed increased by 10%. Given that Lee's time for the 400-meter hurdles is 38 seconds, calculate Gerald's new time for the same distance, factoring in his dietary improvements, in seconds.",
+      "expected_gt": "TRUE"
+    },
+    {
+      "group_id": "100",
+      "canonical_q": "Out of the 200 Grade 5 students, 2/5 are boys and 2/3 of the girls are in the girl scout. How many girls are not in the girl scout?",
+      "paraphrase_q": "In a fifth grade class of 200 students, 40% are male. If 2/3 of the females are participating in the girl scouts, how many female students are there who do not participate in the girl scouts?",
+      "expected_gt": "TRUE"
+    }
+  ],
+  "results": {
+    "0": {
+      "canonical_q": "Janet\u2019s ducks lay 16 eggs per day. She eats three for breakfast every morning and bakes muffins for her friends every day with four. She sells the remainder at the farmers' market daily for $2 per fresh duck egg. How much in dollars does she make every day at the farmers' market?",
+      "paraphrase_q": "Every day, Janet's ducks produce 16 eggs. Each morning, she consumes three eggs herself and uses another four to make muffins for her companions. She offers the leftover eggs at a local farmers' market, where each egg is sold for $2. How many dollars does she earn each day from selling eggs at the market?",
+      "expected_gt": "TRUE",
+      "canonical": {
+        "mock/mock-always-true": {
+          "parsed": "TRUE",
+          "raw": "TRUE",
+          "latency_s": 0.001,
+          "error": null
+        }
+      },
+      "paraphrase": {
+        "mock/mock-always-true": {
+          "parsed": "TRUE",
+          "raw": "TRUE",
+          "latency_s": 0.001,
+          "error": null
+        }
+      }
+    },
+    "25": {
+      "canonical_q": "John takes care of 10 dogs.  Each dog takes .5 hours a day to walk and take care of their business.  How many hours a week does he spend taking care of dogs?",
+      "paraphrase_q": "John is responsible for the daily walking and care of 10 dogs. Each dog requires 30 minutes of his time each day for their walks and other needs. Calculate the total amount of time John dedicates weekly to his dog care tasks.",
+      "expected_gt": "TRUE",
+      "canonical": {
+        "mock/mock-always-true": {
+          "parsed": "TRUE",
+          "raw": "TRUE",
+          "latency_s": 0.001,
+          "error": null
+        }
+      },
+      "paraphrase": {
+        "mock/mock-always-true": {
+          "parsed": "TRUE",
+          "raw": "TRUE",
+          "latency_s": 0.001,
+          "error": null
+        }
+      }
+    },
+    "50": {
+      "canonical_q": "Kyle bought last year's best-selling book for $19.50. This is with a 25% discount from the original price. What was the original price of the book?",
+      "paraphrase_q": "Kyle purchased a book that was last year's top seller for $19.50, after receiving a discount of 25% off its original price. Calculate the book's original price before the discount was applied.",
+      "expected_gt": "TRUE",
+      "canonical": {
+        "mock/mock-always-true": {
+          "parsed": "TRUE",
+          "raw": "TRUE",
+          "latency_s": 0.001,
+          "error": null
+        }
+      },
+      "paraphrase": {
+        "mock/mock-always-true": {
+          "parsed": "TRUE",
+          "raw": "TRUE",
+          "latency_s": 0.001,
+          "error": null
+        }
+      }
+    },
+    "75": {
+      "canonical_q": "Lee used to be able to run the 400-meter hurdles two seconds faster than Gerald would run the 400-meter hurdles.  But Gerald changed his diet, which improved his speed by 10%.  If Lee runs the 400-meter hurdles in 38 seconds, how fast can Gerald, with his improved diet, run the 400-meter hurdles, in seconds?",
+      "paraphrase_q": "Originally, Lee was able to complete the 400-meter hurdles two seconds quicker than Gerald. However, after Gerald altered his diet, his speed increased by 10%. Given that Lee's time for the 400-meter hurdles is 38 seconds, calculate Gerald's new time for the same distance, factoring in his dietary improvements, in seconds.",
+      "expected_gt": "TRUE",
+      "canonical": {
+        "mock/mock-always-true": {
+          "parsed": "TRUE",
+          "raw": "TRUE",
+          "latency_s": 0.001,
+          "error": null
+        }
+      },
+      "paraphrase": {
+        "mock/mock-always-true": {
+          "parsed": "TRUE",
+          "raw": "TRUE",
+          "latency_s": 0.001,
+          "error": null
+        }
+      }
+    },
+    "100": {
+      "canonical_q": "Out of the 200 Grade 5 students, 2/5 are boys and 2/3 of the girls are in the girl scout. How many girls are not in the girl scout?",
+      "paraphrase_q": "In a fifth grade class of 200 students, 40% are male. If 2/3 of the females are participating in the girl scouts, how many female students are there who do not participate in the girl scouts?",
+      "expected_gt": "TRUE",
+      "canonical": {
+        "mock/mock-always-true": {
+          "parsed": "TRUE",
+          "raw": "TRUE",
+          "latency_s": 0.001,
+          "error": null
+        }
+      },
+      "paraphrase": {
+        "mock/mock-always-true": {
+          "parsed": "TRUE",
+          "raw": "TRUE",
+          "latency_s": 0.001,
+          "error": null
+        }
+      }
+    }
+  },
+  "stats": {
+    "0": {
+      "n_models": 1,
+      "canonical_pass_count": 1,
+      "canonical_pass_rate": 1.0,
+      "paraphrase_fail_count": 0,
+      "paraphrase_fail_rate": 0.0,
+      "canon_parseable": 1,
+      "para_parseable": 1,
+      "flagged": false
+    },
+    "25": {
+      "n_models": 1,
+      "canonical_pass_count": 1,
+      "canonical_pass_rate": 1.0,
+      "paraphrase_fail_count": 0,
+      "paraphrase_fail_rate": 0.0,
+      "canon_parseable": 1,
+      "para_parseable": 1,
+      "flagged": false
+    },
+    "50": {
+      "n_models": 1,
+      "canonical_pass_count": 1,
+      "canonical_pass_rate": 1.0,
+      "paraphrase_fail_count": 0,
+      "paraphrase_fail_rate": 0.0,
+      "canon_parseable": 1,
+      "para_parseable": 1,
+      "flagged": false
+    },
+    "75": {
+      "n_models": 1,
+      "canonical_pass_count": 1,
+      "canonical_pass_rate": 1.0,
+      "paraphrase_fail_count": 0,
+      "paraphrase_fail_rate": 0.0,
+      "canon_parseable": 1,
+      "para_parseable": 1,
+      "flagged": false
+    },
+    "100": {
+      "n_models": 1,
+      "canonical_pass_count": 1,
+      "canonical_pass_rate": 1.0,
+      "paraphrase_fail_count": 0,
+      "paraphrase_fail_rate": 0.0,
+      "canon_parseable": 1,
+      "para_parseable": 1,
+      "flagged": false
+    }
+  }
+}

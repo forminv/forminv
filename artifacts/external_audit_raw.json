@@ -1,0 +1,1946 @@
+{
+  "items": {
+    "ext_001": {
+      "meta": {
+        "domain": "calculus",
+        "error_type": "biconditional_reversal",
+        "canonical": "Is every differentiable function also continuous?",
+        "canonical_gt": "TRUE",
+        "para_correct": "Does differentiability at a point imply continuity at that point?",
+        "correct_gt": "TRUE",
+        "para_wrong": "Is a function differentiable at a point if and only if it is continuous at that point?",
+        "wrong_true_gt": "FALSE",
+        "wrong_labeled_gt": "TRUE"
+      },
+      "canonical": {
+        "openai/gpt-4o": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 2.128404140472412
+        },
+        "openai/gpt-4o-mini": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.9005589485168457
+        },
+        "openai/o4-mini": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 2.121333122253418
+        },
+        "anthropic/claude-sonnet-4-6": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.0756728649139404
+        },
+        "anthropic/claude-haiku-4-5": {
+          "response": "TRUE\n\nExplanation: This is a fundamental theorem in calculus. If a function is differenti",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 2.347033977508545
+        },
+        "deepseek/deepseek-chat": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.9826722145080566
+        },
+        "deepseek/deepseek-reasoner": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.0872559547424316
+        },
+        "gemini/gemini-2.5-flash": {
+          "response": "",
+          "parsed": null,
+          "correct": null,
+          "latency_s": 0.0,
+          "error": "No module named 'google.genai'"
+        },
+        "openrouter/meta-llama_llama-3.3-70b-instruct": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.0372638702392578
+        }
+      },
+      "para_correct": {
+        "openai/gpt-4o": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.0494310855865479
+        },
+        "openai/gpt-4o-mini": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.6112411022186279
+        },
+        "openai/o4-mini": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.4341328144073486
+        },
+        "anthropic/claude-sonnet-4-6": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.3154809474945068
+        },
+        "anthropic/claude-haiku-4-5": {
+          "response": "TRUE\n\nA fundamental theorem in calculus states that if a function is differentiable at a point",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.9503371715545654
+        },
+        "deepseek/deepseek-chat": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.7528321743011475
+        },
+        "deepseek/deepseek-reasoner": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.9466819763183594
+        },
+        "gemini/gemini-2.5-flash": {
+          "response": "",
+          "parsed": null,
+          "correct": null,
+          "latency_s": 0.0,
+          "error": "No module named 'google.genai'"
+        },
+        "openrouter/meta-llama_llama-3.3-70b-instruct": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.210953950881958
+        }
+      },
+      "para_wrong": {
+        "openai/gpt-4o": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 0.9004580974578857
+        },
+        "openai/gpt-4o-mini": {
+          "response": "FALSE.",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 2.3512580394744873
+        },
+        "openai/o4-mini": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 1.361023187637329
+        },
+        "anthropic/claude-sonnet-4-6": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 1.1211187839508057
+        },
+        "anthropic/claude-haiku-4-5": {
+          "response": "FALSE\n\n**Explanation:** \n- If a function is **differentiable** at a",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 2.062325954437256
+        },
+        "deepseek/deepseek-chat": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 0.6377577781677246
+        },
+        "deepseek/deepseek-reasoner": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 1.2650799751281738
+        },
+        "gemini/gemini-2.5-flash": {
+          "response": "",
+          "parsed": null,
+          "correct": null,
+          "latency_s": 0.0,
+          "error": "No module named 'google.genai'"
+        },
+        "openrouter/meta-llama_llama-3.3-70b-instruct": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 2.208303213119507
+        }
+      }
+    },
+    "ext_002": {
+      "meta": {
+        "domain": "calculus",
+        "error_type": "biconditional_necessary_not_sufficient",
+        "canonical": "Can a series converge even if its terms are not all zero?",
+        "canonical_gt": "TRUE",
+        "para_correct": "Is it possible for a series to have a finite sum while its terms are non-zero?",
+        "correct_gt": "TRUE",
+        "para_wrong": "Does a series converge if and only if its terms tend to zero?",
+        "wrong_true_gt": "FALSE",
+        "wrong_labeled_gt": "TRUE"
+      },
+      "canonical": {
+        "openai/gpt-4o": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.4156560897827148
+        },
+        "openai/gpt-4o-mini": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.8034911155700684
+        },
+        "openai/o4-mini": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 2.059638023376465
+        },
+        "anthropic/claude-sonnet-4-6": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.1309778690338135
+        },
+        "anthropic/claude-haiku-4-5": {
+          "response": "TRUE\n\nA series can converge even if its terms are not all zero. For example, the",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.0843613147735596
+        },
+        "deepseek/deepseek-chat": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.658128023147583
+        },
+        "deepseek/deepseek-reasoner": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.5717039108276367
+        },
+        "gemini/gemini-2.5-flash": {
+          "response": "",
+          "parsed": null,
+          "correct": null,
+          "latency_s": 0.0,
+          "error": "No module named 'google.genai'"
+        },
+        "openrouter/meta-llama_llama-3.3-70b-instruct": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.1321570873260498
+        }
+      },
+      "para_correct": {
+        "openai/gpt-4o": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.6006629467010498
+        },
+        "openai/gpt-4o-mini": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.1505861282348633
+        },
+        "openai/o4-mini": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.8170738220214844
+        },
+        "anthropic/claude-sonnet-4-6": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.102536916732788
+        },
+        "anthropic/claude-haiku-4-5": {
+          "response": "TRUE\n\nA convergent series can have a finite sum while all its terms are non-zero.",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.9866771697998047
+        },
+        "deepseek/deepseek-chat": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.8682050704956055
+        },
+        "deepseek/deepseek-reasoner": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.1502277851104736
+        },
+        "gemini/gemini-2.5-flash": {
+          "response": "",
+          "parsed": null,
+          "correct": null,
+          "latency_s": 0.0,
+          "error": "No module named 'google.genai'"
+        },
+        "openrouter/meta-llama_llama-3.3-70b-instruct": {
+          "response": "TRUE.",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 3.0289089679718018
+        }
+      },
+      "para_wrong": {
+        "openai/gpt-4o": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 0.7333559989929199
+        },
+        "openai/gpt-4o-mini": {
+          "response": "FALSE.",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 0.7075052261352539
+        },
+        "openai/o4-mini": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 1.6130130290985107
+        },
+        "anthropic/claude-sonnet-4-6": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 1.0973906517028809
+        },
+        "anthropic/claude-haiku-4-5": {
+          "response": "FALSE\n\n**Explanation:** This confuses two different concepts:\n\n1. **If a series",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 1.2453277111053467
+        },
+        "deepseek/deepseek-chat": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 0.6774017810821533
+        },
+        "deepseek/deepseek-reasoner": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 1.6392130851745605
+        },
+        "gemini/gemini-2.5-flash": {
+          "response": "",
+          "parsed": null,
+          "correct": null,
+          "latency_s": 0.0,
+          "error": "No module named 'google.genai'"
+        },
+        "openrouter/meta-llama_llama-3.3-70b-instruct": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 1.214082956314087
+        }
+      }
+    },
+    "ext_003": {
+      "meta": {
+        "domain": "calculus",
+        "error_type": "biconditional_overreach",
+        "canonical": "Can a bounded function fail to be integrable (Riemann) on [0,1]?",
+        "canonical_gt": "TRUE",
+        "para_correct": "Does there exist a bounded function on [0,1] that is not Riemann integrable?",
+        "correct_gt": "TRUE",
+        "para_wrong": "Is a function Riemann integrable on [0,1] if and only if it is continuous on [0,1]?",
+        "wrong_true_gt": "FALSE",
+        "wrong_labeled_gt": "TRUE"
+      },
+      "canonical": {
+        "openai/gpt-4o": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.8834800720214844
+        },
+        "openai/gpt-4o-mini": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.8171329498291016
+        },
+        "openai/o4-mini": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 2.7535908222198486
+        },
+        "anthropic/claude-sonnet-4-6": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 2.1077990531921387
+        },
+        "anthropic/claude-haiku-4-5": {
+          "response": "TRUE\n\nA bounded function can fail to be Riemann integrable on [0,1].",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.8851099014282227
+        },
+        "deepseek/deepseek-chat": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.8247330188751221
+        },
+        "deepseek/deepseek-reasoner": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.4344310760498047
+        },
+        "gemini/gemini-2.5-flash": {
+          "response": "",
+          "parsed": null,
+          "correct": null,
+          "latency_s": 0.0,
+          "error": "No module named 'google.genai'"
+        },
+        "openrouter/meta-llama_llama-3.3-70b-instruct": {
+          "response": "TRUE.",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.1562929153442383
+        }
+      },
+      "para_correct": {
+        "openai/gpt-4o": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.5873451232910156
+        },
+        "openai/gpt-4o-mini": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.9212851524353027
+        },
+        "openai/o4-mini": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.1798491477966309
+        },
+        "anthropic/claude-sonnet-4-6": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.4029147624969482
+        },
+        "anthropic/claude-haiku-4-5": {
+          "response": "TRUE\n\nA classic example is the Dirichlet function on [0,1]:\n\nf",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.0741868019104004
+        },
+        "deepseek/deepseek-chat": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.7536630630493164
+        },
+        "deepseek/deepseek-reasoner": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.7426738739013672
+        },
+        "gemini/gemini-2.5-flash": {
+          "response": "",
+          "parsed": null,
+          "correct": null,
+          "latency_s": 0.0,
+          "error": "No module named 'google.genai'"
+        },
+        "openrouter/meta-llama_llama-3.3-70b-instruct": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": false,
+          "latency_s": 1.1376888751983643
+        }
+      },
+      "para_wrong": {
+        "openai/gpt-4o": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 0.7195520401000977
+        },
+        "openai/gpt-4o-mini": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 1.6477911472320557
+        },
+        "openai/o4-mini": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 1.902878999710083
+        },
+        "anthropic/claude-sonnet-4-6": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 1.1516332626342773
+        },
+        "anthropic/claude-haiku-4-5": {
+          "response": "FALSE\n\n**Explanation:** \n\nA function is Riemann integrable on [0,",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 0.9150369167327881
+        },
+        "deepseek/deepseek-chat": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 1.144927978515625
+        },
+        "deepseek/deepseek-reasoner": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 1.7551109790802002
+        },
+        "gemini/gemini-2.5-flash": {
+          "response": "",
+          "parsed": null,
+          "correct": null,
+          "latency_s": 0.0,
+          "error": "No module named 'google.genai'"
+        },
+        "openrouter/meta-llama_llama-3.3-70b-instruct": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 0.8176021575927734
+        }
+      }
+    },
+    "ext_004": {
+      "meta": {
+        "domain": "linear_algebra",
+        "error_type": "biconditional_wrong_condition",
+        "canonical": "Is a square matrix invertible if and only if its determinant is non-zero?",
+        "canonical_gt": "TRUE",
+        "para_correct": "Does a square matrix have an inverse exactly when its determinant is non-zero?",
+        "correct_gt": "TRUE",
+        "para_wrong": "Is a square matrix invertible if and only if its determinant is positive?",
+        "wrong_true_gt": "FALSE",
+        "wrong_labeled_gt": "TRUE"
+      },
+      "canonical": {
+        "openai/gpt-4o": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.6597750186920166
+        },
+        "openai/gpt-4o-mini": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.7744841575622559
+        },
+        "openai/o4-mini": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 2.700472831726074
+        },
+        "anthropic/claude-sonnet-4-6": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.1878957748413086
+        },
+        "anthropic/claude-haiku-4-5": {
+          "response": "TRUE\n\nThis is a fundamental theorem in linear algebra: a square matrix is invertible (has an",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.9297289848327637
+        },
+        "deepseek/deepseek-chat": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.7839710712432861
+        },
+        "deepseek/deepseek-reasoner": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.9037806987762451
+        },
+        "gemini/gemini-2.5-flash": {
+          "response": "",
+          "parsed": null,
+          "correct": null,
+          "latency_s": 0.0,
+          "error": "No module named 'google.genai'"
+        },
+        "openrouter/meta-llama_llama-3.3-70b-instruct": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.5596129894256592
+        }
+      },
+      "para_correct": {
+        "openai/gpt-4o": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.7222280502319336
+        },
+        "openai/gpt-4o-mini": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.6903648376464844
+        },
+        "openai/o4-mini": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.6391100883483887
+        },
+        "anthropic/claude-sonnet-4-6": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.3483872413635254
+        },
+        "anthropic/claude-haiku-4-5": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.8091652393341064
+        },
+        "deepseek/deepseek-chat": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.6113681793212891
+        },
+        "deepseek/deepseek-reasoner": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.9586520195007324
+        },
+        "gemini/gemini-2.5-flash": {
+          "response": "",
+          "parsed": null,
+          "correct": null,
+          "latency_s": 0.0,
+          "error": "No module named 'google.genai'"
+        },
+        "openrouter/meta-llama_llama-3.3-70b-instruct": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.8206019401550293
+        }
+      },
+      "para_wrong": {
+        "openai/gpt-4o": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 0.8069658279418945
+        },
+        "openai/gpt-4o-mini": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 0.8291430473327637
+        },
+        "openai/o4-mini": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 1.4154460430145264
+        },
+        "anthropic/claude-sonnet-4-6": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 1.0654289722442627
+        },
+        "anthropic/claude-haiku-4-5": {
+          "response": "FALSE\n\nA square matrix is invertible if and only if its determinant is **nonzero",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 1.2807910442352295
+        },
+        "deepseek/deepseek-chat": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 0.6614959239959717
+        },
+        "deepseek/deepseek-reasoner": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 1.6054391860961914
+        },
+        "gemini/gemini-2.5-flash": {
+          "response": "",
+          "parsed": null,
+          "correct": null,
+          "latency_s": 0.0,
+          "error": "No module named 'google.genai'"
+        },
+        "openrouter/meta-llama_llama-3.3-70b-instruct": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 0.9837160110473633
+        }
+      }
+    },
+    "ext_005": {
+      "meta": {
+        "domain": "linear_algebra",
+        "error_type": "biconditional_conflation",
+        "canonical": "Can two non-zero vectors be orthogonal?",
+        "canonical_gt": "TRUE",
+        "para_correct": "Is it possible for two vectors with non-zero lengths to have a dot product of zero?",
+        "correct_gt": "TRUE",
+        "para_wrong": "Are two non-zero vectors orthogonal if and only if they are linearly independent?",
+        "wrong_true_gt": "FALSE",
+        "wrong_labeled_gt": "TRUE"
+      },
+      "canonical": {
+        "openai/gpt-4o": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.8596258163452148
+        },
+        "openai/gpt-4o-mini": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.730431079864502
+        },
+        "openai/o4-mini": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.879396915435791
+        },
+        "anthropic/claude-sonnet-4-6": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.0980830192565918
+        },
+        "anthropic/claude-haiku-4-5": {
+          "response": "TRUE\n\nTwo non-zero vectors can be orthogonal. Two vectors are orthogonal if",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.9878518581390381
+        },
+        "deepseek/deepseek-chat": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.6282811164855957
+        },
+        "deepseek/deepseek-reasoner": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.2281568050384521
+        },
+        "gemini/gemini-2.5-flash": {
+          "response": "",
+          "parsed": null,
+          "correct": null,
+          "latency_s": 0.0,
+          "error": "No module named 'google.genai'"
+        },
+        "openrouter/meta-llama_llama-3.3-70b-instruct": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.9416749477386475
+        }
+      },
+      "para_correct": {
+        "openai/gpt-4o": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.8655791282653809
+        },
+        "openai/gpt-4o-mini": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.7903532981872559
+        },
+        "openai/o4-mini": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.3533282279968262
+        },
+        "anthropic/claude-sonnet-4-6": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.161679983139038
+        },
+        "anthropic/claude-haiku-4-5": {
+          "response": "TRUE\n\nTwo non-zero vectors can have a dot product of zero. This occurs when the vectors",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.9675171375274658
+        },
+        "deepseek/deepseek-chat": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.716289758682251
+        },
+        "deepseek/deepseek-reasoner": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.100250244140625
+        },
+        "gemini/gemini-2.5-flash": {
+          "response": "",
+          "parsed": null,
+          "correct": null,
+          "latency_s": 0.0,
+          "error": "No module named 'google.genai'"
+        },
+        "openrouter/meta-llama_llama-3.3-70b-instruct": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.5938599109649658
+        }
+      },
+      "para_wrong": {
+        "openai/gpt-4o": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 0.8250699043273926
+        },
+        "openai/gpt-4o-mini": {
+          "response": "FALSE.",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 1.745055913925171
+        },
+        "openai/o4-mini": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 1.733719825744629
+        },
+        "anthropic/claude-sonnet-4-6": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 1.1475648880004883
+        },
+        "anthropic/claude-haiku-4-5": {
+          "response": "FALSE\n\nTwo non-zero vectors are orthogonal if and only if their dot product is zero",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 1.2162950038909912
+        },
+        "deepseek/deepseek-chat": {
+          "response": "FALSE.  \nTwo non-zero vectors in \\(\\mathbb{R}^2\\) can be linearly independent without",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 0.8722097873687744
+        },
+        "deepseek/deepseek-reasoner": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 2.163090944290161
+        },
+        "gemini/gemini-2.5-flash": {
+          "response": "",
+          "parsed": null,
+          "correct": null,
+          "latency_s": 0.0,
+          "error": "No module named 'google.genai'"
+        },
+        "openrouter/meta-llama_llama-3.3-70b-instruct": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": false,
+          "latency_s": 9.011030673980713
+        }
+      }
+    },
+    "ext_006": {
+      "meta": {
+        "domain": "number_theory",
+        "error_type": "control_correct",
+        "canonical": "Is the square root of 2 irrational?",
+        "canonical_gt": "TRUE",
+        "para_correct": "Does sqrt(2) fail to be expressible as a ratio of two integers?",
+        "correct_gt": "TRUE",
+        "para_wrong": "Is a positive integer's square root irrational if and only if the integer is not a perfect square?",
+        "wrong_true_gt": "TRUE",
+        "wrong_labeled_gt": "TRUE"
+      },
+      "canonical": {
+        "openai/gpt-4o": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.8130078315734863
+        },
+        "openai/gpt-4o-mini": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.7205727100372314
+        },
+        "openai/o4-mini": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.1364660263061523
+        },
+        "anthropic/claude-sonnet-4-6": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.2863891124725342
+        },
+        "anthropic/claude-haiku-4-5": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.8790459632873535
+        },
+        "deepseek/deepseek-chat": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.6102170944213867
+        },
+        "deepseek/deepseek-reasoner": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.919896125793457
+        },
+        "gemini/gemini-2.5-flash": {
+          "response": "",
+          "parsed": null,
+          "correct": null,
+          "latency_s": 0.0,
+          "error": "No module named 'google.genai'"
+        },
+        "openrouter/meta-llama_llama-3.3-70b-instruct": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.8790099620819092
+        }
+      },
+      "para_correct": {
+        "openai/gpt-4o": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.5975239276885986
+        },
+        "openai/gpt-4o-mini": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.618290901184082
+        },
+        "openai/o4-mini": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.2619972229003906
+        },
+        "anthropic/claude-sonnet-4-6": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.3933398723602295
+        },
+        "anthropic/claude-haiku-4-5": {
+          "response": "TRUE\n\nThe statement is mathematically correct. \u221a2 is irrational, meaning it cannot",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.9525120258331299
+        },
+        "deepseek/deepseek-chat": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.6991498470306396
+        },
+        "deepseek/deepseek-reasoner": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.1531739234924316
+        },
+        "gemini/gemini-2.5-flash": {
+          "response": "",
+          "parsed": null,
+          "correct": null,
+          "latency_s": 0.0,
+          "error": "No module named 'google.genai'"
+        },
+        "openrouter/meta-llama_llama-3.3-70b-instruct": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.4758059978485107
+        }
+      },
+      "para_wrong": {
+        "openai/gpt-4o": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.049772024154663
+        },
+        "openai/gpt-4o-mini": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.8312788009643555
+        },
+        "openai/o4-mini": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.9216618537902832
+        },
+        "anthropic/claude-sonnet-4-6": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.199408769607544
+        },
+        "anthropic/claude-haiku-4-5": {
+          "response": "TRUE\n\nThis is correct. A positive integer's square root is irrational if and only if",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.0789198875427246
+        },
+        "deepseek/deepseek-chat": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.5696408748626709
+        },
+        "deepseek/deepseek-reasoner": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 2.4805262088775635
+        },
+        "gemini/gemini-2.5-flash": {
+          "response": "",
+          "parsed": null,
+          "correct": null,
+          "latency_s": 0.0,
+          "error": "No module named 'google.genai'"
+        },
+        "openrouter/meta-llama_llama-3.3-70b-instruct": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.5985679626464844
+        }
+      }
+    },
+    "ext_007": {
+      "meta": {
+        "domain": "number_theory",
+        "error_type": "biconditional_wrong_characterisation",
+        "canonical": "Is 1 a composite number?",
+        "canonical_gt": "FALSE",
+        "para_correct": "Does 1 have more than two distinct positive divisors?",
+        "correct_gt": "FALSE",
+        "para_wrong": "Is a positive integer composite if and only if it has exactly three positive divisors?",
+        "wrong_true_gt": "FALSE",
+        "wrong_labeled_gt": "FALSE"
+      },
+      "canonical": {
+        "openai/gpt-4o": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 0.818234920501709
+        },
+        "openai/gpt-4o-mini": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 0.9189732074737549
+        },
+        "openai/o4-mini": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 1.529439926147461
+        },
+        "anthropic/claude-sonnet-4-6": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 1.5630838871002197
+        },
+        "anthropic/claude-haiku-4-5": {
+          "response": "FALSE\n\nA composite number is defined as a natural number greater than 1 that has at least",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 1.2085258960723877
+        },
+        "deepseek/deepseek-chat": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 0.7227950096130371
+        },
+        "deepseek/deepseek-reasoner": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 1.1766622066497803
+        },
+        "gemini/gemini-2.5-flash": {
+          "response": "",
+          "parsed": null,
+          "correct": null,
+          "latency_s": 0.0,
+          "error": "No module named 'google.genai'"
+        },
+        "openrouter/meta-llama_llama-3.3-70b-instruct": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 0.5957682132720947
+        }
+      },
+      "para_correct": {
+        "openai/gpt-4o": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 0.7188060283660889
+        },
+        "openai/gpt-4o-mini": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 0.7108726501464844
+        },
+        "openai/o4-mini": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 1.9548909664154053
+        },
+        "anthropic/claude-sonnet-4-6": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 1.4672410488128662
+        },
+        "anthropic/claude-haiku-4-5": {
+          "response": "FALSE\n\nThe positive divisors of 1 are only {1}. That is exactly one",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 1.0297818183898926
+        },
+        "deepseek/deepseek-chat": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 0.790532112121582
+        },
+        "deepseek/deepseek-reasoner": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 1.2150461673736572
+        },
+        "gemini/gemini-2.5-flash": {
+          "response": "",
+          "parsed": null,
+          "correct": null,
+          "latency_s": 0.0,
+          "error": "No module named 'google.genai'"
+        },
+        "openrouter/meta-llama_llama-3.3-70b-instruct": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 3.137158155441284
+        }
+      },
+      "para_wrong": {
+        "openai/gpt-4o": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 0.9942440986633301
+        },
+        "openai/gpt-4o-mini": {
+          "response": "FALSE.",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 4.3763267993927
+        },
+        "openai/o4-mini": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 3.0198469161987305
+        },
+        "anthropic/claude-sonnet-4-6": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 1.3413801193237305
+        },
+        "anthropic/claude-haiku-4-5": {
+          "response": "FALSE\n\nA positive integer has exactly three positive divisors if and only if it is the square of",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 0.9496548175811768
+        },
+        "deepseek/deepseek-chat": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 0.7045300006866455
+        },
+        "deepseek/deepseek-reasoner": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 3.8896517753601074
+        },
+        "gemini/gemini-2.5-flash": {
+          "response": "",
+          "parsed": null,
+          "correct": null,
+          "latency_s": 0.0,
+          "error": "No module named 'google.genai'"
+        },
+        "openrouter/meta-llama_llama-3.3-70b-instruct": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 1.02681303024292
+        }
+      }
+    },
+    "ext_008": {
+      "meta": {
+        "domain": "real_analysis",
+        "error_type": "biconditional_necessary_not_sufficient",
+        "canonical": "Is every rational number expressible as a terminating or repeating decimal?",
+        "canonical_gt": "TRUE",
+        "para_correct": "Does every fraction p/q (with integers p, q, q\u22600) have a decimal expansion that either terminates or eventually repeats?",
+        "correct_gt": "TRUE",
+        "para_wrong": "Is a real number rational if and only if its decimal expansion terminates?",
+        "wrong_true_gt": "FALSE",
+        "wrong_labeled_gt": "TRUE"
+      },
+      "canonical": {
+        "openai/gpt-4o": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.6541621685028076
+        },
+        "openai/gpt-4o-mini": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.6994118690490723
+        },
+        "openai/o4-mini": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.7859327793121338
+        },
+        "anthropic/claude-sonnet-4-6": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.3211050033569336
+        },
+        "anthropic/claude-haiku-4-5": {
+          "response": "TRUE\n\nA rational number is defined as a number that can be expressed as p/q where p",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.990360975265503
+        },
+        "deepseek/deepseek-chat": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.6263308525085449
+        },
+        "deepseek/deepseek-reasoner": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.6381802558898926
+        },
+        "gemini/gemini-2.5-flash": {
+          "response": "",
+          "parsed": null,
+          "correct": null,
+          "latency_s": 0.0,
+          "error": "No module named 'google.genai'"
+        },
+        "openrouter/meta-llama_llama-3.3-70b-instruct": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.6561200618743896
+        }
+      },
+      "para_correct": {
+        "openai/gpt-4o": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.7418417930603027
+        },
+        "openai/gpt-4o-mini": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.8852858543395996
+        },
+        "openai/o4-mini": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.4649817943572998
+        },
+        "anthropic/claude-sonnet-4-6": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.4734289646148682
+        },
+        "anthropic/claude-haiku-4-5": {
+          "response": "TRUE\n\nA fraction p/q in lowest terms has a terminating decimal expansion if and only if",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.9561378955841064
+        },
+        "deepseek/deepseek-chat": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.6970899105072021
+        },
+        "deepseek/deepseek-reasoner": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.2786810398101807
+        },
+        "gemini/gemini-2.5-flash": {
+          "response": "",
+          "parsed": null,
+          "correct": null,
+          "latency_s": 0.0,
+          "error": "No module named 'google.genai'"
+        },
+        "openrouter/meta-llama_llama-3.3-70b-instruct": {
+          "response": "TRUE.",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.8279180526733398
+        }
+      },
+      "para_wrong": {
+        "openai/gpt-4o": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 0.9225201606750488
+        },
+        "openai/gpt-4o-mini": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": false,
+          "latency_s": 1.4566409587860107
+        },
+        "openai/o4-mini": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 1.8588769435882568
+        },
+        "anthropic/claude-sonnet-4-6": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 1.386185884475708
+        },
+        "anthropic/claude-haiku-4-5": {
+          "response": "FALSE\n\nA real number is rational if and only if its decimal expansion either **terminates or eventually",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 0.9365940093994141
+        },
+        "deepseek/deepseek-chat": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 0.614109992980957
+        },
+        "deepseek/deepseek-reasoner": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 2.479144811630249
+        },
+        "gemini/gemini-2.5-flash": {
+          "response": "",
+          "parsed": null,
+          "correct": null,
+          "latency_s": 0.0,
+          "error": "No module named 'google.genai'"
+        },
+        "openrouter/meta-llama_llama-3.3-70b-instruct": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 1.1176280975341797
+        }
+      }
+    },
+    "ext_009": {
+      "meta": {
+        "domain": "real_analysis",
+        "error_type": "biconditional_wrong_condition",
+        "canonical": "Is every Cauchy sequence in the real numbers convergent?",
+        "canonical_gt": "TRUE",
+        "para_correct": "In the real number system, does every sequence satisfying the Cauchy criterion have a limit?",
+        "correct_gt": "TRUE",
+        "para_wrong": "Is a sequence of real numbers Cauchy if and only if it is bounded?",
+        "wrong_true_gt": "FALSE",
+        "wrong_labeled_gt": "TRUE"
+      },
+      "canonical": {
+        "openai/gpt-4o": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.7730898857116699
+        },
+        "openai/gpt-4o-mini": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.0126080513000488
+        },
+        "openai/o4-mini": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.1183772087097168
+        },
+        "anthropic/claude-sonnet-4-6": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.0998897552490234
+        },
+        "anthropic/claude-haiku-4-5": {
+          "response": "TRUE\n\nThe real numbers \u211d form a complete metric space. This means that every",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.554940938949585
+        },
+        "deepseek/deepseek-chat": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.9172799587249756
+        },
+        "deepseek/deepseek-reasoner": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.9821410179138184
+        },
+        "gemini/gemini-2.5-flash": {
+          "response": "",
+          "parsed": null,
+          "correct": null,
+          "latency_s": 0.0,
+          "error": "No module named 'google.genai'"
+        },
+        "openrouter/meta-llama_llama-3.3-70b-instruct": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.2074191570281982
+        }
+      },
+      "para_correct": {
+        "openai/gpt-4o": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.6902618408203125
+        },
+        "openai/gpt-4o-mini": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.6484987735748291
+        },
+        "openai/o4-mini": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.2214417457580566
+        },
+        "anthropic/claude-sonnet-4-6": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.1669561862945557
+        },
+        "anthropic/claude-haiku-4-5": {
+          "response": "TRUE\n\nIn the real number system \u211d, every sequence satisfying the Cauchy",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.9379420280456543
+        },
+        "deepseek/deepseek-chat": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.6872971057891846
+        },
+        "deepseek/deepseek-reasoner": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.7792279720306396
+        },
+        "gemini/gemini-2.5-flash": {
+          "response": "",
+          "parsed": null,
+          "correct": null,
+          "latency_s": 0.0,
+          "error": "No module named 'google.genai'"
+        },
+        "openrouter/meta-llama_llama-3.3-70b-instruct": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.927264928817749
+        }
+      },
+      "para_wrong": {
+        "openai/gpt-4o": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 0.5959880352020264
+        },
+        "openai/gpt-4o-mini": {
+          "response": "FALSE.",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 1.0391490459442139
+        },
+        "openai/o4-mini": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 2.088905096054077
+        },
+        "anthropic/claude-sonnet-4-6": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 1.377380132675171
+        },
+        "anthropic/claude-haiku-4-5": {
+          "response": "FALSE\n\nA sequence of real numbers is Cauchy if and only if it **converges**",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 0.9930288791656494
+        },
+        "deepseek/deepseek-chat": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 0.6820690631866455
+        },
+        "deepseek/deepseek-reasoner": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 1.374488115310669
+        },
+        "gemini/gemini-2.5-flash": {
+          "response": "",
+          "parsed": null,
+          "correct": null,
+          "latency_s": 0.0,
+          "error": "No module named 'google.genai'"
+        },
+        "openrouter/meta-llama_llama-3.3-70b-instruct": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 1.425354242324829
+        }
+      }
+    },
+    "ext_010": {
+      "meta": {
+        "domain": "set_theory",
+        "error_type": "biconditional_conflation",
+        "canonical": "Is the empty set a subset of every set?",
+        "canonical_gt": "TRUE",
+        "para_correct": "Does the empty set have no elements that are absent from any given set?",
+        "correct_gt": "TRUE",
+        "para_wrong": "Is set A a subset of set B if and only if A equals B?",
+        "wrong_true_gt": "FALSE",
+        "wrong_labeled_gt": "TRUE"
+      },
+      "canonical": {
+        "openai/gpt-4o": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.7311859130859375
+        },
+        "openai/gpt-4o-mini": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.7424249649047852
+        },
+        "openai/o4-mini": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.469782829284668
+        },
+        "anthropic/claude-sonnet-4-6": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.0980620384216309
+        },
+        "anthropic/claude-haiku-4-5": {
+          "response": "TRUE\n\nThe empty set is a subset of every set by the definition of subset: a set A",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.0266520977020264
+        },
+        "deepseek/deepseek-chat": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.7635979652404785
+        },
+        "deepseek/deepseek-reasoner": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.9890518188476562
+        },
+        "gemini/gemini-2.5-flash": {
+          "response": "",
+          "parsed": null,
+          "correct": null,
+          "latency_s": 0.0,
+          "error": "No module named 'google.genai'"
+        },
+        "openrouter/meta-llama_llama-3.3-70b-instruct": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.729773759841919
+        }
+      },
+      "para_correct": {
+        "openai/gpt-4o": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.845944881439209
+        },
+        "openai/gpt-4o-mini": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.1137762069702148
+        },
+        "openai/o4-mini": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 2.654003858566284
+        },
+        "anthropic/claude-sonnet-4-6": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 1.0955052375793457
+        },
+        "anthropic/claude-haiku-4-5": {
+          "response": "FALSE\n\nThe statement is confusing and mathematically incorrect as written. The empty set has no elements",
+          "parsed": "FALSE",
+          "correct": false,
+          "latency_s": 5.162377834320068
+        },
+        "deepseek/deepseek-chat": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.5497012138366699
+        },
+        "deepseek/deepseek-reasoner": {
+          "response": "TRUE",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 2.8725130558013916
+        },
+        "gemini/gemini-2.5-flash": {
+          "response": "",
+          "parsed": null,
+          "correct": null,
+          "latency_s": 0.0,
+          "error": "No module named 'google.genai'"
+        },
+        "openrouter/meta-llama_llama-3.3-70b-instruct": {
+          "response": "TRUE.",
+          "parsed": "TRUE",
+          "correct": true,
+          "latency_s": 0.7015790939331055
+        }
+      },
+      "para_wrong": {
+        "openai/gpt-4o": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 0.9710891246795654
+        },
+        "openai/gpt-4o-mini": {
+          "response": "FALSE.",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 0.7774200439453125
+        },
+        "openai/o4-mini": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 1.5104291439056396
+        },
+        "anthropic/claude-sonnet-4-6": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 1.207665205001831
+        },
+        "anthropic/claude-haiku-4-5": {
+          "response": "FALSE\n\nThe statement is incorrect. A is a subset of B (A \u2286",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 1.0589730739593506
+        },
+        "deepseek/deepseek-chat": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 0.8784759044647217
+        },
+        "deepseek/deepseek-reasoner": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 1.5713598728179932
+        },
+        "gemini/gemini-2.5-flash": {
+          "response": "",
+          "parsed": null,
+          "correct": null,
+          "latency_s": 0.0,
+          "error": "No module named 'google.genai'"
+        },
+        "openrouter/meta-llama_llama-3.3-70b-instruct": {
+          "response": "FALSE",
+          "parsed": "FALSE",
+          "correct": true,
+          "latency_s": 1.0791211128234863
+        }
+      }
+    }
+  },
+  "stats": {
+    "ext_001": {
+      "domain": "calculus",
+      "error_type": "biconditional_reversal",
+      "n_models": 9,
+      "canonical_accuracy": 0.8888888888888888,
+      "correct_para_accuracy": 0.8888888888888888,
+      "models_detecting_wrong": 8,
+      "models_failing_against_label": 8,
+      "flagged_by_unanimity": true
+    },
+    "ext_002": {
+      "domain": "calculus",
+      "error_type": "biconditional_necessary_not_sufficient",
+      "n_models": 9,
+      "canonical_accuracy": 0.8888888888888888,
+      "correct_para_accuracy": 0.8888888888888888,
+      "models_detecting_wrong": 8,
+      "models_failing_against_label": 8,
+      "flagged_by_unanimity": true
+    },
+    "ext_003": {
+      "domain": "calculus",
+      "error_type": "biconditional_overreach",
+      "n_models": 9,
+      "canonical_accuracy": 0.8888888888888888,
+      "correct_para_accuracy": 0.7777777777777778,
+      "models_detecting_wrong": 8,
+      "models_failing_against_label": 8,
+      "flagged_by_unanimity": true
+    },
+    "ext_004": {
+      "domain": "linear_algebra",
+      "error_type": "biconditional_wrong_condition",
+      "n_models": 9,
+      "canonical_accuracy": 0.8888888888888888,
+      "correct_para_accuracy": 0.8888888888888888,
+      "models_detecting_wrong": 8,
+      "models_failing_against_label": 8,
+      "flagged_by_unanimity": true
+    },
+    "ext_005": {
+      "domain": "linear_algebra",
+      "error_type": "biconditional_conflation",
+      "n_models": 9,
+      "canonical_accuracy": 0.8888888888888888,
+      "correct_para_accuracy": 0.8888888888888888,
+      "models_detecting_wrong": 7,
+      "models_failing_against_label": 7,
+      "flagged_by_unanimity": true
+    },
+    "ext_006": {
+      "domain": "number_theory",
+      "error_type": "control_correct",
+      "n_models": 9,
+      "canonical_accuracy": 0.8888888888888888,
+      "correct_para_accuracy": 0.8888888888888888,
+      "models_detecting_wrong": 8,
+      "models_failing_against_label": 0,
+      "flagged_by_unanimity": false
+    },
+    "ext_007": {
+      "domain": "number_theory",
+      "error_type": "biconditional_wrong_characterisation",
+      "n_models": 9,
+      "canonical_accuracy": 0.8888888888888888,
+      "correct_para_accuracy": 0.8888888888888888,
+      "models_detecting_wrong": 8,
+      "models_failing_against_label": 0,
+      "flagged_by_unanimity": false
+    },
+    "ext_008": {
+      "domain": "real_analysis",
+      "error_type": "biconditional_necessary_not_sufficient",
+      "n_models": 9,
+      "canonical_accuracy": 0.8888888888888888,
+      "correct_para_accuracy": 0.8888888888888888,
+      "models_detecting_wrong": 7,
+      "models_failing_against_label": 7,
+      "flagged_by_unanimity": true
+    },
+    "ext_009": {
+      "domain": "real_analysis",
+      "error_type": "biconditional_wrong_condition",
+      "n_models": 9,
+      "canonical_accuracy": 0.8888888888888888,
+      "correct_para_accuracy": 0.8888888888888888,
+      "models_detecting_wrong": 8,
+      "models_failing_against_label": 8,
+      "flagged_by_unanimity": true
+    },
+    "ext_010": {
+      "domain": "set_theory",
+      "error_type": "biconditional_conflation",
+      "n_models": 9,
+      "canonical_accuracy": 0.8888888888888888,
+      "correct_para_accuracy": 0.7777777777777778,
+      "models_detecting_wrong": 8,
+      "models_failing_against_label": 8,
+      "flagged_by_unanimity": true
+    }
+  }
+}

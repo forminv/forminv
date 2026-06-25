@@ -1,0 +1,394 @@
+{
+  "per_model": {
+    "openai/gpt-4o": {
+      "mean_ig": 0.06972805331434495,
+      "std_ig": 0.14983632320322032,
+      "max_ig": 0.4714045207910317,
+      "mean_accuracy": 0.9423809523809524,
+      "scr": 0.82,
+      "mean_baseline_variance": 0.0,
+      "ig_exceeds_2x_baseline": true,
+      "n_theorems": 50,
+      "pct_high_ig_10": 0.18,
+      "pct_high_ig_20": 0.18,
+      "family_failure_rates": {
+        "syntactic": 0.02,
+        "quantifier": 0.04,
+        "passive": 0.044444444444444446,
+        "notation": 0.04,
+        "order": 0.0,
+        "unpack": 0.1,
+        "equivalent": 0.1,
+        "variation": 0.2222222222222222
+      },
+      "coverage": 1.0
+    },
+    "openai/gpt-4o-mini": {
+      "mean_ig": 0.08668603503868401,
+      "std_ig": 0.16465534206155627,
+      "max_ig": 0.49487165930539345,
+      "mean_accuracy": 0.942857142857143,
+      "scr": 0.78,
+      "mean_baseline_variance": 0.0,
+      "ig_exceeds_2x_baseline": true,
+      "n_theorems": 50,
+      "pct_high_ig_10": 0.22,
+      "pct_high_ig_20": 0.22,
+      "family_failure_rates": {
+        "syntactic": 0.1,
+        "quantifier": 0.02,
+        "passive": 0.044444444444444446,
+        "notation": 0.02,
+        "order": 0.08333333333333333,
+        "unpack": 0.1,
+        "equivalent": 0.04,
+        "variation": 0.2222222222222222
+      },
+      "coverage": 1.0
+    },
+    "openai/o4-mini": {
+      "mean_ig": 0.0759494202052383,
+      "std_ig": 0.15287020294737932,
+      "max_ig": 0.45175395145262565,
+      "mean_accuracy": 0.9636904761904762,
+      "scr": 0.8,
+      "mean_baseline_variance": 0.0,
+      "ig_exceeds_2x_baseline": true,
+      "n_theorems": 50,
+      "pct_high_ig_10": 0.2,
+      "pct_high_ig_20": 0.2,
+      "family_failure_rates": {
+        "syntactic": 0.0,
+        "quantifier": 0.04,
+        "passive": 0.022222222222222223,
+        "notation": 0.04,
+        "order": 0.0,
+        "unpack": 0.04,
+        "equivalent": 0.04081632653061224,
+        "variation": 0.3333333333333333
+      },
+      "coverage": 0.9972677595628415
+    },
+    "anthropic/claude-sonnet-4-6": {
+      "mean_ig": 0.10721515724661752,
+      "std_ig": 0.1828029764450586,
+      "max_ig": 0.4948716593053935,
+      "mean_accuracy": 0.9317142857142858,
+      "scr": 0.74,
+      "mean_baseline_variance": 0.0,
+      "ig_exceeds_2x_baseline": true,
+      "n_theorems": 50,
+      "pct_high_ig_10": 0.26,
+      "pct_high_ig_20": 0.26,
+      "family_failure_rates": {
+        "syntactic": 0.04,
+        "quantifier": 0.06,
+        "passive": 0.06666666666666667,
+        "notation": 0.06,
+        "order": 0.16666666666666666,
+        "unpack": 0.06,
+        "equivalent": 0.08,
+        "variation": 0.2222222222222222
+      },
+      "coverage": 1.0
+    },
+    "anthropic/claude-haiku-4-5": {
+      "mean_ig": 0.1938166798475887,
+      "std_ig": 0.20503035682690268,
+      "max_ig": 0.5,
+      "mean_accuracy": 0.860404761904762,
+      "scr": 0.5,
+      "mean_baseline_variance": 0.0,
+      "ig_exceeds_2x_baseline": true,
+      "n_theorems": 50,
+      "pct_high_ig_10": 0.48,
+      "pct_high_ig_20": 0.48,
+      "family_failure_rates": {
+        "syntactic": 0.06,
+        "quantifier": 0.08,
+        "passive": 0.13333333333333333,
+        "notation": 0.18,
+        "order": 0.16666666666666666,
+        "unpack": 0.16666666666666666,
+        "equivalent": 0.16326530612244897,
+        "variation": 0.5555555555555556
+      },
+      "coverage": 0.9918032786885246
+    },
+    "deepseek/deepseek-chat": {
+      "mean_ig": 0.06928736047910888,
+      "std_ig": 0.14935898103312367,
+      "max_ig": 0.4948716593053935,
+      "mean_accuracy": 0.9642857142857142,
+      "scr": 0.82,
+      "mean_baseline_variance": 0.0,
+      "ig_exceeds_2x_baseline": true,
+      "n_theorems": 50,
+      "pct_high_ig_10": 0.18,
+      "pct_high_ig_20": 0.18,
+      "family_failure_rates": {
+        "syntactic": 0.0,
+        "quantifier": 0.0,
+        "passive": 0.044444444444444446,
+        "notation": 0.04,
+        "order": 0.08333333333333333,
+        "unpack": 0.06,
+        "equivalent": 0.04,
+        "variation": 0.2222222222222222
+      },
+      "coverage": 1.0
+    },
+    "deepseek/deepseek-reasoner": {
+      "mean_ig": 0.0883678239571682,
+      "std_ig": 0.1682723659437939,
+      "max_ig": 0.4948716593053935,
+      "mean_accuracy": 0.9301666666666667,
+      "scr": 0.78,
+      "mean_baseline_variance": 0.0,
+      "ig_exceeds_2x_baseline": true,
+      "n_theorems": 50,
+      "pct_high_ig_10": 0.22,
+      "pct_high_ig_20": 0.22,
+      "family_failure_rates": {
+        "syntactic": 0.04,
+        "quantifier": 0.06,
+        "passive": 0.08888888888888889,
+        "notation": 0.06,
+        "order": 0.08333333333333333,
+        "unpack": 0.08,
+        "equivalent": 0.04081632653061224,
+        "variation": 0.4444444444444444
+      },
+      "coverage": 0.9972677595628415
+    },
+    "gemini/gemini-2.5-flash": {
+      "mean_ig": 0.08408351975811457,
+      "std_ig": 0.1696007925254719,
+      "max_ig": 0.48989794855663565,
+      "mean_accuracy": 0.9503809523809525,
+      "scr": 0.8,
+      "mean_baseline_variance": 0.0,
+      "ig_exceeds_2x_baseline": true,
+      "n_theorems": 50,
+      "pct_high_ig_10": 0.2,
+      "pct_high_ig_20": 0.2,
+      "family_failure_rates": {
+        "syntactic": 0.04,
+        "quantifier": 0.0625,
+        "passive": 0.06818181818181818,
+        "notation": 0.04,
+        "order": 0.0,
+        "unpack": 0.041666666666666664,
+        "equivalent": 0.02040816326530612,
+        "variation": 0.2222222222222222
+      },
+      "coverage": 0.9836065573770492
+    },
+    "openrouter/meta-llama/llama-3.3-70b-instruct": {
+      "mean_ig": 0.13493893524480394,
+      "std_ig": 0.19089080966698233,
+      "max_ig": 0.4948716593053935,
+      "mean_accuracy": 0.9046428571428572,
+      "scr": 0.66,
+      "mean_baseline_variance": 0.0,
+      "ig_exceeds_2x_baseline": true,
+      "n_theorems": 50,
+      "pct_high_ig_10": 0.34,
+      "pct_high_ig_20": 0.34,
+      "family_failure_rates": {
+        "syntactic": 0.08,
+        "quantifier": 0.04081632653061224,
+        "passive": 0.08888888888888889,
+        "notation": 0.16,
+        "order": 0.08333333333333333,
+        "unpack": 0.12,
+        "equivalent": 0.06,
+        "variation": 0.4444444444444444
+      },
+      "coverage": 0.9972677595628415
+    }
+  },
+  "cross_model_disagreements": 1133,
+  "disagreement_examples": [
+    {
+      "paraphrase_id": "thm_0000_nat_prime_two_le_canonical",
+      "theorem_id": "thm_0000_nat_prime_two_le",
+      "model_a": "gpt-4o",
+      "label_a": "TRUE",
+      "model_b": "gpt-4o-mini",
+      "label_b": "FALSE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0000_nat_prime_two_le_canonical",
+      "theorem_id": "thm_0000_nat_prime_two_le",
+      "model_a": "gpt-4o-mini",
+      "label_a": "FALSE",
+      "model_b": "o4-mini",
+      "label_b": "TRUE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0000_nat_prime_two_le_canonical",
+      "theorem_id": "thm_0000_nat_prime_two_le",
+      "model_a": "gpt-4o-mini",
+      "label_a": "FALSE",
+      "model_b": "claude-sonnet-4-6",
+      "label_b": "TRUE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0000_nat_prime_two_le_canonical",
+      "theorem_id": "thm_0000_nat_prime_two_le",
+      "model_a": "gpt-4o-mini",
+      "label_a": "FALSE",
+      "model_b": "claude-haiku-4-5",
+      "label_b": "TRUE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0000_nat_prime_two_le_canonical",
+      "theorem_id": "thm_0000_nat_prime_two_le",
+      "model_a": "gpt-4o-mini",
+      "label_a": "FALSE",
+      "model_b": "deepseek-chat",
+      "label_b": "TRUE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0000_nat_prime_two_le_canonical",
+      "theorem_id": "thm_0000_nat_prime_two_le",
+      "model_a": "gpt-4o-mini",
+      "label_a": "FALSE",
+      "model_b": "deepseek-reasoner",
+      "label_b": "TRUE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0000_nat_prime_two_le_canonical",
+      "theorem_id": "thm_0000_nat_prime_two_le",
+      "model_a": "gpt-4o-mini",
+      "label_a": "FALSE",
+      "model_b": "gemini-2.5-flash",
+      "label_b": "TRUE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0000_nat_prime_two_le_canonical",
+      "theorem_id": "thm_0000_nat_prime_two_le",
+      "model_a": "gpt-4o-mini",
+      "label_a": "FALSE",
+      "model_b": "meta-llama",
+      "label_b": "TRUE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0000_nat_prime_two_le_surface_syntactic",
+      "theorem_id": "thm_0000_nat_prime_two_le",
+      "model_a": "gpt-4o",
+      "label_a": "TRUE",
+      "model_b": "gpt-4o-mini",
+      "label_b": "FALSE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0000_nat_prime_two_le_surface_syntactic",
+      "theorem_id": "thm_0000_nat_prime_two_le",
+      "model_a": "gpt-4o-mini",
+      "label_a": "FALSE",
+      "model_b": "o4-mini",
+      "label_b": "TRUE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0000_nat_prime_two_le_surface_syntactic",
+      "theorem_id": "thm_0000_nat_prime_two_le",
+      "model_a": "gpt-4o-mini",
+      "label_a": "FALSE",
+      "model_b": "claude-sonnet-4-6",
+      "label_b": "TRUE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0000_nat_prime_two_le_surface_syntactic",
+      "theorem_id": "thm_0000_nat_prime_two_le",
+      "model_a": "gpt-4o-mini",
+      "label_a": "FALSE",
+      "model_b": "claude-haiku-4-5",
+      "label_b": "TRUE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0000_nat_prime_two_le_surface_syntactic",
+      "theorem_id": "thm_0000_nat_prime_two_le",
+      "model_a": "gpt-4o-mini",
+      "label_a": "FALSE",
+      "model_b": "deepseek-chat",
+      "label_b": "TRUE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0000_nat_prime_two_le_surface_syntactic",
+      "theorem_id": "thm_0000_nat_prime_two_le",
+      "model_a": "gpt-4o-mini",
+      "label_a": "FALSE",
+      "model_b": "deepseek-reasoner",
+      "label_b": "TRUE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0000_nat_prime_two_le_surface_syntactic",
+      "theorem_id": "thm_0000_nat_prime_two_le",
+      "model_a": "gpt-4o-mini",
+      "label_a": "FALSE",
+      "model_b": "gemini-2.5-flash",
+      "label_b": "TRUE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0000_nat_prime_two_le_surface_syntactic",
+      "theorem_id": "thm_0000_nat_prime_two_le",
+      "model_a": "gpt-4o-mini",
+      "label_a": "FALSE",
+      "model_b": "meta-llama",
+      "label_b": "TRUE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0000_nat_prime_two_le_comparison_order",
+      "theorem_id": "thm_0000_nat_prime_two_le",
+      "model_a": "gpt-4o",
+      "label_a": "TRUE",
+      "model_b": "gpt-4o-mini",
+      "label_b": "FALSE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0000_nat_prime_two_le_comparison_order",
+      "theorem_id": "thm_0000_nat_prime_two_le",
+      "model_a": "gpt-4o-mini",
+      "label_a": "FALSE",
+      "model_b": "o4-mini",
+      "label_b": "TRUE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0000_nat_prime_two_le_comparison_order",
+      "theorem_id": "thm_0000_nat_prime_two_le",
+      "model_a": "gpt-4o-mini",
+      "label_a": "FALSE",
+      "model_b": "claude-sonnet-4-6",
+      "label_b": "TRUE",
+      "ground_truth": "TRUE"
+    },
+    {
+      "paraphrase_id": "thm_0000_nat_prime_two_le_comparison_order",
+      "theorem_id": "thm_0000_nat_prime_two_le",
+      "model_a": "gpt-4o-mini",
+      "label_a": "FALSE",
+      "model_b": "claude-haiku-4-5",
+      "label_b": "TRUE",
+      "ground_truth": "TRUE"
+    }
+  ]
+}

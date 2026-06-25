@@ -1,0 +1,26 @@
+{
+  "n_items": 316,
+  "flagged_full": [
+    "thm_0007_nat_zero_dvd_active_passive",
+    "thm_0007_nat_zero_dvd_definitional_unpack",
+    "thm_0008_nat_dvd_add_connective_variation",
+    "thm_0014_add_comm_definitional_unpack",
+    "thm_0022_sq_abs_domain_equivalent",
+    "thm_0026_set_subset_refl_definitional_unpack",
+    "thm_0027_set_subset_trans_connective_variation",
+    "thm_0041_real_sqrt_nonneg_formal_notation",
+    "thm_0041_real_sqrt_nonneg_surface_quantifier",
+    "thm_0047_mul_left_cancel_formal_notation"
+  ],
+  "flagged_no_gpt4o": [
+    "thm_0007_nat_zero_dvd_active_passive",
+    "thm_0007_nat_zero_dvd_definitional_unpack",
+    "thm_0008_nat_dvd_add_connective_variation",
+    "thm_0014_add_comm_definitional_unpack",
+    "thm_0022_sq_abs_domain_equivalent",
+    "thm_0027_set_subset_trans_connective_variation",
+    "thm_0041_real_sqrt_nonneg_formal_notation",
+    "thm_0041_real_sqrt_nonneg_surface_quantifier"
+  ],
+  "retention": 0.8
+}

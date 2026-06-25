@@ -1,0 +1,44 @@
+{
+  "mock/mock-always-true": {
+    "accuracy": 1.0,
+    "n_answered": 5,
+    "n_total": 5,
+    "per_item": [
+      {
+        "item_id": "folio_001",
+        "family": "transitivity",
+        "response": "TRUE",
+        "parsed": "TRUE",
+        "correct": true
+      },
+      {
+        "item_id": "folio_002",
+        "family": "biconditional",
+        "response": "TRUE",
+        "parsed": "TRUE",
+        "correct": true
+      },
+      {
+        "item_id": "folio_003",
+        "family": "biconditional",
+        "response": "TRUE",
+        "parsed": "TRUE",
+        "correct": true
+      },
+      {
+        "item_id": "folio_004",
+        "family": "biconditional",
+        "response": "TRUE",
+        "parsed": "TRUE",
+        "correct": true
+      },
+      {
+        "item_id": "folio_005",
+        "family": "biconditional_reverse",
+        "response": "TRUE",
+        "parsed": "TRUE",
+        "correct": true
+      }
+    ]
+  }
+}

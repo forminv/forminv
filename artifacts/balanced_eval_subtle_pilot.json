@@ -1,0 +1,30 @@
+{
+  "results": {
+    "claude-sonnet-4-6": {
+      "acc_true": 0.9242424242424242,
+      "acc_false": 1.0,
+      "bal_acc": 0.9621212121212122,
+      "scr_true": 0.7,
+      "scr_false": 1.0,
+      "bal_scr": 0.85,
+      "n_true": 66,
+      "n_false": 69,
+      "n_thm_true": 10,
+      "n_thm_false": 10
+    },
+    "claude-haiku-4-5": {
+      "acc_true": 0.8,
+      "acc_false": 0.9857142857142858,
+      "bal_acc": 0.8928571428571429,
+      "scr_true": 0.4,
+      "scr_false": 0.9,
+      "bal_scr": 0.65,
+      "n_true": 65,
+      "n_false": 70,
+      "n_thm_true": 10,
+      "n_thm_false": 10
+    }
+  },
+  "n_false_items": 70,
+  "n_true_items": 66
+}
