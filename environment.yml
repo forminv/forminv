@@ -1,0 +1,10 @@
+name: forminv
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - -e .
+      # For live model evaluation, use:  pip install -e ".[eval]"
+      # For figure regeneration, use:     pip install -e ".[viz]"

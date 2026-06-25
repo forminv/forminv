@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use FormInv, please cite the paper below."
+title: "FormInv: A Measurement Protocol for Semantic Invariance in Mathematical Reasoning Benchmarks"
+authors:
+  - family-names: Thomas
+    given-names: Noel
+version: 3.0.0
+date-released: 2026-06-23
+license: MIT
+repository-code: "https://github.com/forminv/forminv"
+url: "https://huggingface.co/datasets/forminv/forminv"
+keywords:
+  - llm
+  - benchmark
+  - mathematical-reasoning
+  - semantic-invariance
+  - robustness
+preferred-citation:
+  type: article
+  title: "FormInv: A Measurement Protocol for Semantic Invariance in Mathematical Reasoning Benchmarks"
+  authors:
+    - family-names: Thomas
+      given-names: Noel
+  year: 2026
+  # eprint / journal to be filled when the arXiv id is assigned:
+  # eprint: "<ARXIV-ID>"
+  # archive-prefix: arXiv
+  # primary-class: cs.CL

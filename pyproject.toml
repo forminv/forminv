@@ -1,0 +1,92 @@
+[project]
+name = "forminv"
+version = "3.0.0"
+description = "FormInv: A Measurement Protocol for Semantic Invariance in Mathematical Reasoning Benchmarks"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "Noel Thomas", email = "noeltthomas11@gmail.com"},
+]
+keywords = ["llm", "benchmark", "mathematical-reasoning", "semantic-invariance"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+# Runtime dependencies needed to build/analyze the dataset and compute metrics.
+# Provider SDKs (needed only to RUN live evaluations) live in the `eval` extra.
+dependencies = [
+    "datasets>=2.0.0",
+    "huggingface-hub>=0.20.0",
+    "sympy>=1.12",
+    "scipy>=1.10.0",
+    "numpy>=1.24.0",
+    "pandas>=2.0.0",
+    "pyyaml>=6.0",
+    "tqdm>=4.64.0",
+]
+
+# User-facing extra: install with `uv sync --extra eval` or `pip install forminv[eval]`.
+[project.optional-dependencies]
+eval = [
+    "openai>=1.0.0",
+    "anthropic>=0.18.0",
+    "google-genai>=1.0.0",
+]
+viz = [
+    "matplotlib>=3.7",
+]
+
+# PEP 735 dependency groups -- local/dev tooling, NOT published to PyPI.
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+    "ruff>=0.5",
+    "mypy>=1.10",
+    "pre-commit>=3.7",
+]
+docs = [
+    "mkdocs-material>=9.5",
+]
+
+[project.scripts]
+forminv = "forminv.cli:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = [
+    "forminv",
+    "forminv.eval",
+    "forminv.generators",
+    "forminv.metrics",
+]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+extend-exclude = ["lean_proofs", ".lake", "build", "dist", ".venv", "notes", "paper"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W", "UP", "B"]
+ignore = ["E741"]  # ambiguous variable name `l` (used for labels)
+
+[tool.ruff.lint.per-file-ignores]
+# Research/experiment scripts: allow long lines and exploratory idioms.
+"scripts/*" = ["E501", "B007", "B905", "F841", "E402"]
+"tests/*" = ["E501"]
+# Package __init__ files intentionally re-export the public API.
+"forminv/**/__init__.py" = ["F401"]
+# Theorem source module holds long Lean4/Mathlib statement strings.
+"forminv/generators/theorems.py" = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
