@@ -15,7 +15,8 @@ same? It pairs ~50-103 Lean 4 / Mathlib theorems with families of meaning-preser
 paraphrases and measures how often a model contradicts itself.
 
 > **Paper:** *FormInv: A Measurement Protocol for Semantic Invariance in
-> Mathematical Reasoning Benchmarks* -- accepted poster, AI4Math @ ICML 2026.
+> Mathematical Reasoning Benchmarks* ([arXiv:2605.29001](https://arxiv.org/abs/2605.29001)) --
+> accepted poster, AI4Math @ ICML 2026.
 > Nishal Thomas (Independent Researcher), Noel Thomas (MBZUAI).
 
 ## Overview
@@ -179,10 +180,13 @@ are welcome. See [`CONTRIBUTING.md`](CONTRIBUTING.md) and [`ERRATA.md`](ERRATA.m
 
 ```bibtex
 @misc{thomas2026forminv,
-  title  = {FormInv: A Measurement Protocol for Semantic Invariance in
-            Mathematical Reasoning Benchmarks},
-  author = {Thomas, Nishal and Thomas, Noel},
-  year   = {2026}
+  title         = {FormInv: A Measurement Protocol for Semantic Invariance in
+                   Mathematical Reasoning Benchmarks},
+  author        = {Thomas, Nishal and Thomas, Noel},
+  year          = {2026},
+  eprint        = {2605.29001},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL}
 }
 ```
 

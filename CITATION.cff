@@ -29,7 +29,8 @@ preferred-citation:
     - family-names: Thomas
       given-names: Noel
   year: 2026
-  # eprint / journal to be filled when the arXiv id is assigned:
-  # eprint: "<ARXIV-ID>"
-  # archive-prefix: arXiv
-  # primary-class: cs.CL
+  url: "https://arxiv.org/abs/2605.29001"
+  identifiers:
+    - type: other
+      value: "arXiv:2605.29001"
+      description: "arXiv preprint"

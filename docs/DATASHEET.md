@@ -195,7 +195,7 @@ Primarily via the Hugging Face Hub at `https://huggingface.co/datasets/forminv/f
 editions are also available in the GitHub repository.
 
 **When will the dataset be distributed?**
-On release of the FormInv paper (arXiv:<ARXIV-ID>); editions are versioned as Hub revisions
+On release of the FormInv paper (arXiv:2605.29001); editions are versioned as Hub revisions
 (`revision="v3.0"`).
 
 **Will the dataset be distributed under a copyright/IP license or ToU?**

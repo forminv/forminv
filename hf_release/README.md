@@ -153,7 +153,7 @@ dataset_info:
 
 - **Repository:** https://github.com/forminv/forminv
 - **Paper:** FormInv: A Measurement Protocol for Semantic Invariance in Mathematical
-  Reasoning Benchmarks (arXiv:<ARXIV-ID>)
+  Reasoning Benchmarks (arXiv:2605.29001)
 - **Point of Contact:** Noel Thomas <noel.thomas@mbzuai.ac.ae>
 
 ### Dataset Summary
@@ -367,7 +367,7 @@ released separately under the **MIT License**.
             Mathematical Reasoning Benchmarks},
   author = {Thomas, Nishal and Thomas, Noel},
   year   = {2026},
-  eprint = {<ARXIV-ID>},
+  eprint = {2605.29001},
   archivePrefix = {arXiv},
   primaryClass = {cs.CL}
 }
