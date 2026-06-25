@@ -1,0 +1,33 @@
+{
+  "version": "1.0",
+  "description": "FormInv v1 split registry -- dev/hidden/scale",
+  "splits": {
+    "dev": {
+      "description": "Public development set -- 50 theorems shared evaluation",
+      "dataset": "data/generated/forminv_v3_50.jsonl",
+      "n_theorems": 50,
+      "n_items": 366,
+      "families": ["syntactic","quantifier","passive","notation","order","unpack","equivalent","variation"],
+      "public": true,
+      "anti_gaming_note": "This split is released publicly; models may have been trained on these items."
+    },
+    "hidden": {
+      "description": "Hidden evaluation set -- Claude-only 103-theorem full eval (53 theorems not in dev)",
+      "dataset": "data/generated/forminv_v3_103.jsonl",
+      "n_theorems_additional": 53,
+      "note": "Items NOT in the dev split; used for blind evaluation",
+      "public": false,
+      "sha256": "e668f98a089a0f86b4a048105496ade73d6da9dc22685ea933b76fa6a79a1656"
+    },
+    "scale": {
+      "description": "Scale test -- 100 ntp-mathlib theorems",
+      "dataset": "data/generated/forminv_ntp100_paraphrases.jsonl",
+      "n_theorems": 100,
+      "n_items": 811,
+      "source": "ntp-mathlib",
+      "public": false,
+      "sha256": "4c478c402750785d"
+    }
+  },
+  "credit": "Split design adapted from ChaosBench-Logic v3 hidden evaluation methodology (Thomas 2026, NeurIPS D&B Track)"
+}

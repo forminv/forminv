@@ -1,0 +1,28 @@
+{
+  "dataset_id": "forminv_ntp_100",
+  "n_theorems": 100,
+  "n_items": 811,
+  "n_errors": 0,
+  "families": [
+    "canonical",
+    "equivalent",
+    "notation",
+    "order",
+    "passive",
+    "quantifier",
+    "syntactic",
+    "unpack",
+    "variation"
+  ],
+  "domains": [
+    "algebra",
+    "analysis"
+  ],
+  "tiers": [
+    "tier1"
+  ],
+  "sha256": "4c478c402750785d",
+  "output": "data/generated/forminv_ntp100_paraphrases.jsonl",
+  "timestamp": "2026-05-26T00:18:09Z",
+  "source": "ntp-mathlib"
+}

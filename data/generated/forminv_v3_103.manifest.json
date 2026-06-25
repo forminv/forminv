@@ -1,0 +1,34 @@
+{
+  "dataset_id": "forminv_v3_103",
+  "n_theorems": 103,
+  "n_items": 760,
+  "n_errors": 0,
+  "families": [
+    "canonical",
+    "equivalent",
+    "notation",
+    "order",
+    "passive",
+    "quantifier",
+    "syntactic",
+    "unpack",
+    "variation"
+  ],
+  "domains": [
+    "algebra",
+    "analysis",
+    "combinatorics",
+    "number_theory",
+    "order_theory",
+    "set_theory",
+    "topology"
+  ],
+  "tiers": [
+    "tier1",
+    "tier2",
+    "tier3"
+  ],
+  "sha256": "8619470b5c3383b1",
+  "output": "data/generated/forminv_v3_103.jsonl",
+  "timestamp": "2026-05-25T21:15:48Z"
+}
