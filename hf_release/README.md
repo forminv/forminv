@@ -70,10 +70,7 @@ dataset_info:
     dtype: int64
   splits:
   - name: test
-    num_bytes: <FILL after parquet>
     num_examples: 760
-  download_size: <FILL after parquet>
-  dataset_size: <FILL after parquet>
 - config_name: canonical
   features:
   - name: id
@@ -102,10 +99,7 @@ dataset_info:
     dtype: int64
   splits:
   - name: test
-    num_bytes: <FILL after parquet>
     num_examples: 103
-  download_size: <FILL after parquet>
-  dataset_size: <FILL after parquet>
 - config_name: surface
   features:
   - name: id
@@ -134,10 +128,7 @@ dataset_info:
     dtype: int64
   splits:
   - name: test
-    num_bytes: <FILL after parquet>
     num_examples: 657
-  download_size: <FILL after parquet>
-  dataset_size: <FILL after parquet>
 ---
 
 # Dataset Card for FormInv

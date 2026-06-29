@@ -24,7 +24,7 @@ and the **Self-Consistency Rate (SCR)**.
 **Who created the dataset and on behalf of whom?**
 Nishal Thomas (Independent Researcher) and Noel Thomas (Mohamed bin Zayed University of
 Artificial Intelligence, MBZUAI; `noel.thomas@mbzuai.ac.ae`), as the research artifact
-accompanying the FormInv paper (NeurIPS Datasets & Benchmarks submission).
+accompanying the FormInv paper (accepted poster, AI4Math @ ICML 2026).
 
 **Who funded the creation of the dataset?**
 See the Acknowledgements section of the paper.
